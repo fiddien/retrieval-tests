@@ -31,3 +31,38 @@ async def test_sentence_length(evaluator):
     expected_avg = ((len("This is a short sentence".split()) +
                     len("This is another sentence with more words".split())) / 2)
     assert abs(evaluation["average_sentence_length"] - expected_avg) < 0.01
+
+@pytest.mark.asyncio
+async def test_mode_selection(evaluator):
+    # Test both summary and compare modes
+    test_knowledge = "Test knowledge base content"
+    test_query = "Test query"
+
+    # Test summary mode
+    result_summary = await evaluator.generate(
+        query=test_query,
+        knowledge=test_knowledge,
+        model_name="test_model",
+        mode="summary"
+    )
+    assert "messages" in result_summary
+    assert result_summary["messages"][0]["content"] == SYSTEM_PROMPT.format(knowledge=test_knowledge)
+
+    # Test compare mode
+    result_compare = await evaluator.generate(
+        query=test_query,
+        knowledge=test_knowledge,
+        model_name="test_model",
+        mode="compare"
+    )
+    assert "messages" in result_compare
+    assert result_compare["messages"][0]["content"] == COMPARE_SYSTEM_PROMPT.format(knowledge=test_knowledge)
+
+    # Test invalid mode
+    with pytest.raises(ValueError, match="Invalid mode"):
+        await evaluator.generate(
+            query=test_query,
+            knowledge=test_knowledge,
+            model_name="test_model",
+            mode="invalid_mode"
+        )

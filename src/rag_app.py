@@ -36,9 +36,13 @@ class RAGApplication:
         results = await self.vector_store.hybrid_search(query, query_vector, top_k)
         return results
 
-    async def generate_response(self, query: str, model_name: str) -> Dict:
+    async def generate_response(self, query: str, model_name: str, mode: str = "summary") -> Dict:
         """
         Generate response using RAG with specified LLM model
+        Args:
+            query: User query string
+            model_name: Name of the model to use
+            mode: Mode of operation - either "summary" or "compare" (default: "summary")
         """
         # Get relevant chunks
         relevant_chunks = await self.hybrid_search(query, top_k=30)
@@ -48,7 +52,10 @@ class RAGApplication:
 
         # Generate response
         response = await self.llm_evaluator.generate(
-            query=query, knowledge=knowledge, model_name=model_name
+            query=query,
+            knowledge=knowledge,
+            model_name=model_name,
+            mode=mode
         )
         return response
 
