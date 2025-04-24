@@ -108,6 +108,10 @@ async def main():
             os.getenv("OPENAI_HOST", "http://localhost:8004"),
             os.getenv("OPENAI_API_KEY"),
         ),
+        "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct": (
+            os.getenv("VLLM_HOST", "http://localhost:8005"),
+            os.getenv("VLLM_API_KEY"),
+        ),
     }
 
     data_path = os.getenv("DATA_PATH", "raw_data/elasticsearch_chunks.json")
@@ -117,9 +121,10 @@ async def main():
 
     # Models to test (can test all or a subset)
     models = [
-        "Qwen/Qwen2.5-7B-Instruct",
+        # "Qwen/Qwen2.5-7B-Instruct",
         # "deepseek-chat"
-        # "gpt-4o-mini",
+        "gpt-4o-mini",
+        "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct"
     ]
 
     print("Starting test suite...")

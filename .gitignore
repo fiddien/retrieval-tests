@@ -1,3 +1,6 @@
+raw_data/
+reports/
+
 # Python
 __pycache__/
 *.py[cod]
