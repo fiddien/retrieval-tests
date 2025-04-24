@@ -27,7 +27,7 @@ async def run_test_queries(
 
     for model in models:
         print(f"\nTesting model: {model}")
-        for query_data in queries[:2]:
+        for query_data in queries:
             query_id = query_data["id"]
             query_mode = query_data["mode"]
             query = query_data["query"]
@@ -103,7 +103,11 @@ async def main():
         "deepseek-chat": (
             os.getenv("DEEPSEEK_HOST", "http://localhost:8003"),
             os.getenv("DEEPSEEK_API_KEY"),
-        )
+        ),
+        "gpt-4o-mini": (
+            os.getenv("OPENAI_HOST", "http://localhost:8004"),
+            os.getenv("OPENAI_API_KEY"),
+        ),
     }
 
     data_path = os.getenv("DATA_PATH", "raw_data/elasticsearch_chunks.json")
@@ -113,8 +117,9 @@ async def main():
 
     # Models to test (can test all or a subset)
     models = [
-        # "Qwen/Qwen2.5-7B-Instruct",
-        "deepseek-chat"
+        "Qwen/Qwen2.5-7B-Instruct",
+        # "deepseek-chat"
+        # "gpt-4o-mini",
     ]
 
     print("Starting test suite...")

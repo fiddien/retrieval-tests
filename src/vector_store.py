@@ -1,9 +1,10 @@
+import os
 import json
 import math
 import re
 from collections import Counter
 from difflib import SequenceMatcher
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 import aiohttp
 import numpy as np
@@ -17,6 +18,7 @@ class VectorStore:
         api_key: str = None,
         embedding_model: str = "embedding_model",
         stopwords_path: str = "src/nlp/stopwords-id.txt",
+        cache_file: str = "cache/query_cache.json",  # Add cache file parameter
     ):
         self.embedding_endpoint = embedding_endpoint
         self.api_key = api_key
@@ -32,8 +34,12 @@ class VectorStore:
         self.document_terms = {}  # For storing term frequencies
         self.idf_scores = {}  # For storing IDF scores
         self.stopwords = self._load_stopwords(stopwords_path)
+        self.doc_vector_norms = None  # Will store pre-calculated norms
         self.load_documents(data_path)
         self._build_index()
+        self._precompute_vector_norms()
+        self.cache_file = cache_file
+        self.query_cache = self._load_cache()
 
     def load_documents(self, data_path: str):
         """Load documents from JSON file"""
@@ -60,7 +66,7 @@ class VectorStore:
         """Build TF-IDF index for all documents"""
         # Calculate term frequencies for each document
         for i, doc in enumerate(self.documents):
-            terms = self._tokenize(doc["content_with_weight"])
+            terms = self._tokenize(doc["content_sm_ltks"])
             self.document_terms[i] = Counter(terms)
 
         # Calculate IDF scores
@@ -123,16 +129,61 @@ class VectorStore:
                 result = await response.json()
                 return result["data"][0]["embedding"]
 
-    def _compute_vector_similarity(
-        self, query_vector: List[float], doc_vector: List[float]
-    ) -> float:
-        """Compute cosine similarity between vectors"""
+    def _precompute_vector_norms(self):
+        """Pre-compute document vector norms for faster similarity calculation"""
+        doc_vectors = np.array([doc["q_1024_vec"] for doc in self.documents])
+        self.doc_vector_norms = np.linalg.norm(doc_vectors, axis=1)
+        self.doc_vectors = doc_vectors  # Store as numpy array
+
+    def _compute_vector_similarities(self, query_vector: List[float]) -> np.ndarray:
+        """Compute cosine similarities for all documents at once"""
         query_array = np.array(query_vector)
-        doc_array = np.array(doc_vector)
-        dot_product = np.dot(query_array, doc_array)
         query_norm = np.linalg.norm(query_array)
-        doc_norm = np.linalg.norm(doc_array)
-        return dot_product / (query_norm * doc_norm + 1e-6)
+        dot_products = np.dot(self.doc_vectors, query_array)
+        similarities = dot_products / (self.doc_vector_norms * query_norm + 1e-6)
+        return similarities
+
+    def _get_cache_key(self, query: str, vector: List[float]) -> str:
+        """Generate a unique cache key from query and vector"""
+        # Using only first few dimensions of vector to save memory
+        vector_hash = hash(str(vector[:5]))
+        return f"{query}_{vector_hash}"
+
+    def _get_from_cache(self, query: str, vector: List[float]) -> Optional[List[Dict]]:
+        """Try to get results from cache"""
+        cache_key = self._get_cache_key(query, vector)
+        return self.query_cache.get(cache_key)
+
+    def _load_cache(self) -> Dict[str, List[Dict]]:
+        """Load query cache from disk"""
+        try:
+            os.makedirs(os.path.dirname(self.cache_file), exist_ok=True)
+            if os.path.exists(self.cache_file):
+                with open(self.cache_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+        except Exception as e:
+            print(f"Cache load error: {e}")
+        return {}
+
+    def _save_cache(self):
+        """Save query cache to disk"""
+        try:
+            os.makedirs(os.path.dirname(self.cache_file), exist_ok=True)
+            with open(self.cache_file, 'w', encoding='utf-8') as f:
+                json.dump(self.query_cache, f)
+        except Exception as e:
+            print(f"Cache save error: {e}")
+
+    def _add_to_cache(self, query: str, vector: List[float], results: List[Dict]):
+        """Add results to cache with LRU-style eviction and persist to disk"""
+        if len(self.query_cache) >= self.cache_size:
+            # Remove oldest item
+            oldest_key = next(iter(self.query_cache))
+            del self.query_cache[oldest_key]
+
+        cache_key = self._get_cache_key(query, vector)
+        self.query_cache[cache_key] = results
+        self._save_cache()  # Auto-save after adding new results
 
     async def hybrid_search(
         self,
@@ -141,39 +192,55 @@ class VectorStore:
         top_k: int = 5,
         text_weight: float = 0.3,
         vector_weight: float = 0.7,
+        text_threshold: float = 0.1,  # Minimum text similarity threshold
+        vector_threshold: float = 0.3,  # Minimum vector similarity threshold
     ) -> List[Dict]:
-        """
-        Perform hybrid search combining TF-IDF text search and vector similarity
-        """
-        results = []
+        """Optimized hybrid search using vectorized operations with caching"""
+        # Check cache first
+        cached_results = self._get_from_cache(query, query_vector)
+        if cached_results is not None:
+            print("Using cached results")
+            return cached_results
 
-        for doc in self.documents:
-            # Calculate text similarity (with configured weight)
-            text_score = (
-                self._compute_text_similarity(query, doc["content_with_weight"])
+        # Calculate all vector similarities at once
+        vector_sims = self._compute_vector_similarities(query_vector)
+
+        # Quick filter on vector similarity
+        valid_indices = np.where(vector_sims >= vector_threshold)[0]
+
+        # Calculate text similarities only for documents that pass vector threshold
+        results = [
+            {
+                "score": (
+                    text_sim := self._compute_text_similarity(
+                        query, self.documents[i]["content_with_weight"]
+                    )
+                )
                 * text_weight
+                + vector_sims[i] * vector_weight,
+                "text_score": text_sim,
+                "vector_score": vector_sims[i],
+                "document": self.documents[i],
+            }
+            for i in valid_indices
+            if (
+                text_sim := self._compute_text_similarity(
+                    query, self.documents[i]["content_with_weight"]
+                )
             )
+            >= text_threshold
+        ]
 
-            # Calculate vector similarity (with configured weight)
-            vector_score = (
-                self._compute_vector_similarity(query_vector, doc["q_1024_vec"])
-                * vector_weight
-            )
+        print(f"Found {len(results)} relevant documents")
+        # Cache results before returning
+        self._add_to_cache(query, query_vector, results[:top_k])
+        return sorted(results, key=lambda x: x["score"], reverse=True)[:top_k]
 
-            # Combine scores
-            total_score = text_score + vector_score
-
-            results.append(
-                {
-                    "score": total_score,
-                    "text_score": text_score / text_weight if text_weight > 0 else 0,
-                    "vector_score": vector_score / vector_weight
-                    if vector_weight > 0
-                    else 0,
-                    "document": doc,
-                }
-            )
-
-        # Sort by score and return top_k documents
-        results.sort(key=lambda x: x["score"], reverse=True)
-        return results[:top_k]
+    def clear_cache(self):
+        """Clear the query cache and remove cache file"""
+        self.query_cache.clear()
+        if os.path.exists(self.cache_file):
+            try:
+                os.remove(self.cache_file)
+            except Exception as e:
+                print(f"Cache file deletion error: {e}")
