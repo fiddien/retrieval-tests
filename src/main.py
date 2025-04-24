@@ -27,7 +27,7 @@ async def run_test_queries(
 
     for model in models:
         print(f"\nTesting model: {model}")
-        for query_data in queries:
+        for query_data in queries[:2]:
             query_id = query_data["id"]
             query_mode = query_data["mode"]
             query = query_data["query"]
@@ -88,12 +88,22 @@ async def main():
 
     # Configure model-specific vLLM hosts
     model_hosts = {
-        "BAAI/bge-m3": os.getenv("BGEM3_HOST", "http://localhost:8001"),
-        "Qwen/Qwen2.5-7B-Instruct": os.getenv("QWEN_HOST", "http://localhost:8000"),
-        "Qwen/Qwen2.5-VL-7B-Instruct": os.getenv(
-            "QWENVL_HOST", "http://localhost:8002"
+        "BAAI/bge-m3": (
+            os.getenv("BGEM3_HOST", "http://localhost:8001"),
+            os.getenv("BGEM3_API_KEY")
         ),
-        "DeepSeek-V3": os.getenv("DEEPSEEK_HOST", "http://localhost:8003"),
+        "Qwen/Qwen2.5-7B-Instruct": (
+            os.getenv("QWEN_HOST", "http://localhost:8000"),
+            os.getenv("QWEN_API_KEY")
+        ),
+        "Qwen/Qwen2.5-VL-7B-Instruct": (
+            os.getenv("QWENVL_HOST", "http://localhost:8002"),
+            os.getenv("QWENVL_API_KEY"),
+        ),
+        "deepseek-chat": (
+            os.getenv("DEEPSEEK_HOST", "http://localhost:8003"),
+            os.getenv("DEEPSEEK_API_KEY"),
+        )
     }
 
     data_path = os.getenv("DATA_PATH", "raw_data/elasticsearch_chunks.json")
@@ -102,7 +112,10 @@ async def main():
     rag = RAGApplication(model_hosts=model_hosts, data_path=data_path)
 
     # Models to test (can test all or a subset)
-    models = ["Qwen/Qwen2.5-7B-Instruct", "DeepSeek-V3"]
+    models = [
+        # "Qwen/Qwen2.5-7B-Instruct",
+        "deepseek-chat"
+    ]
 
     print("Starting test suite...")
     print(f"Models to test: {', '.join(models)}")

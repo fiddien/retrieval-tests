@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import Dict, List, Tuple
 from src.vector_store import VectorStore
 from src.llm_evaluator import LLMEvaluator
 
@@ -6,7 +6,7 @@ from src.llm_evaluator import LLMEvaluator
 class RAGApplication:
     def __init__(
         self,
-        model_hosts: Dict[str, str],
+        model_hosts: Dict[str, Tuple[str, str]],
         data_path: str = "raw_data/elasticsearch_chunks.json",
     ):
         """
@@ -16,11 +16,13 @@ class RAGApplication:
             data_path: Path to the data file containing documents
         """
         # Use the first host's embedding endpoint for vector store
-        any_host = next(iter(model_hosts.values()))
+        any_host = next(iter(model_hosts.values()))[0]
         embedding_model = next(iter(model_hosts.keys()))
+        api_key = model_hosts[embedding_model][1]
         self.vector_store = VectorStore(
             data_path=data_path,
-            embedding_endpoint=f"{any_host}/v1/embeddings",
+            embedding_endpoint=f"{any_host}/embeddings",
+            api_key=api_key,
             embedding_model=embedding_model,
         )
         self.llm_evaluator = LLMEvaluator(model_hosts)
@@ -65,6 +67,7 @@ class RAGApplication:
         """
         doc2chunks = {}
         for chunk in chunks:
+            chunk = chunk["document"]
             doc_id = chunk["docnm_kwd"]
             if doc_id not in doc2chunks:
                 doc2chunks[doc_id] = {"chunks": [], "meta": chunk.get("meta", {})}

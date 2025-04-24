@@ -118,7 +118,13 @@ class LLMEvaluator:
         if mode not in self.SUMMARY_SYSTEM_PROMPTs:
             raise ValueError(f"Invalid mode: {mode}. Must be either 'summary' or 'compare'")
 
-        vllm_endpoint = f"{self.model_hosts[model_name]}/v1/chat/completions"
+        vllm_endpoint = f"{self.model_hosts[model_name][0]}/chat/completions"
+        api_key = self.model_hosts[model_name][1]
+
+        headers = {"Content-Type": "application/json"}
+        if api_key:
+            headers["Authorization"] = f"Bearer {api_key}"
+
         messages = [
             {
                 "role": "system",
@@ -137,12 +143,22 @@ class LLMEvaluator:
                 "presence_penalty": 0.4,
                 "frequency_penalty": 0.7,
             }
-            async with session.post(vllm_endpoint, json=payload) as response:
-                result = await response.json()
-                response_text = result["choices"][0]["message"]["content"]
+            try:
+                async with session.post(vllm_endpoint, json=payload, headers=headers) as response:
+                    response.raise_for_status()
+                    content_type = response.headers.get('content-type', '')
+                    if 'application/json' not in content_type.lower():
+                        raise ValueError(f"Unexpected content type: {content_type}")
 
-                evaluation = self._evaluate_response(response_text, knowledge)
-                return {"response": response_text, "evaluation": evaluation}
+                    result = await response.json()
+                    if not result.get("choices"):
+                        raise ValueError("No choices in response")
+
+                    response_text = result["choices"][0]["message"]["content"]
+                    evaluation = self._evaluate_response(response_text, knowledge)
+                    return {"response": response_text, "evaluation": evaluation}
+            except (aiohttp.ClientError, ValueError) as e:
+                raise RuntimeError(f"API request failed: {str(e)}") from e
 
     def _evaluate_response(self, text: str, knowledge: str) -> Dict:
         """
@@ -201,23 +217,18 @@ class LLMEvaluator:
         Check if a character is Chinese
         """
         try:
-            # Check if character is in CJK ranges
+            # Check if character matches dash character, ignore it
+            if char == "–":
+                return False
+
             return any(
                 [
                     "\u4e00" <= char <= "\u9fff",  # CJK Unified Ideographs
                     "\u3400" <= char <= "\u4dbf",  # CJK Unified Ideographs Extension A
-                    "\u20000"
-                    <= char
-                    <= "\u2a6df",  # CJK Unified Ideographs Extension B
-                    "\u2a700"
-                    <= char
-                    <= "\u2b73f",  # CJK Unified Ideographs Extension C
-                    "\u2b740"
-                    <= char
-                    <= "\u2b81f",  # CJK Unified Ideographs Extension D
-                    "\u2b820"
-                    <= char
-                    <= "\u2ceaf",  # CJK Unified Ideographs Extension E
+                    "\u20000" <= char <= "\u2a6df",  # CJK Unified Ideographs Extension B
+                    "\u2a700" <= char <= "\u2b73f",  # CJK Unified Ideographs Extension C
+                    "\u2b740" <= char <= "\u2b81f",  # CJK Unified Ideographs Extension D
+                    "\u2b820" <= char <= "\u2ceaf",  # CJK Unified Ideographs Extension E
                     "\uf900" <= char <= "\ufaff",  # CJK Compatibility Ideographs
                 ]
             )
