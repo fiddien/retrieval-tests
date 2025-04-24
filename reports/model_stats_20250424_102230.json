@@ -1,0 +1,11 @@
+{
+  "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct": {
+    "total_queries": 20,
+    "avg_chinese_char_percentage": 0.0,
+    "avg_sentence_length": 15.831053491798055,
+    "avg_content_density": 0.8506544268637602,
+    "avg_rouge1": 0.0972512764134326,
+    "avg_rouge2": 0.04243390721015706,
+    "avg_rougeL": 0.05936666439712337
+  }
+}

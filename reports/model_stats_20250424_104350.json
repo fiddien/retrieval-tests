@@ -1,0 +1,11 @@
+{
+  "GoToCompany/llama3-8b-cpt-sahabatai-v1-instruct": {
+    "total_queries": 20,
+    "avg_chinese_char_percentage": 0.0,
+    "avg_sentence_length": 10.247011152204871,
+    "avg_content_density": 0.8726370181454446,
+    "avg_rouge1": 0.10734779014254922,
+    "avg_rouge2": 0.059320426865334785,
+    "avg_rougeL": 0.07594227390811814
+  }
+}

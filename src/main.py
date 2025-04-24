@@ -1,3 +1,4 @@
+import time
 import asyncio
 import logging
 import os
@@ -46,6 +47,7 @@ async def run_test_queries(
                     else result["response"],
                 )
                 print("-" * 50)
+		time.sleep(5)
 
             except aiohttp.ClientError as err:
                 logger.error(
@@ -108,10 +110,18 @@ async def main():
             os.getenv("OPENAI_HOST", "http://localhost:8004"),
             os.getenv("OPENAI_API_KEY"),
         ),
-        "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct": (
+	"GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct": (
             os.getenv("VLLM_HOST", "http://localhost:8005"),
             os.getenv("VLLM_API_KEY"),
         ),
+	"GoToCompany/llama3-8b-cpt-sahabatai-v1-instruct": (
+            os.getenv("VLLM_HOST", "http://localhost:8005"),
+            os.getenv("VLLM_API_KEY"),
+        ),
+	"ibm-granite/granite-3.3-8b-instruct": (
+	    os.getenv("VLLM_HOST"),
+	    os.getenv("VLLM_API_KEY"),
+	),
     }
 
     data_path = os.getenv("DATA_PATH", "raw_data/elasticsearch_chunks.json")
@@ -123,8 +133,10 @@ async def main():
     models = [
         # "Qwen/Qwen2.5-7B-Instruct",
         # "deepseek-chat"
-        "gpt-4o-mini",
-        "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct"
+        # "gpt-4o-mini",
+        # "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct",
+	# "GoToCompany/llama3-8b-cpt-sahabatai-v1-instruct",
+	"ibm-granite/granite-3.3-8b-instruct",
     ]
 
     print("Starting test suite...")

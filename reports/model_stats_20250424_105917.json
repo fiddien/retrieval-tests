@@ -1,0 +1,11 @@
+{
+  "ibm-granite/granite-3.3-8b-instruct": {
+    "total_queries": 4,
+    "avg_chinese_char_percentage": 0.0,
+    "avg_sentence_length": 12.640047656352003,
+    "avg_content_density": 0.9956441502742381,
+    "avg_rouge1": 0.1358843902025936,
+    "avg_rouge2": 0.056197620444043944,
+    "avg_rougeL": 0.0880881028645983
+  }
+}
