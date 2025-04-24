@@ -2,6 +2,7 @@ import os
 import json
 import math
 import re
+import time
 from collections import Counter
 from difflib import SequenceMatcher
 from typing import Dict, List, Optional
@@ -30,7 +31,7 @@ class VectorStore:
         else:
             self.headers = {"Content-Type": "application/json"}
         self.embedding_model = embedding_model
-        self.documents = []
+        self.documents = {}
         self.document_terms = {}  # For storing term frequencies
         self.idf_scores = {}  # For storing IDF scores
         self.stopwords = self._load_stopwords(stopwords_path)
@@ -40,12 +41,17 @@ class VectorStore:
         self._precompute_vector_norms()
         self.cache_file = cache_file
         self.query_cache = self._load_cache()
+        self.cache_size = 100
 
     def load_documents(self, data_path: str):
         """Load documents from JSON file"""
         with open(data_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-            self.documents = [hit["_source"] for hit in data["hits"]["hits"]]
+            # Convert to dictionary with _id as key
+            self.documents = {
+                hit["_id"]: {"_id": hit["_id"], **hit["_source"]}
+                for hit in data["hits"]["hits"]
+            }
 
     def _load_stopwords(self, path: str) -> set:
         """Load stopwords from file"""
@@ -64,60 +70,78 @@ class VectorStore:
 
     def _build_index(self):
         """Build TF-IDF index for all documents"""
+        print("Building TF-IDF index...")
         # Calculate term frequencies for each document
-        for i, doc in enumerate(self.documents):
+        doc_terms_list = []
+        for doc in self.documents.values():
             terms = self._tokenize(doc["content_sm_ltks"])
-            self.document_terms[i] = Counter(terms)
+            doc_terms_list.append(Counter(terms))
 
-        # Calculate IDF scores
-        doc_count = len(self.documents)
+        # Calculate document frequencies more efficiently
         term_doc_freq = Counter()
-        for term_freq in self.document_terms.values():
+        for term_freq in doc_terms_list:
             term_doc_freq.update(term_freq.keys())
 
-        self.idf_scores = {
-            term: math.log(doc_count / freq) for term, freq in term_doc_freq.items()
-        }
+        # Store as numpy arrays for faster computation
+        self.all_terms = list(term_doc_freq.keys())
+        self.term_to_idx = {term: idx for idx, term in enumerate(self.all_terms)}
+
+        # Pre-compute document vectors
+        doc_count = len(self.documents)
+        self.idf_scores = {term: math.log(doc_count / freq) for term, freq in term_doc_freq.items()}
+
+        # Convert to numpy arrays for faster computation
+        self.doc_vectors = np.zeros((len(self.documents), len(self.all_terms)))
+        for i, term_freq in enumerate(doc_terms_list):
+            for term, freq in term_freq.items():
+                self.doc_vectors[i, self.term_to_idx[term]] = freq * self.idf_scores[term]
+
+        # Cache for fuzzy matching
+        self.fuzzy_cache = {}
+        print("TF-IDF index built successfully")
 
     def _compute_text_similarity(
         self, query: str, content: str, fuzzy_threshold: float = 0.8
     ) -> float:
-        """Compute TF-IDF based similarity with fuzzy matching"""
+        """Compute TF-IDF based similarity with vectorized operations"""
         query_terms = self._tokenize(query)
         doc_terms = self._tokenize(content)
 
-        # Calculate query term weights
-        query_weights = {}
+        # Create query vector using cached fuzzy matching
+        query_vector = np.zeros(len(self.all_terms))
         for term in query_terms:
-            # Look for fuzzy matches if exact match not found
             if term not in self.idf_scores:
-                best_match = None
-                best_score = 0
-                for doc_term in self.idf_scores:
-                    score = SequenceMatcher(None, term, doc_term).ratio()
-                    if score > fuzzy_threshold and score > best_score:
-                        best_match = doc_term
-                        best_score = score
-                if best_match:
-                    term = best_match
+                if term in self.fuzzy_cache:
+                    matched_term = self.fuzzy_cache[term]
+                else:
+                    # Vectorized fuzzy matching
+                    scores = np.array([SequenceMatcher(None, term, doc_term).ratio()
+                                    for doc_term in self.all_terms])
+                    best_idx = np.argmax(scores)
+                    best_score = scores[best_idx]
+                    matched_term = self.all_terms[best_idx] if best_score > fuzzy_threshold else None
+                    self.fuzzy_cache[term] = matched_term
+
+                if matched_term:
+                    term = matched_term
 
             if term in self.idf_scores:
-                query_weights[term] = self.idf_scores[term]
+                query_vector[self.term_to_idx[term]] = self.idf_scores[term]
 
-        # Calculate document term weights
-        doc_weights = Counter(doc_terms)
+        # Create document vector
+        doc_vector = np.zeros(len(self.all_terms))
+        for term in doc_terms:
+            if term in self.term_to_idx:
+                doc_vector[self.term_to_idx[term]] = self.idf_scores[term]
 
-        # Compute cosine similarity between query and document vectors
-        numerator = sum(
-            query_weights.get(term, 0) * count for term, count in doc_weights.items()
-        )
-        query_norm = math.sqrt(sum(w * w for w in query_weights.values()))
-        doc_norm = math.sqrt(sum(c * c for c in doc_weights.values()))
+        # Compute cosine similarity using numpy
+        query_norm = np.linalg.norm(query_vector)
+        doc_norm = np.linalg.norm(doc_vector)
 
         if query_norm == 0 or doc_norm == 0:
             return 0
 
-        return numerator / (query_norm * doc_norm)
+        return np.dot(query_vector, doc_vector) / (query_norm * doc_norm)
 
     async def get_embedding(self, text: str) -> List[float]:
         """Get embedding from vLLM-hosted embedding model"""
@@ -131,9 +155,11 @@ class VectorStore:
 
     def _precompute_vector_norms(self):
         """Pre-compute document vector norms for faster similarity calculation"""
-        doc_vectors = np.array([doc["q_1024_vec"] for doc in self.documents])
+        print("Pre-computing document vector norms...")
+        doc_vectors = np.array([doc["q_1024_vec"] for doc in self.documents.values()])
         self.doc_vector_norms = np.linalg.norm(doc_vectors, axis=1)
-        self.doc_vectors = doc_vectors  # Store as numpy array
+        self.doc_vectors = doc_vectors
+        print("Document vector norms pre-computed successfully")
 
     def _compute_vector_similarities(self, query_vector: List[float]) -> np.ndarray:
         """Compute cosine similarities for all documents at once"""
@@ -149,17 +175,17 @@ class VectorStore:
         vector_hash = hash(str(vector[:5]))
         return f"{query}_{vector_hash}"
 
-    def _get_from_cache(self, query: str, vector: List[float]) -> Optional[List[Dict]]:
-        """Try to get results from cache"""
+    def _get_from_cache(self, query: str, vector: List[float]) -> Optional[List[str]]:
+        """Try to get chunk IDs from cache"""
         cache_key = self._get_cache_key(query, vector)
         return self.query_cache.get(cache_key)
 
-    def _load_cache(self) -> Dict[str, List[Dict]]:
+    def _load_cache(self) -> Dict[str, List[str]]:
         """Load query cache from disk"""
         try:
             os.makedirs(os.path.dirname(self.cache_file), exist_ok=True)
             if os.path.exists(self.cache_file):
-                with open(self.cache_file, 'r', encoding='utf-8') as f:
+                with open(self.cache_file, "r", encoding="utf-8") as f:
                     return json.load(f)
         except Exception as e:
             print(f"Cache load error: {e}")
@@ -169,21 +195,30 @@ class VectorStore:
         """Save query cache to disk"""
         try:
             os.makedirs(os.path.dirname(self.cache_file), exist_ok=True)
-            with open(self.cache_file, 'w', encoding='utf-8') as f:
+            with open(self.cache_file, "w", encoding="utf-8") as f:
                 json.dump(self.query_cache, f)
         except Exception as e:
             print(f"Cache save error: {e}")
 
     def _add_to_cache(self, query: str, vector: List[float], results: List[Dict]):
-        """Add results to cache with LRU-style eviction and persist to disk"""
+        """Cache query-to-chunk-id mappings with scores"""
         if len(self.query_cache) >= self.cache_size:
-            # Remove oldest item
             oldest_key = next(iter(self.query_cache))
             del self.query_cache[oldest_key]
 
+        # Store chunk IDs and their scores
+        cached_results = [
+            {
+                "id": result["document"].get("_id"),
+                "score": result["score"],
+                "text_score": result["text_score"],
+                "vector_score": result["vector_score"],
+            }
+            for result in results
+        ]
         cache_key = self._get_cache_key(query, vector)
-        self.query_cache[cache_key] = results
-        self._save_cache()  # Auto-save after adding new results
+        self.query_cache[cache_key] = cached_results
+        self._save_cache()
 
     async def hybrid_search(
         self,
@@ -192,46 +227,65 @@ class VectorStore:
         top_k: int = 5,
         text_weight: float = 0.3,
         vector_weight: float = 0.7,
-        text_threshold: float = 0.1,  # Minimum text similarity threshold
-        vector_threshold: float = 0.3,  # Minimum vector similarity threshold
+        text_threshold: float = 0.1,
+        vector_threshold: float = 0.1,
     ) -> List[Dict]:
-        """Optimized hybrid search using vectorized operations with caching"""
+        """Optimized hybrid search using ID-based caching"""
+        print("Retrieving relevant documents...")
         # Check cache first
         cached_results = self._get_from_cache(query, query_vector)
         if cached_results is not None:
             print("Using cached results")
-            return cached_results
+            # Use documents dict directly
+            return [
+                {
+                    "document": self.documents[result["id"]],
+                    "score": result["score"],
+                    "text_score": result["text_score"],
+                    "vector_score": result["vector_score"],
+                }
+                for result in cached_results
+                if result["id"] in self.documents
+            ]
+
+        stime = time.time()
 
         # Calculate all vector similarities at once
         vector_sims = self._compute_vector_similarities(query_vector)
 
-        # Quick filter on vector similarity
-        valid_indices = np.where(vector_sims >= vector_threshold)[0]
+        # Get document IDs with vector similarity above threshold
+        doc_ids = list(self.documents.keys())
+        valid_doc_ids = [doc_ids[i] for i, sim in enumerate(vector_sims) if sim >= vector_threshold]
+
+        # Create mapping of doc_id to vector similarity for easy lookup
+        id_to_vector_sim = {doc_id: vector_sims[i] for i, doc_id in enumerate(doc_ids)}
 
         # Calculate text similarities only for documents that pass vector threshold
         results = [
             {
                 "score": (
                     text_sim := self._compute_text_similarity(
-                        query, self.documents[i]["content_with_weight"]
+                        query, self.documents[doc_id]["content_with_weight"]
                     )
                 )
                 * text_weight
-                + vector_sims[i] * vector_weight,
+                + id_to_vector_sim[doc_id] * vector_weight,
                 "text_score": text_sim,
-                "vector_score": vector_sims[i],
-                "document": self.documents[i],
+                "vector_score": id_to_vector_sim[doc_id],
+                "document": self.documents[doc_id],
             }
-            for i in valid_indices
+            for doc_id in valid_doc_ids
             if (
                 text_sim := self._compute_text_similarity(
-                    query, self.documents[i]["content_with_weight"]
+                    query, self.documents[doc_id]["content_with_weight"]
                 )
             )
             >= text_threshold
         ]
 
-        print(f"Found {len(results)} relevant documents")
+        dur = time.time() - stime
+
+        print(f"Found {len(results)} relevant documents ({dur:.2f}s)")
         # Cache results before returning
         self._add_to_cache(query, query_vector, results[:top_k])
         return sorted(results, key=lambda x: x["score"], reverse=True)[:top_k]
