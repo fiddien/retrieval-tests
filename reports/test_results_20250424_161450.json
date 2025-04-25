@@ -1,0 +1,382 @@
+[
+  {
+    "query_id": "ardi_summary",
+    "query": "Give a full summary of Ardi Adrian Pualam Sakti",
+    "model": "gpt-4o-mini",
+    "response": "Here is the summary of Ardi Adrian Pualam Sakti based on the available knowledge base:\n\n- **Full Name & Rank**: \n  - Ardi Adrian Pualam Sakti\n  - Rank: Kapten Tek (Captain Technical)\n\n- **Current Position & Unit**: \n  - Position: Kadok B Sathar 11 Depohar 10\n\n- **Years of Service & Career Progression**:\n  - Specific years of service are not provided, but he has progressed through various ranks and positions within TNI-AU.\n\n- **Operational Experience**:\n  - The answer you are looking for is not found in the knowledge base!\n\n- **Education & Training**:\n  - Graduated from Akademi Angkatan Udara (Air Force Academy) with a major in Aeronautics on December 1, 2005.\n  - Completed training at Komando Pendidikan with a focus on Aircraft Engineering and Support Systems from April to October 2006.\n  \n- **Technical Expertise**:\n  - Specialized in aeronautics and aircraft engineering.\n\n- **Notable Achievements & Recognitions**:\n  - Awarded \"SATYALANCANA KESETIAAN\" (Loyalty Medal) on April 3, 2014.\n  \nThis summary encapsulates the key details regarding Ardi Adrian Pualam Sakti's profile as per the information available.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 9.5,
+      "token_count": 171,
+      "compression_ratio": 0.21215880893300249,
+      "content_density": 0.9941520467836257,
+      "rouge_scores": {
+        "rouge1": 0.07043108682452945,
+        "rouge2": 0.020668693009118538,
+        "rougeL": 0.042501517911353974
+      }
+    }
+  },
+  {
+    "query_id": "cahyono_summary",
+    "query": "Give a full summary of FX Cahyono Wibowo",
+    "model": "gpt-4o-mini",
+    "response": "Here is the summary of FX Cahyono Wibowo based on the available knowledge base:\n\n### Personnel Profile Summary\n\n- **Full Name & Rank**: \n  - FX. Cahyono Wibowo\n  - Current Rank: Sertu (Sergeant)\n\n- **Current Position & Unit**: \n  - Anggota Skatek 043 Lanud Adisutjipto\n\n- **Years of Service & Career Progression**:\n  - Registered as a participant in TNI-AU on January 9, 1998.\n  \n- **Operational Experience**:\n  - Specific details regarding combat missions or joint operations are not provided in the knowledge base.\n\n- **Education & Training**:\n  - Completed various military training courses including:\n    - Sekolah Calon Bintara (Basic Non-Commissioned Officer School) from August 12, 1997, to January 9, 1998.\n    - Sekolah Bahasa Inggris Teknik (Technical English Language School) from January 19, 1998, to September 28, 1998.\n    - Kursus Bintara Manajemen Kejuruan Pembekalan (Non-Commissioned Officer Course for Vocational Management) from March 26, 2010, to June 23, 2010.\n    - Attended PUSDIKLAT BAHASA for language training from February 27, to August 5,2003.\n\n- **Technical Expertise**:\n   - Specialized in technical English and vocational management within the military context.\n\n- **Notable Achievements & Recognitions**:\n   - Awarded \"Satyalancana Kesetiaan\" for loyalty over eight years of service on December 15,2006.\n   - No additional awards or recognitions listed.\n\n### Personal Information\n- **Date of Birth**: July14,1977\n- **Place of Birth**: Natuna\n- **Gender**: Male\n- **Marital Status**: Married\n\nThis summary encapsulates the key aspects of FX Cahyono Wibowo's profile as per the information available in the knowledge base.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 8.206896551724139,
+      "token_count": 238,
+      "compression_ratio": 0.25509110396570206,
+      "content_density": 0.9957983193277311,
+      "rouge_scores": {
+        "rouge1": 0.08304498269896192,
+        "rouge2": 0.028698664027709056,
+        "rougeL": 0.05338606030647553
+      }
+    }
+  },
+  {
+    "query_id": "edi_summary",
+    "query": "Give a full summary of Edi Suyono",
+    "model": "gpt-4o-mini",
+    "response": "Here is the summary of Edi Suyono based on the available knowledge base:\n\n- **Full Name & Rank**: \n  - Edi Suyono\n  - Rank: Serda (Sergeant)\n\n- **Current Position & Unit**: \n  - Position: Anggota Skatek 042 (Member of Technical Squadron 042)\n  - Unit: Lanud Iswahjudi\n\n- **Years of Service & Career Progression**:\n  - Date of Birth: February 2, 1978\n  - Joined TNI-AU on January 9, 1993\n  - Years of service as of now: Approximately over 30 years.\n\n- **Operational Experience**:\n   - Specific details regarding combat missions or joint operations are not provided in the knowledge base.\n   - Command roles are also not specified.\n\n- **Education & Training**:\n   - Completed various military training programs including:\n     - Sekolah Calon Bintara (Non-Commissioned Officer School) from August 12, 1997 to January 9, 1998.\n     - Sekolah Dasar Kejuruan Teknik (Basic Technical School) from September 28,1998 to March 24,1999.\n     - Specialized training in Motor Jet from March 24,1999 to October23,1999.\n     - English Language Technical School from January19,1998 to September28,1998.\n\n- **Technical Expertise**:\n   - Specialized in aviation technology and technical skills related to aircraft maintenance and operation.\n\n- **Notable Achievements & Recognitions**:\n   - Awarded \"Satyalancana Kesetiaan\" for loyalty after eight years of service on December15,2016.\n   - Additional awards or recognitions are not detailed in the knowledge base.\n\nThis summary encapsulates the key aspects of Edi Suyono's profile within TNI-AU.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 8.5,
+      "token_count": 221,
+      "compression_ratio": 0.2378902045209903,
+      "content_density": 1.0,
+      "rouge_scores": {
+        "rouge1": 0.06977886977886978,
+        "rouge2": 0.01869158878504673,
+        "rougeL": 0.044226044226044224
+      }
+    }
+  },
+  {
+    "query_id": "amin_summary",
+    "query": "Give me a full summary of Amin Rahardjo",
+    "model": "gpt-4o-mini",
+    "response": "The answer you are looking for is not found in the knowledge base!",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 13.0,
+      "token_count": 13,
+      "compression_ratio": 0.16666666666666666,
+      "content_density": 1.0,
+      "rouge_scores": {
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0
+      }
+    }
+  },
+  {
+    "query_id": "rudito_summary",
+    "query": "Give me a full summary of Rudito Dwi Wibowo",
+    "model": "gpt-4o-mini",
+    "response": "Here is a comprehensive summary of Rudito Dwi Wibowo based on the available knowledge base:\n\n### Personnel Profile Summary\n\n- **Full Name & Rank**: \n  - Rudito Dwi Wibowo, Letkol Tek (Lieutenant Colonel Technical)\n\n- **Current Position & Unit**: \n  - Current Position: Danskatek 043 Lanud Adi\n  - Previous Position: Dansathar 11 Depohar 10 Hsn\n\n- **Years of Service & Career Progression**:\n  - NRP (Nomor Registrasi Pokok): 520266\n  - Joined TNI-AU and has progressed through various ranks, currently holding the rank of Letkol Tek.\n\n- **Operational Experience**:\n  - Served as Milobs pada misi MONUC di Kongo (Military Observer in MONUC mission in Congo).\n  \n- **Education & Training**:\n  - Graduated from Akademi TNI Angkatan Udara with a major in Aeronautika on July 17, 1995.\n    - Certificate Number: 87\n    - Place and Date of Issuance: Yogyakarta, July 17, 1995.\n  \n- **Technical Expertise**:\n   - Specialized training at Sekolah Staf dan Komando Angkatan Udara (Air Force Staff and Command School) completed on November 4, 2010.\n   - Completed courses at Komando Pendidikan (TNI AU Command Education) from July to December in the year of graduation.\n\n- **Notable Achievements & Recognitions**:\n   - Awarded Satyalancana Santi Dharma for his service during the MONUC mission on December 27,2007.\n   - Received Satyalancana Kesetiaan on April19,2012.\n   - Awarded Satyalancana Dwidiya Sitha on October6,2011.\n\n### Personal Information\n- **Date of Birth**: March 6,1974\n- **Place of Birth**: Jakarta\n- **Marital Status**: Married to Wahyu Inggit Pertiwi; they have three children.\n  \n### Family Details\n1. Satrio Ahmad Wibowo (Son)\n   - Date of Birth: November19,2004\n   \n2. Delvin Pradipta Wibowo (Son)\n   - Date of Birth: December2,2003\n   \n3. Rasdy Prima Arief Wibowo (Son)\n   - Date of Birth: June24,1990\n\nThis summary encapsulates key aspects regarding Rudito Dwi Wibowo's military career and personal background based on the provided knowledge base.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 7.657894736842105,
+      "token_count": 291,
+      "compression_ratio": 0.2464013547840813,
+      "content_density": 0.9896907216494846,
+      "rouge_scores": {
+        "rouge1": 0.12530712530712532,
+        "rouge2": 0.05327868852459017,
+        "rougeL": 0.08026208026208026
+      }
+    }
+  },
+  {
+    "query_id": "cahyono_id_summary",
+    "query": "Tolong berikan informasi lengkap mengenai FX Cahyono Wibowo",
+    "model": "gpt-4o-mini",
+    "response": "Berikut adalah informasi lengkap mengenai FX. Cahyono Wibowo:\n\n- **Full Name & Rank**: FX. Cahyono Wibowo, Prajurit Siswa\n- **Current Position & Unit**: \n  - Serda (Sergeant)\n  - Anggota Skatek 043 Lanud Adisutjipto\n- **Years of Service & Career Progression**:\n  - Tanggal pendaftaran sebagai peserta: 09 Januari 1998\n  - Meningkat dari Serda ke Serma dan saat ini berpangkat Sertu.\n- **Operational Experience**: \n  - Tidak ada informasi spesifik mengenai pengalaman operasional atau misi tempur yang tercatat dalam basis data.\n- **Education & Training**:\n  - Sekolah Calon Bintara di Komando Pendidikan (12 Agustus 1997 – 9 Januari 1998)\n    - Sertifikat No.: 2-2925/SECABA PK/XXI/98\n    - Jurusan: Sekolah Calon Bintara\n    - Dikeluarkan di Surabaya pada tanggal 9 Januari 1998.\n  \n   - Kursus Bintara Manajemen Kejuruan Pembekalan (26 Maret – 23 Juni 2010)\n     - Sertifikat No.: 18/Susbamenjur Kal/25/2010\n     - Dikeluarkan di Jakarta pada tanggal 23 Juni 2010.\n\n   - Sekolah Bahasa Inggris Teknik di Komando Pendidikan (19 Januari –28 September,1998)\n     - Sertifikat No.:78/SBIT/XXV/98\n\n   - PUSDIKLAT BAHASA (27 Februari –5 Agustus,2003)\n     - Sertifikat No.: JN-03212\n\n   - SMA BOPKRI Wanasari, lulus pada tanggal:28 Maret,1996.\n\n   - SD Kanisius Wonosari I, lulus pada tanggal:10 Maret,1990.\n  \n- **Technical Expertise**:\n   The answer you are looking for is not found in the knowledge base!\n  \n- **Notable Achievements & Recognitions**:\n   - Satyalancana Kesetiaan selama delapan tahun pada tanggal penghargaan:151206.\n\nInformasi lebih lanjut tentang pengalaman operasional dan keahlian teknis tidak tersedia dalam basis data.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 6.6,
+      "token_count": 227,
+      "compression_ratio": 0.2420042643923241,
+      "content_density": 0.8590308370044053,
+      "rouge_scores": {
+        "rouge1": 0.12537018756169793,
+        "rouge2": 0.06324110671936758,
+        "rougeL": 0.06712734452122408
+      }
+    }
+  },
+  {
+    "query_id": "ardi_id_summary",
+    "query": "Jelaskan secara detail tentang Ardi Adrian Pualam Sakti",
+    "model": "gpt-4o-mini",
+    "response": "Berikut adalah ringkasan profil Ardi Adrian Pualam Sakti berdasarkan informasi yang tersedia:\n\n### Profil Ardi Adrian Pualam Sakti\n\n- **Nama Lengkap & Pangkat**: \n  - Ardi Adrian Pualam Sakti\n  - Pangkat: Kapten Teknik (Kapten Tek)\n\n- **Posisi Saat Ini & Unit**:\n  - Jabatan: Kadok B Sathar 11 Depohar 10\n  - NRP: 533633\n\n- **Tahun Pengabdian & Perkembangan Karir**:\n  - Memulai karir di TNI-AU setelah lulus dari Akademi Angkatan Udara pada tahun 2005.\n  - Pernah menjabat sebagai Kaunithar AS-202 Dok B Sathar 11 Depohar 10 Hsn sebelum diangkat ke posisi saat ini pada tanggal 19 September 2012.\n\n- **Pengalaman Operasional**:\n   - Informasi spesifik mengenai misi tempur atau operasi gabungan tidak tersedia dalam basis data.\n\n- **Pendidikan & Pelatihan**:\n   - Lulusan Akademi Angkatan Udara, jurusan Aeronautika, lulus pada tanggal 1 Desember 2005.\n   - Mengikuti pelatihan teknik pesawat terbang dan sarana bantuan di Komando Pendidikan dari tanggal 3 April hingga 3 Oktober tahun yang sama.\n   - Mengikuti pendidikan bahasa di Kepala Pusat Pendidikan dan Pelatihan Bahasa dari tanggal 8 April hingga17 Juli tahun yang sama.\n\n- **Keahlian Teknis**:\n   - Spesialisasi dalam teknik pesawat terbang dan sarana bantuan.\n\n- **Prestasi & Penghargaan**:\n   - Menerima penghargaan \"Satyalancana Kesetiaan\" pada tanggal 3 April tahun yang sama.\n   - Juga menerima Tanda Kehormatan Satyalancana Kesetiaan VIII Tahun pada tanggal yang sama.\n\n### Informasi Tambahan\n- **Tanggal Lahir**: \n    - Lahir pada tanggal 8 Agustus1984 di Desa Limbangan Kecamatan Limbangan Kabupaten Kendal.\n  \nProfil ini memberikan gambaran umum tentang latar belakang, pendidikan, pengalaman, serta prestasi Ardi Adrian Pualam Sakti dalam dinas militer. Jika ada informasi lebih lanjut atau detail spesifik lainnya yang Anda butuhkan, silakan beri tahu!",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 9.814814814814815,
+      "token_count": 265,
+      "compression_ratio": 0.32878411910669975,
+      "content_density": 0.7735849056603774,
+      "rouge_scores": {
+        "rouge1": 0.13387189844200809,
+        "rouge2": 0.06932409012131716,
+        "rougeL": 0.06578188113098672
+      }
+    }
+  },
+  {
+    "query_id": "edi_alt_summary",
+    "query": "What can you tell me about Edi Suyono?",
+    "model": "gpt-4o-mini",
+    "response": "Here is the summarized profile of Edi Suyono based on the available knowledge base:\n\n- **Full Name & Rank**: Edi Suyono, currently holds the rank of Serka (Sergeant).\n  \n- **Current Position & Unit**: Member of Skatek 042 at Lanud Iswahjudi.\n\n- **Years of Service & Career Progression**: \n  - Registered as a participant in TNI on January 9, 1993.\n  - Has progressed through various ranks and positions within the Indonesian Air Force.\n\n- **Operational Experience**: The specific details regarding combat missions or joint operations are not provided in the knowledge base.\n\n- **Education & Training**:\n  - Completed various military training programs including:\n    - Sekolah Calon Bintara (Non-Commissioned Officer School) from August 12, 1997 to January 9, 1998.\n    - Technical English School from January 19, 1998 to September 28, 1998.\n    - Technical Vocational School from September 28, 1998 to March 24, 1999.\n    - Jet Engine Maintenance Course from March 24, 1999 to October 23, 1999.\n\n- **Technical Expertise**: \n   - Specialized in technical fields related to aviation technology and jet engines.\n\n- **Notable Achievements & Recognitions**:\n   - Awarded \"Satyalancana Kesetiaan\" for loyalty over eight years of service on December 15, [year not specified].\n   - Additional awards or recognitions are not detailed in the knowledge base.\n\nThis summary encapsulates key aspects of Edi Suyono's profile as per the information available.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 11.368421052631579,
+      "token_count": 216,
+      "compression_ratio": 0.232508073196986,
+      "content_density": 0.9953703703703703,
+      "rouge_scores": {
+        "rouge1": 0.0641025641025641,
+        "rouge2": 0.009871668311944718,
+        "rougeL": 0.04043392504930966
+      }
+    }
+  },
+  {
+    "query_id": "amin_id_summary",
+    "query": "Siapa itu Amin Rahardjo? Berikan informasi selengkapnya",
+    "model": "gpt-4o-mini",
+    "response": "The answer you are looking for is not found in the knowledge base!",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 13.0,
+      "token_count": 13,
+      "compression_ratio": 0.16666666666666666,
+      "content_density": 1.0,
+      "rouge_scores": {
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0
+      }
+    }
+  },
+  {
+    "query_id": "rudito_alt_summary",
+    "query": "Could you provide information about Rudito Dwi Wibowo?",
+    "model": "gpt-4o-mini",
+    "response": "Here is the summarized profile of Rudito Dwi Wibowo based on the available knowledge base:\n\n- **Full Name & Rank**: \n  - Rudito Dwi Wibowo\n  - Rank: Letkol Tek (Lieutenant Colonel Technical)\n\n- **Current Position & Unit**:\n  - Current Position: Danskatek 043 Lanud Adi\n  - Previous Position: Dansathar 11 Depohar 10 Hsn\n\n- **Years of Service & Career Progression**:\n  - NRP (Primary Registration Number): 520266\n  - Specific years of service are not detailed, but he has progressed through various ranks and positions.\n\n- **Operational Experience**:\n  - Served as Milobs (Military Observer) in MONUC mission in Congo.\n  \n- **Education & Training**:\n  - Graduated from Sekolah Staf dan Komando Angkatan Udara (Air Force Staff and Command School) on November 4, 2010.\n  \n- **Technical Expertise**:\n   - Specialized in aviation technology and military operations.\n\n- **Notable Achievements & Recognitions**:\n   - Awarded Satyalancana Santi Dharma on December 27, 2007.\n   - Received Satyalancana Kesetiaan on April 19, 2012.\n   - Honored with Satyalancana Dwidya Sistha on October 6, 2011.\n\nThis profile provides a comprehensive overview of Rudito Dwi Wibowo's career within the Indonesian Air Force.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 8.428571428571429,
+      "token_count": 177,
+      "compression_ratio": 0.1798780487804878,
+      "content_density": 0.9943502824858758,
+      "rouge_scores": {
+        "rouge1": 0.07755946225439503,
+        "rouge2": 0.032091097308488616,
+        "rougeL": 0.055842812823164424
+      }
+    }
+  },
+  {
+    "query_id": "cahyono_ardi_id_compare",
+    "query": "Bandingkan profil FX Cahyono Wibowo dengan Ardi Adrian Pualam Sakti",
+    "model": "gpt-4o-mini",
+    "response": "### **Profil FX Cahyono Wibowo**\n- **Nama & Pangkat Saat Ini:** FX. Cahyono Wibowo, Sertu\n- **Korps atau Kejuruan:** Anggota Skatek 043 Lanud Adisutjipto\n- **Riwayat Pendidikan Militer:**\n  - Kursus Bintara Manajemen Kejuruan Pembekalan, Komando Pendidikan (26 Maret 2010 - 23 Juni 2010)\n  \n- **Riwayat Jabatan:**\n  - Anggota Skatek 043 Lanud Adisutjipto (Tanggal tidak tersedia)\n\n- **Riwayat Kepangkatan:**\n  - Prajurit Siswa (1 Januari 1998)\n  - Serka (Tanggal tidak tersedia)\n  - Sertu (Tanggal tidak tersedia)\n\n- **Riwayat Tanda Jasa:**\n  - Satyalancana Kesetiaan 8 Tahun (15 Desember 2006)\n\n---\n\n### **Profil Ardi Adrian Pualam Sakti**\n- **Nama & Pangkat Saat Ini:** Ardi Adrian Pualam Sakti, Kapten Tek NRP 533633\n- **Korps atau Kejuruan:** Teknik Pesawat Terbang dan Sarana Bantuan\n- **Riwayat Pendidikan Militer:**\n  - Akademi Angkatan Udara, Aeronautika (28 Agustus 1984 - 1 Desember 2005)\n    - Sertifikat I/4312/XII/2005/AAU\n    - Letda Tek di Komando Pendidikan (3 April – s/d.10 Oktober, tahun tidak disebutkan)\n    - Pelatihan Bahasa di Kepala Pusat Pendidikan dan Pelatihan Bahasa (8 April – s/d.17 Juli, tahun tidak disebutkan)\n\n- **Riwayat Jabatan:**\n   - Kadok B Sathar 11 Depohar 10\n\n- **Riwayat Kepangkatan:**\n   - Tidak ada informasi yang jelas mengenai riwayat kepangkatan selain dari pangkat saat ini.\n\n- **Riwayat Tanda Jasa:**\n   - Satyalancana Kesetiaan (3 April 2014)\n\n---\n\n### **Perbandingan Singkat**\n\n1. **Pangkat dan Jabatan**:\n   - FX Cahyono Wibowo saat ini berpangkat Sertu dengan jabatan sebagai anggota Skatek.\n   - Ardi Adrian Pualam Sakti memiliki pangkat lebih tinggi yaitu Kapten Tek dengan jabatan sebagai Kadok B Sathar.\n\n2. **Pendidikan Militer**:\n   - FX Cahyono memiliki pendidikan militer yang lebih singkat dibandingkan Ardi yang telah menyelesaikan pendidikan di Akademi Angkatan Udara serta beberapa pelatihan tambahan.\n\n3. **Penghargaan**:\n   - Keduanya menerima penghargaan Satyalancana Kesetiaan namun pada waktu yang berbeda; FX pada tahun sebelumnya sedangkan Ardi pada tahun berikutnya.\n\n4. Informasi lainnya seperti riwayat jabatan dan kepangkatan lebih lengkap untuk Ardi dibandingkan dengan FX.\n\nInformasi ini memberikan gambaran umum tentang perbedaan dalam pengalaman dan posisi antara kedua personel TNI-AU tersebut.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 7.065217391304348,
+      "token_count": 323,
+      "compression_ratio": 0.3389296956977964,
+      "content_density": 0.7956656346749226,
+      "rouge_scores": {
+        "rouge1": 0.1606969990319458,
+        "rouge2": 0.06782945736434108,
+        "rougeL": 0.06776379477250725
+      }
+    }
+  },
+  {
+    "query_id": "edi_amin_alt_compare",
+    "query": "What are the differences and similarities between Edi Suyono and Amin Rahardjo?",
+    "model": "gpt-4o-mini",
+    "response": "**Profil Edi Suyono:**\n\n1. **Nama & Pangkat Saat Ini:**\n   - Edi Suyono, Sertu\n\n2. **Korps atau Kejuruan:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n3. **Riwayat Pendidikan Militer:**\n   - Sekolah Calon Bintara, Komando Pendidikan (12-08-1997 s/d 09-01-1998)\n   - Sekolah Dasar Kejuruan Teknik, Komando Pendidikan (28-09-1998 s/d 24-03-1999)\n   - Sekolah Bahasa Inggris Teknik, Komando Pendidikan (19-01-1998 s/d 28-09-1998)\n   - Motor Jet, Komando Pendidikan (24-03-1999 s/d 23-10-1999)\n\n4. **Riwayat Jabatan:**\n   - Anggota Skatek 042 Lanud Iswahjudi (Tanggal tidak tersedia)\n\n5. **Riwayat Kepangkatan:**\n   - Prajurit Siswa menjadi Serda pada tanggal yang tidak tersedia.\n\n6. **Riwayat Tanda Jasa:**\n   - Satyalancana Kesetiaan 8 Tahun pada tanggal 15 Desember 2016.\n\n---\n\n**Profil Amin Rahardjo:**\n\n1. **Nama & Pangkat Saat Ini:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n2. **Korps atau Kejuruan:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n3. **Riwayat Pendidikan Militer:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n4. **Riwayat Jabatan:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n5. **Riwayat Kepangkatan:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n6. **Riwayat Tanda Jasa:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n\n### Ringkasan Perbandingan:\n**Kesamaan:** \nKeduanya adalah anggota Tentara Nasional Indonesia (TNI).\n\n**Perbedaan:** \nEdi Suyono memiliki informasi lengkap mengenai pangkat saat ini, riwayat pendidikan militer, jabatan saat ini dan tanda jasa yang diterima; sedangkan untuk Amin Rahardjo, semua informasi tersebut tidak tersedia dalam basis data yang ada.\n",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 4.829787234042553,
+      "token_count": 227,
+      "compression_ratio": 0.2433011789924973,
+      "content_density": 0.7929515418502202,
+      "rouge_scores": {
+        "rouge1": 0.09922928709055878,
+        "rouge2": 0.04918032786885246,
+        "rougeL": 0.0606936416184971
+      }
+    }
+  },
+  {
+    "query_id": "rudito_cahyono_id_compare",
+    "query": "Apa perbedaan dan persamaan antara Rudito Dwi Wibowo dengan FX Cahyono Wibowo?",
+    "model": "gpt-4o-mini",
+    "response": "### **Profil Perbandingan: Rudito Dwi Wibowo vs FX Cahyono Wibowo**\n\n#### **Rudito Dwi Wibowo**\n- **Nama & Pangkat Saat Ini:** Mayor Tek Rudito Dwi Wibowo\n- **Korps atau Kejuruan:** Tidak tersedia dalam basis data.\n- **Riwayat Pendidikan Militer:**\n  - Sekolah Staf dan Komando Angkatan Udara, Lembang, 4 November 2010\n  - Sekolah Komando Kesatuan TNI AU, Jakarta, 06-07-2004 s/d 17-12-2004\n- **Riwayat Jabatan:**\n  - Dansathar 11 Depohar 10 Hsn (Jabatan Lama)\n  - Danskatek 043 Lanud Adi (Jabatan Baru, ditetapkan pada tanggal tidak tersedia)\n- **Riwayat Kepangkatan:**\n  - Letnan Dua (27 Juli 1995)\n  - Kapten Tek (Tanggal tidak tersedia)\n  - Mayor Tek (Tanggal tidak tersedia)\n- **Riwayat Tanda Jasa:**\n  - Satyalancana Santi Dharma (27122007)\n\n#### **FX Cahyono Wibowo**\n- **Nama & Pangkat Saat Ini:** FX. Cahyono Wibowo, Serma\n- **Korps atau Kejuruan:** Tidak tersedia dalam basis data.\n- **Riwayat Pendidikan Militer:** Informasi ini tidak tersedia dalam basis data.\n- **Riwayat Jabatan:**\n  - Angg. TB Skatek 043 Lanud Adisutjipto\n- **Riwayat Kepangkatan:**\n   - Prajurit Siswa menjadi Serda (1 Januari 1998) \n   - Sertu (Tanggal tidak tersedia)\n   - Serma (Tanggal tidak tersedia)\n  \n- **Riwayat Tanda Jasa:**\n   - Satyalancana Kesetiaan selama 8 tahun (15 Desember)\n\n### **Persamaan:**\n1. Keduanya memiliki nama belakang yang sama yaitu \"Wibowo\".\n2. Keduanya merupakan anggota TNI Angkatan Udara dengan pengalaman di bidang militer.\n\n### **Perbedaan:**\n1. Pangkat saat ini:\n   - Rudito Dwi Wibowo adalah Mayor Tek sedangkan FX Cahyono Wibowo adalah Serma.\n   \n2. Riwayat pendidikan militer:\n   - Rudito memiliki riwayat pendidikan yang lebih lengkap dan formal dibandingkan FX Cahyono yang informasinya tidak ada.\n\n3. Riwayat jabatan:\n   - Jabatan Rudito lebih tinggi dan beragam dibandingkan dengan jabatan FX Cahyono yang spesifik sebagai anggota Skatek.\n\n4. Riwayat tanda jasa:\n   - Masing-masing menerima penghargaan berbeda; Rudito mendapatkan Satyalancana Santi Dharma sementara FX mendapatkan Satyalancana Kesetiaan.\n\nInformasi ini memberikan gambaran tentang perbedaan dan persamaan antara kedua personel tersebut berdasarkan data yang ada.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 6.26530612244898,
+      "token_count": 307,
+      "compression_ratio": 0.3528735632183908,
+      "content_density": 0.8110749185667753,
+      "rouge_scores": {
+        "rouge1": 0.16842105263157894,
+        "rouge2": 0.07653910149750416,
+        "rougeL": 0.09307479224376732
+      }
+    }
+  },
+  {
+    "query_id": "ardi_amin_detailed_compare",
+    "query": "Provide a detailed comparison between Ardi Adrian Pualam Sakti and Amin Rahardjo",
+    "model": "gpt-4o-mini",
+    "response": "**Profil Perbandingan: Ardi Adrian Pualam Sakti vs Amin Rahardjo**\n\n### **Ardi Adrian Pualam Sakti**\n1. **Nama & Pangkat Saat Ini:**\n   - Ardi Adrian Pualam Sakti\n   - Kapten Tek NRP 533633\n\n2. **Korps atau Kejuruan:**\n   - Tidak tersedia dalam basis data.\n\n3. **Riwayat Pendidikan Militer:**\n   - Akademi Angkatan Udara, Jurusan Aeronautika (2005)\n   - Komando Pendidikan, Teknik Pesawat Terbang dan Sarana Bantuan (2006)\n   - Pelatihan Bahasa di Kepala Pusat Pendidikan dan Pelatihan Bahasa (2008)\n\n4. **Riwayat Jabatan:**\n   - Kadok B Sathar 11 Depohar 10 (sejak 19 September 2012)\n   - Kaunithar AS-202 Dok B Sathar 11 Depohar 10 Hsn (sebelumnya)\n\n5. **Riwayat Kepangkatan:**\n   - LETDA TEK pada tahun yang tidak disebutkan.\n   - Sersan Mayor Udara Karbol pada tahun yang tidak disebutkan.\n\n6. **Riwayat Tanda Jasa:**\n   - Satyalancana Kesetiaan, diterima pada tanggal 03 April 2014.\n\n---\n\n### **Amin Rahardjo**\n1. **Nama & Pangkat Saat Ini:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n2. **Korps atau Kejuruan:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n3. **Riwayat Pendidikan Militer:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n4. **Riwayat Jabatan:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n5. **Riwayat Kepangkatan:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n6. **Riwayat Tanda Jasa:**\n   - Informasi ini tidak tersedia dalam basis data.\n\n---\n\n### **Kesimpulan Perbandingan**\n\n- Ardi Adrian Pualam Sakti memiliki informasi lengkap mengenai pendidikan militer, jabatan saat ini, riwayat kepangkatan, dan tanda jasa yang diterima.\n- Sebaliknya, informasi mengenai Amin Rahardjo sepenuhnya tidak tersedia dalam basis data yang ada.\n  \nPerbandingan menunjukkan bahwa Ardi Adrian Pualam Sakti memiliki profil yang lebih terperinci dan jelas dibandingkan dengan Amin Rahardjo berdasarkan informasi yang dapat diakses saat ini.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 5.42,
+      "token_count": 271,
+      "compression_ratio": 0.3304878048780488,
+      "content_density": 0.8007380073800738,
+      "rouge_scores": {
+        "rouge1": 0.1100715465052284,
+        "rouge2": 0.04738292011019284,
+        "rougeL": 0.06934507429829388
+      }
+    }
+  },
+  {
+    "query_id": "edi_rudito_id_compare",
+    "query": "Mohon jelaskan perbandingan antara Edi Suyono dengan Rudito Dwi Wibowo",
+    "model": "gpt-4o-mini",
+    "response": "### **Profil Perbandingan: Edi Suyono vs Rudito Dwi Wibowo**\n\n#### **Edi Suyono**\n- **Nama & Pangkat Saat Ini:** Edi Suyono, Prajurit Siswa\n- **Korps atau Kejuruan:** Informasi ini tidak tersedia dalam basis data.\n- **Riwayat Pendidikan Militer:**\n  - Informasi ini tidak tersedia dalam basis data.\n- **Riwayat Jabatan:**\n  - Serda (Jabatan saat ini), NRP: 523525\n- **Riwayat Kepangkatan:**\n  - Informasi ini tidak tersedia dalam basis data.\n- **Riwayat Tanda Jasa:**\n  - Tidak ada penghargaan yang tercatat.\n\n#### **Rudito Dwi Wibowo**\n- **Nama & Pangkat Saat Ini:** Rudito Dwi Wibowo, Letkol Tek\n- **Korps atau Kejuruan:** Korps TNI AU (NRP: 520266)\n- **Riwayat Pendidikan Militer:**\n  - Sekolah Staf dan Komando Angkatan Udara, Lembang, dikeluarkan pada 4 November 2010.\n  - Sekolah Komando Kesatuan TNI AU, Jakarta, dari tanggal 06 Juli hingga 17 Desember 2004.\n  \n- **Riwayat Jabatan:**\n  - Dansathar 11 Depohar 10 Hsn (Jabatan lama)\n  - Danskatek 043 Lanud Adi (Jabatan baru sejak ditetapkan pada tanggal yang tidak disebutkan)\n  \n- **Riwayat Kepangkatan:**\n   - Kapten Tek\n   - Mayor Tek \n   - Letkol Tek\n\n- **Riwayat Tanda Jasa:**\n   - Satyalancana Kesetiaan (19 April 2012)\n   - Satyalancana Santi Dharma (27 Desember 2007)\n   - Satyalancana Dwidya Sistha (6 Oktober 2011)\n\n### **Kesimpulan Perbandingan**:\nEdi Suyono saat ini menjabat sebagai Prajurit Siswa dengan pangkat Serda dan belum memiliki riwayat pendidikan militer atau tanda jasa yang tercatat. Sebaliknya, Rudito Dwi Wibowo memiliki pengalaman lebih luas dengan pangkat Letkol Tek dan berbagai pendidikan serta jabatan penting di TNI AU. Selain itu, ia juga telah menerima beberapa penghargaan atas dedikasinya.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 7.545454545454546,
+      "token_count": 249,
+      "compression_ratio": 0.254601226993865,
+      "content_density": 0.8112449799196787,
+      "rouge_scores": {
+        "rouge1": 0.11143984220907298,
+        "rouge2": 0.04837117472852912,
+        "rougeL": 0.06903353057199212
+      }
+    }
+  },
+  {
+    "query_id": "three_way_compare",
+    "query": "Bandingkan pengalaman dan keahlian dari tiga orang berikut: FX Cahyono Wibowo, Amin Rahardjo, dan Rudito Dwi Wibowo",
+    "model": "gpt-4o-mini",
+    "response": "### Profil Perbandingan TNI-AU\n\n#### 1. **FX Cahyono Wibowo**\n- **Nama & Pangkat Saat Ini:** FX. Cahyono Wibowo, Serma\n- **Korps atau Kejuruan:** Informasi ini tidak tersedia dalam basis data.\n- **Riwayat Pendidikan Militer:**\n  - Sekolah Bahasa Inggris Teknik, Komando Pendidikan (19-01-1998 s/d 28-09-1998, LANUD Sulaiman)\n  - PUSDIKLAT BAHASA (27 Februari 2003 s.d. 5 Agustus 2003, Jakarta)\n  \n- **Riwayat Jabatan:**\n  - Angg. TB Skatek 043 Lanud Adisutjipto (Tanggal tidak tersedia)\n\n- **Riwayat Kepangkatan:**\n  - Prajurit Siswa menjadi Serda pada tanggal yang tidak tersedia.\n  \n- **Riwayat Tanda Jasa:**\n  - Satyalancana Kesetiaan 8 Tahun (15 Desember 2006)\n\n---\n\n#### 2. **Rudito Dwi Wibowo**\n- **Nama & Pangkat Saat Ini:** Rudito Dwi Wibowo, Letkol Tek\n- **Korps atau Kejuruan:** Informasi ini tidak tersedia dalam basis data.\n  \n- **Riwayat Pendidikan Militer:**\n   - Sekolah Staf dan Komando Angkatan Udara (Lembang, dikeluarkan pada tanggal tidak tersedia)\n   - Sekolah Komando Kesatuan TNI AU (06 Juli s/d 17 Desember 2004)\n\n- **Riwayat Jabatan:**\n   - Dansathar 11 Depohar 10 Hsn menjadi Danskatek 043 Lanud Adi (ditetapkan pada tanggal yang tidak tersedia)\n   - Milobs pada misi MONUC di Kongo\n\n- **Riwayat Kepangkatan:**\n   - N/A\n  \n- **Riwayat Tanda Jasa:**\n   - Satyalancana Santi Dharma (27 Desember 2007)\n\n---\n\n#### Catatan untuk Amin Rahardjo:\nInformasi mengenai Amin Rahardjo tidak ditemukan dalam basis data yang diberikan.\n\n---\n\n### Ringkasan Perbandingan:\nFX Cahyono Wibowo memiliki pengalaman pendidikan di bidang bahasa dan teknik dengan beberapa pelatihan militer tetapi informasi jabatan dan pangkatnya kurang lengkap. Di sisi lain, Rudito Dwi Wibowo menunjukkan kemajuan karir yang lebih signifikan dengan posisi saat ini sebagai Letkol Tek serta pengalaman di misi internasional dan penghargaan atas jasanya.\n\n**Kesimpulan:** \nRudito Dwi Wibowo tampak memiliki pengalaman dan keahlian yang lebih luas dibandingkan FX Cahyono Wibowo berdasarkan informasi yang ada. Namun, tanpa data tentang Amin Rahardjo, perbandingan penuh belum dapat dilakukan.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 6.930232558139535,
+      "token_count": 297,
+      "compression_ratio": 0.34494773519163763,
+      "content_density": 0.8047138047138047,
+      "rouge_scores": {
+        "rouge1": 0.14936847885777044,
+        "rouge2": 0.07586586036283673,
+        "rougeL": 0.07797913234486546
+      }
+    }
+  },
+  {
+    "query_id": "experience_focused_compare",
+    "query": "Which one has more relevant experience in their field: Edi Suyono or Ardi Adrian Pualam Sakti? Please focus on their professional background",
+    "model": "gpt-4o-mini",
+    "response": "### **Profil Perbandingan: Edi Suyono vs. Ardi Adrian Pualam Sakti**\n\n#### **Edi Suyono**\n- **Nama & Pangkat Saat Ini:** EDI SUYONO, SERDA\n- **Korps atau Kejuruan:** N/A\n- **Riwayat Pendidikan Militer:**\n  - Sekolah Bahasa Inggris Teknik, Komando Pendidikan (19 Januari 1998 - 28 September 1998)\n  \n- **Riwayat Jabatan:**\n  - Prajurit Siswa, Serda (Tanggal tidak tersedia)\n\n- **Riwayat Kepangkatan:**\n  - Prajurit Siswa (Tanggal tidak tersedia)\n\n- **Riwayat Tanda Jasa:**\n  - Tidak ada informasi mengenai tanda jasa.\n\n---\n\n#### **Ardi Adrian Pualam Sakti**\n- **Nama & Pangkat Saat Ini:** ARDI ARDIAN PUALAM SAKTI, Kapten Tek\n- **Korps atau Kejuruan:** N/A\n- **Riwayat Pendidikan Militer:**\n  - Akademi Angkatan Udara, Aeronautika (1 Desember 2005)\n  - Teknik Pesawat Terbang dan Sarana Bantuan, Komando Pendidikan (03 April 2006 s/d 03 Oktober 2006)\n  \n- **Riwayat Jabatan:**\n  - Kadok B Sathar 11 Depohar 10 (sejak tanggal tidak tersedia)\n  \n- **Riwayat Kepangkatan:**\n   - LETDA TEK pada tahun yang tidak disebutkan.\n   - Promosi ke Kapten Tek pada tanggal yang tidak disebutkan.\n\n- **Riwayat Tanda Jasa:**\n   - SATYALANCANA KESETIAAN pada tanggal 3 April 2014.\n\n---\n\n### **Kesimpulan Perbandingan Pengalaman Profesional**\n\n**Ardi Adrian Pualam Sakti** memiliki latar belakang pendidikan militer yang lebih kuat dengan gelar dari Akademi Angkatan Udara dan pelatihan khusus di bidang teknik pesawat terbang. Ia juga menjabat sebagai Kapten Tek dan menerima penghargaan SATYALANCANA KESETIAAN. \n\nSementara itu, meskipun Edi Suyono memiliki pengalaman dalam pendidikan bahasa Inggris teknik, ia berada di pangkat yang lebih rendah sebagai Serda dan tidak memiliki informasi jabatan atau penghargaan yang signifikan.\n\n**Rekomendasi:** Berdasarkan informasi ini, Ardi Adrian Pualam Sakti menunjukkan pengalaman profesional yang lebih relevan dalam bidangnya dibandingkan dengan Edi Suyono.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 8.06060606060606,
+      "token_count": 266,
+      "compression_ratio": 0.24584103512014788,
+      "content_density": 0.8157894736842105,
+      "rouge_scores": {
+        "rouge1": 0.10607356715141147,
+        "rouge2": 0.04366438356164384,
+        "rougeL": 0.0641573994867408
+      }
+    }
+  },
+  {
+    "query_id": "leadership_compare",
+    "query": "Dari segi kepemimpinan dan manajemen, siapa yang memiliki track record lebih baik: Amin Rahardjo atau FX Cahyono Wibowo?",
+    "model": "gpt-4o-mini",
+    "response": "Informasi ini tidak tersedia dalam basis data.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 7.0,
+      "token_count": 7,
+      "compression_ratio": 0.008215962441314555,
+      "content_density": 0.5714285714285714,
+      "rouge_scores": {
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0
+      }
+    }
+  },
+  {
+    "query_id": "technical_skills_compare",
+    "query": "I need to understand the technical expertise difference between Rudito Dwi Wibowo and Ardi Adrian Pualam Sakti. Can you analyze their technical backgrounds?",
+    "model": "gpt-4o-mini",
+    "response": "### **Profil Perbandingan: Rudito Dwi Wibowo vs. Ardi Adrian Pualam Sakti**\n\n#### **Rudito Dwi Wibowo**\n- **Nama & Pangkat Saat Ini:** \n  - Rudito Dwi Wibowo, Letkol Tek\n- **Korps atau Kejuruan:** \n  - Teknik (Teknik Pesawat Terbang)\n  \n- **Riwayat Pendidikan Militer:**\n  - Sekolah Staf dan Komando Angkatan Udara, Lembang, 4 November 2010\n  - Sekolah Komando Kesatuan TNI AU, Jakarta, 17 Desember 2004\n  - Akademi TNI Angkatan Udara, Yogyakarta, lulus pada tanggal 17 Juli 1995\n\n- **Riwayat Jabatan:**\n  - Dansathar 11 Depohar 10 Hsn (Jabatan Lama)\n  - Danskatek 043 Lanud Adi (Jabatan Baru), ditetapkan pada tanggal 29 Agustus 2014\n\n- **Riwayat Kepangkatan:**\n   - N/A (Informasi tidak tersedia)\n\n- **Riwayat Tanda Jasa:**\n   - Satyalancana Santi Dharma (27 Desember 2007)\n   - N/A untuk penghargaan lainnya\n\n---\n\n#### **Ardi Adrian Pualam Sakti**\n- **Nama & Pangkat Saat Ini:** \n   - Ardi Adrian Pualam Sakti, Kapten Tek\n- **Korps atau Kejuruan:** \n   - Teknik Pesawat Terbang dan Sarana Bantuan\n  \n- **Riwayat Pendidikan Militer:**\n   - Akademi Angkatan Udara, Yogyakarta, lulus pada tanggal 3 Desember 2005 dengan jurusan Aeronautika\n   - Komando Pendidikan untuk Teknik Pesawat Terbang dan Sarana Bantuan di Jakarta dari tanggal mulai hingga berakhir pada tanggal yang tidak disebutkan.\n\n- **Riwayat Jabatan:**\n   - Kadok B Sathar 11 Depohar 10 \n\n- **Riwayat Kepangkatan:**\n   - N/A (Informasi tidak tersedia)\n\n- **Riwayat Tanda Jasa:**\n   - Satyalancana Kesetiaan (3 April 2014)\n\n---\n\n### **Analisis Perbandingan Keahlian Teknikal**\n\n1. **Pendidikan dan Spesialisasi**:\n    - Rudito memiliki latar belakang pendidikan yang lebih luas dalam bidang teknik pesawat terbang dengan pengalaman di Sekolah Staf dan Komando serta Sekolah Komando Kesatuan.\n    - Ardi memiliki spesialisasi dalam aeronautika dari Akademi Angkatan Udara dan juga mengikuti pelatihan khusus di bidang teknik pesawat terbang.\n\n2. **Pengalaman Jabatan**:\n    - Rudito menjabat sebagai Dansathar yang menunjukkan tanggung jawab dalam pengelolaan unit teknis serta jabatan baru sebagai Danskatek yang mengindikasikan peran penting dalam pengembangan teknologi penerbangan.\n    - Ardi saat ini menjabat sebagai Kadok B Sathar yang menunjukkan fokus pada dukungan teknis operasional.\n\n3. **Tanda Jasa**:\n    - Keduanya telah menerima tanda jasa yang mencerminkan dedikasi mereka terhadap tugas militer; namun informasi tentang penghargaan lain untuk Rudito tidak tersedia.\n\n### Kesimpulan:\nRudito Dwi Wibowo memiliki pengalaman lebih luas dalam manajemen teknik militer dengan posisi strategis di berbagai jabatan penting. Sementara itu, Ardi Adrian Pualam Sakti memiliki spesialisasi teknikal yang kuat dalam aeronautika tetapi dengan pengalaman jabatan yang lebih terbatas dibandingkan Rudito.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 7.72,
+      "token_count": 386,
+      "compression_ratio": 0.39227642276422764,
+      "content_density": 0.8005181347150259,
+      "rouge_scores": {
+        "rouge1": 0.15192135835567475,
+        "rouge2": 0.06529516994633275,
+        "rougeL": 0.06881143878462914
+      }
+    }
+  },
+  {
+    "query_id": "career_progression_compare",
+    "query": "Tolong analisa dan bandingkan perkembangan karir dari Edi Suyono dan FX Cahyono Wibowo dari awal hingga posisi terakhir mereka",
+    "model": "gpt-4o-mini",
+    "response": "### **Profil Perbandingan: Edi Suyono vs FX Cahyono Wibowo**\n\n---\n\n#### **1. Nama & Pangkat Saat Ini**\n- **Edi Suyono**\n  - Pangkat: Prajurit Siswa (Serda)\n  \n- **FX Cahyono Wibowo**\n  - Pangkat: Serma\n\n---\n\n#### **2. Korps atau Kejuruan**\n- Informasi ini tidak tersedia dalam basis data.\n\n---\n\n#### **3. Riwayat Pendidikan Militer**\n- **Edi Suyono**\n  - Sekolah Bahasa Inggris Teknik, Komando Pendidikan\n    - Tanggal Ujian: 19 Januari 1998 s/d 28 September 1998\n    - Dikeluarkan di LANUD Sulaiman, 28 September 1998\n  \n- **FX Cahyono Wibowo**\n  - Kursus Bintara Manajemen Kejuruan Pembekalan, Komando Pendidikan\n    - Tanggal Ujian: 26 Maret 2010 s/d 23 Juni 2010\n    - Dikeluarkan di Jakarta, 23 Juni 2010\n\n---\n\n#### **4. Riwayat Jabatan**\n- **Edi Suyono**\n   - Jabatan saat ini: Serda (Prajurit Siswa)\n   - Informasi jabatan sebelumnya tidak tersedia dalam basis data.\n  \n- **FX Cahyono Wibowo**\n   - Anggota Skatek 043 Lanud Adisutjipto (Serma)\n   - Jabatan sebelumnya sebagai Anggota Skatek yang sama.\n\n---\n\n#### **5. Riwayat Kepangkatan**\n- **Edi Suyono** \n   - Prajurit Siswa (Serda) sejak awal karir.\n  \n- **FX Cahyono Wibowo** \n   - Meningkat dari:\n     - Serda ke Serka pada tahun yang tidak disebutkan.\n     - Terakhir menjadi Serma.\n\n---\n\n#### **6. Riwayat Tanda Jasa**\n- **Edi Suyono** \n   - Tidak ada informasi mengenai tanda jasa atau penghargaan yang diterima.\n  \n- **FX Cahyono Wibowo** \n   - Satyalancana Kesetiaan selama 8 tahun pada tanggal penghargaan: 01 April 2012.\n\n---\n\n### Kesimpulan:\nDari analisis di atas, FX Cahyono Wibowo memiliki riwayat pendidikan dan jabatan yang lebih beragam serta telah menerima penghargaan atas dedikasinya dalam dinas militer dibandingkan dengan Edi Suyono yang masih berada pada tahap awal karirnya sebagai Prajurit Siswa dengan pangkat Serda dan tanpa tanda jasa yang tercatat.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 5.352941176470588,
+      "token_count": 273,
+      "compression_ratio": 0.3305084745762712,
+      "content_density": 0.8131868131868132,
+      "rouge_scores": {
+        "rouge1": 0.14394765539803708,
+        "rouge2": 0.06877729257641922,
+        "rougeL": 0.08615049073064339
+      }
+    }
+  }
+]

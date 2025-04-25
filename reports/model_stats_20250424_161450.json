@@ -1,0 +1,11 @@
+{
+  "gpt-4o-mini": {
+    "total_queries": 20,
+    "avg_chinese_char_percentage": 0.0,
+    "avg_sentence_length": 8.113307183652534,
+    "avg_content_density": 0.8709644681700983,
+    "avg_rouge1": 0.09753179821007152,
+    "avg_rouge2": 0.041938564241211736,
+    "avg_rougeL": 0.05532854805412877
+  }
+}
