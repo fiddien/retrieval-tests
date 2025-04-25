@@ -1,3 +1,4 @@
+
 import time
 import asyncio
 import logging
@@ -46,8 +47,7 @@ async def run_test_queries(
                     if len(result["response"]) > 200
                     else result["response"],
                 )
-                print("-" * 50)
-		time.sleep(5)
+                print("-" * 50);
 
             except aiohttp.ClientError as err:
                 logger.error(
@@ -122,6 +122,22 @@ async def main():
 	    os.getenv("VLLM_HOST"),
 	    os.getenv("VLLM_API_KEY"),
 	),
+        "google/gemma-3-12b-it": (
+            os.getenv("VLLM_HOST"),
+            os.getenv("VLLM_API_KEY"),
+        ),
+        "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B": (
+            os.getenv("VLLM_HOST"),
+            os.getenv("VLLM_API_KEY"),
+        ),
+        "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": (
+            os.getenv("VLLM_HOST"),
+            os.getenv("VLLM_API_KEY"),
+        ),
+        "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B": (
+            os.getenv("VLLM_HOST"),
+            os.getenv("VLLM_API_KEY"),
+        ),
     }
 
     data_path = os.getenv("DATA_PATH", "raw_data/elasticsearch_chunks.json")
@@ -136,7 +152,12 @@ async def main():
         # "gpt-4o-mini",
         # "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct",
 	# "GoToCompany/llama3-8b-cpt-sahabatai-v1-instruct",
-	"ibm-granite/granite-3.3-8b-instruct",
+	# "ibm-granite/granite-3.3-8b-instruct",
+        # "google/gemma-3-12b-it",
+        # "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        # "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+
     ]
 
     print("Starting test suite...")

@@ -1,0 +1,11 @@
+{
+  "google/gemma-3-12b-it": {
+    "total_queries": 20,
+    "avg_chinese_char_percentage": 0.062461159606710746,
+    "avg_sentence_length": 10.680742037412921,
+    "avg_content_density": 0.9086015899090109,
+    "avg_rouge1": 0.16733715672206978,
+    "avg_rouge2": 0.0796192340674869,
+    "avg_rougeL": 0.08592729122076921
+  }
+}

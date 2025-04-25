@@ -1,0 +1,11 @@
+{
+  "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B": {
+    "total_queries": 17,
+    "avg_chinese_char_percentage": 0.11659852607599795,
+    "avg_sentence_length": 8.655646129779651,
+    "avg_content_density": 0.8952220862852912,
+    "avg_rouge1": 0.05938819403097869,
+    "avg_rouge2": 0.023892950798065037,
+    "avg_rougeL": 0.04056501659094024
+  }
+}

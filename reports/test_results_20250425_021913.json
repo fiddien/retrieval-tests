@@ -1,0 +1,78 @@
+[
+  {
+    "query_id": "cahyono_summary",
+    "query": "Give a full summary of FX Cahyono Wibowo",
+    "model": "ibm-granite/granite-3.3-8b-instruct",
+    "response": "### Summary of FX Cahyono Wibowo\n\n**Personal Information:**\n- Full Name: FX. Cahyono Wibowo (also identified as F.X. Cahyono Wibowo)\n- Tax Identification Number (NPWP): 67.475.458.5-542.000\n- National ID Number (NID): 523535\n- Date of Birth: July 14, 1977, in Wonosari, Indonesia\n- Gender: Male (Laki-laki)\n- Marital Status: Married (Kawin)\n  \n**Family:**\n- Spouse: Theresia Cahyo Anggraeni (mother of his son Baptista Elang Feliciano Wibowo)\n  - Son's Name: Baptista Elang Feliciano Wibowo\n  - Date of Birth: September 16, 2010\n  - Place of Birth: Sleman, Indonesia\n  \n**Military Career:**\nFX Cahyono Wibowo is a member of the Indonesian Air Force (TNI-AU). His military career progression includes the following ranks and positions based on available data:\n   - Prajurit Siswa (Cadet Officer) as per records from January 1, 1998\n   - Serda rank until April 1, 2012\n   - Serma rank from April 1, 2012 onwards\n   - Promoted to Sertu rank by December 15, 2016\n   \n  **Positions & Units:**\n  - As of the latest documents available in the knowledge base, he holds the position \"Anggota Skatek\" at Lanud Adisutjipto on April 1st, 2012.\n  \n  **Education & Training:**\n  - Sekolah Calon Bintara Graduate from Komando Pendidikan with certificate number \"2-2925/SECABA PK/XXI/98\", dated January 9th, 1998\n  - Kursus Bintara Manajemen Kejuruan Pembekalan Graduate from Komando Komando Pendidikan with certificate number \"18/Susbamenjur Kal/25/2010\", dated June 23rd, 2010\n  - Javanese Language Proficiency Certificate (\"JN\"-prefix), issued August to August in an unspecified year between February and August in a span starting from February to ending in August; date not explicitly provided but issued on August fifth in that year by PUSDIKLAT BAHASA in Jakarta\n  \n  **Achievements & Recognitions:** \n  - Received Satyalancana Kesetiaan for eight years' loyal service commencing December fifteenth in an unspecified year between '6' and '7'. The exact date format does not conform to DD-MM-YYYY standards provided for other dates within this dataset. \n\n**Note**: The knowledge base does not provide comprehensive details regarding operational experience or technical expertise for FX Cahyono Wibowo beyond confirming his role as a member at Lanud Adisutjipto under various ranks over time without specifics about combat missions or specialized training beyond language proficiency and management courses related to military supply procurement.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 9.702702702702704,
+      "token_count": 354,
+      "compression_ratio": 0.37942122186495175,
+      "content_density": 0.9971751412429378,
+      "rouge_scores": {
+        "rouge1": 0.15748031496062995,
+        "rouge2": 0.06675938803894298,
+        "rougeL": 0.08059286706808709
+      }
+    }
+  },
+  {
+    "query_id": "ardi_summary",
+    "query": "Give a full summary of Ardi Adrian Pualam Sakti",
+    "model": "ibm-granite/granite-3.3-8b-instruct",
+    "response": "Based on the provided knowledge base, here is a summary of Ardi Adrian Pualam Sakti's profile:\n\n1. **Full Name & Rank**: Ardi Adrian Pualam Sakti, Kapten Tek (Captain Technician) NRP 533633\n2. **Current Position & Unit**: Kadok B Satmar 11 Depohar 10 (Deputy Chief of Maintenance Squadron 11 Depot 10)\n3. **Years of Service & Career Progression**:\n   - Graduated from Negeri Limbangan I in February 1996\n   - Graduated from SMU Taruna Nusantara in June 2002\n   - Completed Aeronautical Engineering studies at AAU (Air Force Academy) in December 2005, receiving certificate number I/4312 /XII/2005/AAU\n   - Attended Komando Pendidikan for technical education in April to October 2006 with certificate number 02/SESARCAB TPT DAN SARBAN/21/06\n   - Completed a language course at Kepala Pusat Pendidikan dan Pelatihan Bahasa in April to July 2008 with certificate number 168/IS/0807/PUSDIKLAT BAHASA\n4. **Operational Experience**: The knowledge base does not explicitly mention combat missions or joint operations. His career progression indicates roles within maintenance and logistics units, including his current position as Deputy Chief of Maintenance Squadron.\n5. **Education & Training**: \n   - Elementary School: Negeri Limbangan I, Limbangan, Kabupaten Kendal (Graduated on February 7, 1996)\n   - Junior High School: Sekolah Lanjutan Tingkat Pertama Negeri 1 Boja, Boja, Kabupaten Kendal (Graduated on May 24, 1999)\n   - Senior High School: SMU Taruna Nusantara, Magelang (Graduated on June 14, 2002)\n   - Aeronautical Engineering at Akademi Angkatan Udara (Air Force Academy), Yogyakarta (Graduated on December 3, 2005)\n   - Technical Education Course at Komando Pendidikan for aviation technology and support equipment maintenance (Completed on October 3, 2006)\n   - Language course at Kepala Pusat Pendidikan dan Pelatihan Bahasa for Indonesian language proficiency improvement (Completed on July 17, 2",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 11.91304347826087,
+      "token_count": 274,
+      "compression_ratio": 0.3399503722084367,
+      "content_density": 0.9854014598540146,
+      "rouge_scores": {
+        "rouge1": 0.16666666666666669,
+        "rouge2": 0.07264472190692395,
+        "rougeL": 0.08956916099773242
+      }
+    }
+  },
+  {
+    "query_id": "edi_summary",
+    "query": "Give a full summary of Edi Suyono",
+    "model": "ibm-granite/granite-3.3-8b-instruct",
+    "response": "Based on the provided knowledge base, here is a summary of Edi Suyono's profile:\n\n1. **Full Name & Rank**: Edi Suyono, Rank: Serda (523525)\n2. **Current Position & Unit**: His current position and unit are not explicitly mentioned in the provided documents. The closest reference to his role is \"Anggota Skatek 042 Lanud Iswahjudi\" (Member of Skatek 042 at Lanud Iswahjudi), but this does not clearly define his exact position or unit within the Indonesian Air Force (TNI-AU).\n3. **Years of Service & Career Progression**: \n   - Started military education at Komando Pendidikan on January 19, 1998.\n   - Graduated from Sekolah Bahasa Inggris Teknik on September 28, 1998 (Certificate No: 76/SBIT/XXV/98).\n   - Furthered studies in Sekolah Dasar Kejuruan Teknik at Komando Pendidikan, starting September 1998 and ending March 1999 (Certificate No: 18/SESARJUR TEK/XXIV/99).\n   - Completed training in Motor Jet at Komando Pendidikan from March 24, 1999 to October 23, 1999 (Certificate No: 14/SEJURSAHR MTR JET/XIX/XIX).\n   \n4. **Operational Experience**: There is no direct information about combat missions or joint operations in the knowledge base. His roles seem to be more focused on training and education within various military academies rather than operational field experience.\n   \n5. **Education & Training**: \n   - Sekolah Dasar Negeri Tremes II (Primary School), graduated on June 15, 198",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 11.61111111111111,
+      "token_count": 209,
+      "compression_ratio": 0.22497308934337998,
+      "content_density": 1.0,
+      "rouge_scores": {
+        "rouge1": 0.09789525208027412,
+        "rouge2": 0.038216560509554146,
+        "rougeL": 0.060695056289769955
+      }
+    }
+  },
+  {
+    "query_id": "amin_summary",
+    "query": "Give me a full summary of Amin Rahardjo",
+    "model": "ibm-granite/granite-3.3-8b-instruct",
+    "response": "The answer you are looking for is not found in the knowledge base! The provided knowledge base does not contain any information about an individual named Amin Rahardjo. It only includes educational details of a person named Syarifudin who graduated from Madrasah Ibtidaiyah Al - Amin Dempelan Madiun on June 6, 1996.",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "average_sentence_length": 17.333333333333332,
+      "token_count": 52,
+      "compression_ratio": 0.6666666666666666,
+      "content_density": 1.0,
+      "rouge_scores": {
+        "rouge1": 0.12149532710280374,
+        "rouge2": 0.04716981132075471,
+        "rougeL": 0.12149532710280374
+      }
+    }
+  }
+]

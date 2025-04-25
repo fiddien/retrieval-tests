@@ -1,0 +1,11 @@
+{
+  "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": {
+    "total_queries": 20,
+    "avg_chinese_char_percentage": 0.06490387546319765,
+    "avg_sentence_length": 8.320949612758886,
+    "avg_content_density": 0.9180730464151905,
+    "avg_rouge1": 0.07928547097454336,
+    "avg_rouge2": 0.03044243100542286,
+    "avg_rougeL": 0.0517523623655612
+  }
+}
