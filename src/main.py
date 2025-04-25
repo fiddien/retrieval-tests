@@ -138,6 +138,14 @@ async def main():
             os.getenv("VLLM_HOST"),
             os.getenv("VLLM_API_KEY"),
         ),
+        "aisingapore/Llama-SEA-LION-v3.5-8B-R": (
+            os.getenv("VLLM_HOST"),
+            os.getenv("VLLM_API_KEY"),
+        ),
+        "aisingapore/Gemma-SEA-LION-v3-9B-IT": (
+            os.getenv("VLLM_HOST"),
+            os.getenv("VLLM_API_KEY"),
+        ),
     }
 
     data_path = os.getenv("DATA_PATH", "raw_data/elasticsearch_chunks.json")
@@ -156,8 +164,9 @@ async def main():
         # "google/gemma-3-12b-it",
         # "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
         # "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
-        "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-
+        # "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+        # "aisingapore/Llama-SEA-LION-v3.5-8B-R",
+	"aisingapore/Gemma-SEA-LION-v3-9B-IT",
     ]
 
     print("Starting test suite...")

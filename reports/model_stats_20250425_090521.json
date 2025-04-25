@@ -1,0 +1,11 @@
+{
+  "aisingapore/Gemma-SEA-LION-v3-9B-IT": {
+    "total_queries": 20,
+    "avg_chinese_char_percentage": 0.0,
+    "avg_sentence_length": 12.820520243012226,
+    "avg_content_density": 0.8880989656512972,
+    "avg_rouge1": 0.11894344442302665,
+    "avg_rouge2": 0.04768222157161397,
+    "avg_rougeL": 0.06533283155410681
+  }
+}
