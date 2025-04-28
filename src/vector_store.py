@@ -3,6 +3,8 @@ import json
 import math
 import re
 import time
+import argparse
+import asyncio
 from collections import Counter
 from difflib import SequenceMatcher
 from typing import Dict, List, Optional
@@ -298,3 +300,113 @@ class VectorStore:
                 os.remove(self.cache_file)
             except Exception as e:
                 print(f"Cache file deletion error: {e}")
+
+    def regex_search(
+        self,
+        pattern: str,
+        top_k: int = 5,
+        score_threshold: float = 0.1
+    ) -> List[Dict]:
+        """Search documents using regex pattern matching on docnm_kwd field.
+
+        Args:
+            pattern: Regex pattern to match against docnm_kwd field
+            top_k: Number of top results to return
+            score_threshold: Minimum score threshold for results
+
+        Returns:
+            List of documents matching the pattern, sorted by text similarity score
+        """
+        print(f"Searching for pattern: {pattern}")
+        stime = time.time()
+
+        # Compile regex pattern
+        try:
+            regex = re.compile(pattern, re.IGNORECASE)
+        except re.error as e:
+            print(f"Invalid regex pattern: {e}")
+            return []
+
+        # Search through documents
+        results = []
+        for doc in self.documents.values():
+            docnm = doc.get("docnm_kwd", "")
+            if not docnm:
+                continue
+
+            # Check for regex match
+            match = regex.search(docnm)
+            if match:
+                # Calculate basic text similarity score based on match length
+                score = len(match.group()) / len(docnm)
+                error_doc = "error invalid" in doc["content_with_weight"].lower() \
+                    or "Invalid Document" in doc["content_with_weight"].lower()
+                if score >= score_threshold and not error_doc:
+                    results.append({
+                        "score": score,
+                        "text_score": score,
+                        "vector_score": 0.0,  # No vector similarity for regex search
+                        "document": doc
+                    })
+
+        dur = time.time() - stime
+        print(f"Found {len(results)} matching documents ({dur:.2f}s)")
+
+        # Sort by score and return top_k
+        return sorted(results, key=lambda x: x["score"], reverse=True)[:top_k]
+
+
+async def main():
+    parser = argparse.ArgumentParser(description='Search through document chunks using vector similarity or regex pattern matching')
+    parser.add_argument('query', help='The search query (vector search) or regex pattern (regex search)')
+    parser.add_argument('--data-path', default='raw_data/elasticsearch_chunks.json',
+                       help='Path to the JSON file containing documents')
+    parser.add_argument('--top-k', type=int, default=5,
+                       help='Number of top results to return')
+    parser.add_argument('--embedding-endpoint', default='http://localhost:8000/v1/embeddings',
+                       help='Endpoint for the embedding service')
+    parser.add_argument('--mode', choices=['vector', 'regex'], default='regex',
+                       help='Search mode: vector (default) for semantic search or regex for pattern matching on docnm_kwd field')
+    parser.add_argument('--score-threshold', type=float, default=0.1,
+                       help='Minimum score threshold for results')
+    args = parser.parse_args()
+
+    # Initialize vector store
+    vector_store = VectorStore(
+        data_path=args.data_path,
+        embedding_endpoint=args.embedding_endpoint
+    )
+
+    # Perform search based on mode
+    if args.mode == 'vector':
+        # Get embedding for query
+        query_vector = await vector_store.get_embedding(args.query)
+
+        # Perform vector-based search
+        results = await vector_store.hybrid_search(
+            query=args.query,
+            query_vector=query_vector,
+            top_k=args.top_k
+        )
+    else:
+        # Perform regex search
+        results = vector_store.regex_search(
+            pattern=args.query,
+            top_k=args.top_k,
+            score_threshold=args.score_threshold
+        )
+
+    # Print results
+    print(f"\nTop {args.top_k} results for {args.mode} search: {args.query}\n")
+    for i, result in enumerate(results, 1):
+        # print(f"{i}. Score: {result['score']:.3f}")
+        # print(f"   Text similarity: {result['text_score']:.3f}")
+        # print(f"   Vector similarity: {result['vector_score']:.3f}")
+        if args.mode == 'regex':
+            print(f"   Document name: {result['document'].get('docnm_kwd', 'N/A')}")
+        print(f"   Content: {result['document']['content_with_weight']}")
+        print()
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

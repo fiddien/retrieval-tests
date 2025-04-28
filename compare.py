@@ -1,9 +1,167 @@
+import json
+from datetime import datetime
+import os
+from typing import Dict, List, Tuple
+import openai
+import glob
 import re
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 from matplotlib.colors import LinearSegmentedColormap
+
+def get_latest_test_results() -> Dict[str, List[dict]]:
+    """
+    Get the most recent test results file and its contents.
+
+    Returns:
+        Tuple[str, List[dict]]: Filepath and parsed JSON content
+    """
+    # Find all test result files
+    result_files = glob.glob("reports/test_results_*.json")
+    if not result_files:
+        raise FileNotFoundError("No test result files found")
+
+    # Sort by timestamp in filename
+    result_files = sorted(result_files, reverse=True)
+
+    model_result = {}
+    for file in result_files:
+        with open(file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            if not data:
+                continue
+            model_name = data[0].get("model", "Unknown")
+            if model_name not in model_result:
+                model_result[model_name] = data
+
+    return model_result
+
+def group_responses_by_query(results: Dict[str, List[dict]]) -> Dict[str, List[dict]]:
+    """
+    Group test results by query ID for comparison.
+
+    Args:
+        results (List[dict]): List of test results
+
+    Returns:
+        Dict[str, List[dict]]: Results grouped by query ID
+    """
+    grouped = {}
+    for answers in results.values():
+        for answer in answers:
+            query_id = answer["query_id"]
+            if query_id not in grouped:
+                grouped[query_id] = []
+            grouped[query_id].append(answer)
+    return grouped
+
+def rate_responses(responses: List[dict], api_key: str = None) -> Dict[str, float]:
+    """
+    Use OpenAI API to rate and compare model responses.
+
+    Args:
+        responses (List[dict]): List of model responses for a query
+        api_key (str, optional): OpenAI API key
+
+    Returns:
+        Dict[str, float]: Model ratings
+    """
+    if not api_key:
+        api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError("OpenAI API key not found")
+
+    openai.api_key = api_key
+
+    # Construct prompt for comparison
+    prompt = "Compare these model responses and rate each on a scale of 0-10 based on accuracy, completeness, and coherence:\n\n"
+    for resp in responses:
+        prompt += f"Model: {resp['model']}\nResponse:\n{resp['response']}\n\n"
+
+    completion = openai.ChatCompletion.create(
+        model="gpt-4",
+        messages=[
+            {"role": "system", "content": "You are an expert at evaluating language model outputs. Rate each response on accuracy, completeness, and coherence."},
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0.3
+    )
+
+    # Parse ratings from response
+    ratings = {}
+    try:
+        rating_text = completion.choices[0].message.content
+        for resp in responses:
+            model_name = resp['model']
+            # Extract rating from response using regex
+            match = re.search(rf"{model_name}.*?(\d+(?:\.\d+)?)", rating_text, re.DOTALL)
+            if match:
+                ratings[model_name] = float(match.group(1))
+            else:
+                ratings[model_name] = 0.0
+    except Exception as e:
+        print(f"Error parsing ratings: {e}")
+        ratings = {resp['model']: 0.0 for resp in responses}
+
+    return ratings
+
+def calculate_elo_ratings(grouped_responses: Dict[str, List[dict]], initial_elo: float = 1500) -> Dict[str, float]:
+    """
+    Calculate ELO ratings for models based on their performance across queries.
+
+    Args:
+        grouped_responses (Dict[str, List[dict]]): Responses grouped by query
+        initial_elo (float): Initial ELO rating for each model
+
+    Returns:
+        Dict[str, float]: Final ELO ratings for each model
+    """
+    K = 32  # K-factor determines how much ratings change
+
+    # Initialize ELO ratings
+    elo_ratings = {}
+    models_seen = set()
+    for responses in grouped_responses.values():
+        for resp in responses:
+            model = resp['model']
+            if model not in models_seen:
+                elo_ratings[model] = initial_elo
+                models_seen.add(model)
+
+    # Calculate expected score
+    def expected_score(rating_a: float, rating_b: float) -> float:
+        return 1 / (1 + 10 ** ((rating_b - rating_a) / 400))
+
+    # Update ratings based on each query's results
+    for query_responses in grouped_responses.values():
+        # Get LLM ratings for this query
+        ratings = rate_responses(query_responses)
+
+        # Compare each pair of models
+        for i, resp_a in enumerate(query_responses):
+            for resp_b in query_responses[i+1:]:
+                model_a = resp_a['model']
+                model_b = resp_b['model']
+
+                rating_a = ratings[model_a]
+                rating_b = ratings[model_b]
+
+                # Calculate actual score (1 for win, 0.5 for draw, 0 for loss)
+                if abs(rating_a - rating_b) < 0.5:  # Draw threshold
+                    score = 0.5
+                else:
+                    score = 1 if rating_a > rating_b else 0
+
+                # Calculate expected scores
+                expected_a = expected_score(elo_ratings[model_a], elo_ratings[model_b])
+
+                # Update ratings
+                elo_ratings[model_a] += K * (score - expected_a)
+                elo_ratings[model_b] += K * ((1 - score) - (1 - expected_a))
+
+    return elo_ratings
 
 def parse_model_data(file_path):
     """
@@ -200,6 +358,56 @@ def create_visualizations(df, output_folder="./"):
 
     print(f"Visualizations saved to {output_folder}")
 
+def analyze_model_performance():
+    """
+    Analyze and compare model performance including response quality comparison.
+
+    Args:
+        results_file (str, optional): Path to results file. If None, uses latest.
+    """
+    try:
+        # Get results
+        model_results = get_latest_test_results()
+
+        # Group by query
+        grouped = group_responses_by_query(model_results)
+
+        # Save grouped results to markdown file
+        with open("grouped_results.md", "w", encoding="utf-8") as md_file:
+            for query_id, responses in grouped.items():
+                if not responses:
+                    continue
+                try:
+                    md_file.write("=" * 50 + "\n")
+                    md_file.write(f"\n## Query ID: {query_id}\n")
+                    md_file.write(f"**Query:** {responses[0]['query']}\n\n")
+                    for resp in responses:
+                        md_file.write(f"### **Model:** {resp['model']}\n")
+                        md_file.write(f"{resp['response']}\n\n")
+                        md_file.write("-" * 50 + "\n")
+                except Exception as e:
+                    print(f"Error writing to markdown file: {e}, {query_id}, {responses}")
+
+        # Calculate ELO ratings
+        # elo_ratings = calculate_elo_ratings(grouped)/
+
+        # Parse and display traditional metrics
+        df = parse_model_data("results.md")
+        display_table(df)
+
+        # Display ELO ratings
+        # print("\n=== MODEL ELO RATINGS ===\n")
+        # for model, rating in sorted(elo_ratings.items(), key=lambda x: x[1], reverse=True):
+        #     print(f"{model}: {rating:.2f}")
+
+        # Create visualizations
+        create_visualizations(df)
+
+        print(f"\nAnalysis completed successfully. Results from: {latest_file}")
+
+    except Exception as e:
+        print(f"An error occurred during analysis: {e}")
+
 def main():
     """
     Main function to run the analysis and visualization.
@@ -225,4 +433,4 @@ def main():
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    main()
+    analyze_model_performance()

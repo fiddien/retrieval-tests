@@ -84,3 +84,26 @@ class RAGApplication:
             formatted_knowledge.append(text)
 
         return "\n".join(formatted_knowledge)
+
+    async def regex_search(
+        self,
+        pattern: str,
+        top_k: int = 5,
+        score_threshold: float = 0.1
+    ) -> List[Dict]:
+        """
+        Search documents using regex pattern matching on docnm_kwd field.
+
+        Args:
+            pattern: Regex pattern to match against docnm_kwd field
+            top_k: Number of top results to return
+            score_threshold: Minimum score threshold for results
+
+        Returns:
+            List of matching documents sorted by score
+        """
+        return self.vector_store.regex_search(
+            pattern=pattern,
+            top_k=top_k,
+            score_threshold=score_threshold
+        )
