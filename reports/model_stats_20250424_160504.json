@@ -1,0 +1,11 @@
+{
+  "Qwen/Qwen2.5-7B-Instruct": {
+    "total_queries": 20,
+    "avg_chinese_char_percentage": 0.009474182851729039,
+    "avg_sentence_length": 9.477655287369533,
+    "avg_content_density": 0.8846935696237948,
+    "avg_rouge1": 0.11205772190735923,
+    "avg_rouge2": 0.04963655378852723,
+    "avg_rougeL": 0.06436998287135062
+  }
+}
