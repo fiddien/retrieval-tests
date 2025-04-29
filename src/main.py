@@ -160,13 +160,13 @@ async def main():
         # "gpt-4o-mini",
         # "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct",
 	# "GoToCompany/llama3-8b-cpt-sahabatai-v1-instruct",
-	# "ibm-granite/granite-3.3-8b-instruct",
+	"ibm-granite/granite-3.3-8b-instruct",
         # "google/gemma-3-12b-it",
         # "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
         # "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
         # "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
         # "aisingapore/Llama-SEA-LION-v3.5-8B-R",
-	"aisingapore/Gemma-SEA-LION-v3-9B-IT",
+	# "aisingapore/Gemma-SEA-LION-v3-9B-IT",
     ]
 
     print("Starting test suite...")
