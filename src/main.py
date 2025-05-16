@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 
 async def run_test_queries(
-    rag: RAGApplication, models: List[str], queries: List[Dict]
+    rag: RAGApplication, models: List[str], queries: List[Dict], target_lang: str
 ) -> TestReport:
     """Run test queries across multiple models and collect results"""
     report = TestReport()
@@ -91,10 +91,10 @@ async def main():
     # Configure model-specific vLLM hosts
     model_hosts = {
         "BAAI/bge-m3": (
-            os.getenv("BGEM3_HOST", "http://localhost:8001"),
-            os.getenv("BGEM3_API_KEY")
+            os.getenv("VLLM_EMBEDDINGS_HOST", "http://localhost:8001"),
+            os.getenv("VLLM_EMBEDDINGS_API_KEY")
         ),
-        "Qwen/Qwen2.5-7B-Instruct": (
+        "Qwen/Qwen2.5-7b-Instruct": (
             os.getenv("QWEN_HOST", "http://localhost:8000"),
             os.getenv("QWEN_API_KEY")
         ),
@@ -110,18 +110,18 @@ async def main():
             os.getenv("OPENAI_HOST", "http://localhost:8004"),
             os.getenv("OPENAI_API_KEY"),
         ),
-	"GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct": (
+        "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct": (
             os.getenv("VLLM_HOST", "http://localhost:8005"),
             os.getenv("VLLM_API_KEY"),
-        ),
-	"GoToCompany/llama3-8b-cpt-sahabatai-v1-instruct": (
+            ),
+        "GoToCompany/llama3-8b-cpt-sahabatai-v1-instruct": (
             os.getenv("VLLM_HOST", "http://localhost:8005"),
             os.getenv("VLLM_API_KEY"),
+            ),
+        "ibm-granite/granite-3.3-8b-instruct": (
+            os.getenv("VLLM_HOST"),
+            os.getenv("VLLM_API_KEY"),
         ),
-	"ibm-granite/granite-3.3-8b-instruct": (
-	    os.getenv("VLLM_HOST"),
-	    os.getenv("VLLM_API_KEY"),
-	),
         "google/gemma-3-12b-it": (
             os.getenv("VLLM_HOST"),
             os.getenv("VLLM_API_KEY"),
@@ -146,36 +146,43 @@ async def main():
             os.getenv("VLLM_HOST"),
             os.getenv("VLLM_API_KEY"),
         ),
+        "aisingapore/Llama-SEA-LION-v3.5-8B-R": (
+            os.getenv("VLLM_HOST"),
+            os.getenv("VLLM_API_KEY"),
+        ),
     }
 
     data_path = os.getenv("DATA_PATH", "raw_data/elasticsearch_chunks.json")
 
     # Initialize RAG application
-    rag = RAGApplication(model_hosts=model_hosts, data_path=data_path)
+    target_lang = os.getenv("TARGET_LANG", "English")
+    rag = RAGApplication(model_hosts=model_hosts, data_path=data_path, target_lang=target_lang)
 
     # Models to test (can test all or a subset)
     models = [
-        # "Qwen/Qwen2.5-7B-Instruct",
+        "Qwen/Qwen2.5-7b-Instruct",
         # "deepseek-chat"
         # "gpt-4o-mini",
         # "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct",
 	# "GoToCompany/llama3-8b-cpt-sahabatai-v1-instruct",
-	"ibm-granite/granite-3.3-8b-instruct",
+	# "ibm-granite/granite-3.3-8b-instruct",
         # "google/gemma-3-12b-it",
         # "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
         # "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
         # "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
         # "aisingapore/Llama-SEA-LION-v3.5-8B-R",
 	# "aisingapore/Gemma-SEA-LION-v3-9B-IT",
+        # "aisingapore/Llama-SEA-LION-v3.5-8B-R",
     ]
 
     print("Starting test suite...")
     print(f"Models to test: {', '.join(models)}")
+    print(f"Target language: {target_lang}")
     print(f"Number of queries: {len(TEST_QUERIES)}")
     print("-" * 50)
 
     # Run tests and generate report
-    report = await run_test_queries(rag, models, TEST_QUERIES)
+    report = await run_test_queries(rag, models, TEST_QUERIES, target_lang)
 
     # Save report files
     results_file, stats_file = report.save_report()
