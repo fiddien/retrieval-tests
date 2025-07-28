@@ -1,0 +1,8 @@
+numpy
+pandas
+tqdm
+requests
+python-dotenv
+scikit-learn
+ranx
+jsonlines

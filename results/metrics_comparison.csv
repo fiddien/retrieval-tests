@@ -1,0 +1,6 @@
+model,ndcg@10,ndcg@100,mrr@10,recall@100,precision@1,map
+Qwen/Qwen3-Embedding-4B,0.7907,0.7943,0.7296,0.9857,0.5857,0.7316
+BAAI/bge-m3,0.7549,0.7693,0.6898,1.0,0.5143,0.6949
+Alibaba-NLP/gte-Qwen2-1.5B-instruct,0.7315,0.7415,0.6614,0.9857,0.5,0.6639
+Qwen/Qwen3-Embedding-0.6B,0.7342,0.7446,0.6644,1.0,0.5,0.6645
+NovaSearch/stella_en_1.5B_v5,0.1047,0.1589,0.0835,0.4643,0.0429,0.0913

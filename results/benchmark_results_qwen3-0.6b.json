@@ -1,0 +1,15 @@
+{
+  "metrics": {
+    "Qwen/Qwen3-Embedding-0.6B": {
+      "ndcg@10": 0.7341818969274524,
+      "ndcg@100": 0.7446345805871614,
+      "mrr@10": 0.6644444444444445,
+      "recall@100": 1.0,
+      "precision@1": 0.5,
+      "map": 0.6644593995402621
+    }
+  },
+  "timing": {
+    "Qwen/Qwen3-Embedding-0.6B_embedding_time": 5.857729911804199
+  }
+}

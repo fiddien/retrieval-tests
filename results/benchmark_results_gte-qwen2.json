@@ -1,0 +1,15 @@
+{
+  "metrics": {
+    "Alibaba-NLP/gte-Qwen2-1.5B-instruct": {
+      "ndcg@10": 0.7315084077378534,
+      "ndcg@100": 0.7415304235633461,
+      "mrr@10": 0.6614455782312926,
+      "recall@100": 0.9857142857142858,
+      "precision@1": 0.5,
+      "map": 0.6638860544217687
+    }
+  },
+  "timing": {
+    "Alibaba-NLP/gte-Qwen2-1.5B-instruct_embedding_time": 9.810834407806396
+  }
+}

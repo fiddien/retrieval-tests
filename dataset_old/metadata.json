@@ -1,0 +1,19 @@
+{
+  "name": "Indonesian Cross-Domain QA Dataset",
+  "description": "Combined dataset of Indonesian QA including farming, decision making, Soeharto, and legal documents",
+  "language": "id",
+  "format": "beir",
+  "topics": [
+    "Farming",
+    "Decision Making",
+    "Soeharto",
+    "Law"
+  ],
+  "stats": {
+    "total_queries": 440,
+    "total_documents": 362,
+    "train_qrels": 328,
+    "dev_qrels": 70,
+    "test_qrels": 72
+  }
+}
