@@ -18,7 +18,7 @@ set -e  # Exit on any error
 # Docker and model configuration
 NETWORK="assistxsuite-dev_ragflow"
 HF_TOKEN="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"
-CACHE_DIR="$HOME/.cache/huggingface"
+CACHE_DIR="ephemeral/huggingface_cache"
 # VLLM_IMAGE="vllm/vllm-openai:v0.9.1"
 VLLM_IMAGE="vllm/vllm-openai:latest"
 
@@ -340,7 +340,9 @@ run_model() {
     # Start the Docker container
     print_status "Starting Docker container..."
     if docker run -d --name "$container_name" --network "$NETWORK" --runtime nvidia --gpus "\"device=$gpu\"" \
-      -v "$CACHE_DIR:/root/.cache/huggingface" --env "HUGGING_FACE_HUB_TOKEN=$HF_TOKEN" \
+      -v "/mnt/ephemeral/vllm_temp:/tmp" \
+      -v "$CACHE_DIR:/root/.cache/huggingface" \
+      --env "HUGGING_FACE_HUB_TOKEN=$HF_TOKEN" \
       --env "VLLM_ALLOW_LONG_MAX_MODEL_LEN=1" -p "$port:8000" --ipc=host "$VLLM_IMAGE" \
       --model "$model_name" --gpu-memory-utilization "$gpu_util" \
       --max-model-len "$max_len" --trust-remote-code; then
