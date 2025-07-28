@@ -1,0 +1,48 @@
+{
+  "name": "TNI Personnel Records Dataset",
+  "description": "A BEIR-formatted retrieval dataset based on Indonesian Armed Forces (TNI) personnel records including identity cards, award certificates, promotion decrees, and other official documents.",
+  "version": "1.0",
+  "url": "",
+  "data_license": "",
+  "query_type": "Mixed (name search, award search, position search, date search, location search)",
+  "corpus": {
+    "total_docs": 138,
+    "avg_doc_len": 150,
+    "fields": ["_id", "text", "metadata"]
+  },
+  "queries": {
+    "total_queries": 72,
+    "avg_query_len": 15,
+    "fields": ["_id", "text", "metadata"]
+  },
+  "qrels": {
+    "train": {
+      "num_queries": 50,
+      "num_positive_qrels": 0,
+      "num_negative_qrels": 0,
+      "avg_rel_per_query": 0
+    },
+    "dev": {
+      "num_queries": 10,
+      "num_positive_qrels": 0,
+      "num_negative_qrels": 0,
+      "avg_rel_per_query": 0
+    },
+    "test": {
+      "num_queries": 12,
+      "num_positive_qrels": 0,
+      "num_negative_qrels": 0,
+      "avg_rel_per_query": 0
+    }
+  },
+  "document_types": [
+    "honor_award_decree_and_certificate",
+    "identity_card", 
+    "decree_on_implementation_order",
+    "rank_promotion_decree",
+    "taxpayer_identification_number"
+  ],
+  "languages": ["id"],
+  "domain": "Government Records",
+  "task_type": "retrieval"
+}
