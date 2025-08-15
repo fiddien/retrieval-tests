@@ -1,0 +1,18 @@
+{
+  "Qwen/Qwen2.5-7b-Instruct": {
+    "total_queries": 20,
+    "queries_with_translation": 0,
+    "avg_chinese_char_percentage": 0.0021390374331550803,
+    "avg_sentence_length": 9.697893847712924,
+    "avg_content_density": 0.787428193505062,
+    "avg_rouge1": 0.11405882690221732,
+    "avg_rouge2": 0.051012624179908414,
+    "avg_rougeL": 0.06095056988979255,
+    "avg_translated_chinese_char_percentage": 0.0,
+    "avg_translated_sentence_length": 0.0,
+    "avg_translated_content_density": 0.0,
+    "avg_translated_rouge1": 0.0,
+    "avg_translated_rouge2": 0.0,
+    "avg_translated_rougeL": 0.0
+  }
+}

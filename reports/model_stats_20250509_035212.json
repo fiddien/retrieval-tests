@@ -1,0 +1,11 @@
+{
+  "aisingapore/Llama-SEA-LION-v3.5-8B-R": {
+    "total_queries": 20,
+    "avg_chinese_char_percentage": 0.07210388088512704,
+    "avg_sentence_length": 9.247797436348261,
+    "avg_content_density": 0.947086304020905,
+    "avg_rouge1": 0.18729116774926688,
+    "avg_rouge2": 0.06910173529484642,
+    "avg_rougeL": 0.09391087180658744
+  }
+}

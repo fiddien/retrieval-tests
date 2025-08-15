@@ -1,0 +1,25 @@
+{
+  "Qwen/Qwen2.5-7b-Instruct": {
+    "total_queries": 20,
+    "queries_with_translation": 18,
+    "avg_chinese_char_percentage": 26.267981779249453,
+    "avg_sentence_length": 4.566918260598905,
+    "avg_content_density": 0.9186245582057943,
+    "avg_rouge1": 0.08590415349630928,
+    "avg_rouge2": 0.042255434293910245,
+    "avg_rougeL": 0.05407783129991155,
+    "avg_chinese_char_reduction": 29.157865311058956,
+    "avg_translation_efficiency": 16.961909083186445,
+    "total_chinese_char_reduction": 524.8415755990612,
+    "avg_translated_chinese_char_percentage": 0.028781110329329333,
+    "avg_translated_sentence_length": 41.62169460563859,
+    "avg_translated_content_density": 0.7711917253278608,
+    "avg_translated_rouge1": 0.08003420694867398,
+    "avg_translated_rouge2": 0.02891632266499591,
+    "avg_translated_rougeL": 0.04979827964011177,
+    "avg_generation_time": 13.608917546272277,
+    "avg_translation_time": 3.5269684261745877,
+    "total_generation_time": 272.17835092544556,
+    "total_translation_time": 63.48543167114258
+  }
+}

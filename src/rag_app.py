@@ -9,6 +9,7 @@ class RAGApplication:
         model_hosts: Dict[str, Tuple[str, str]],
         data_path: str = "raw_data/elasticsearch_chunks.json",
         target_lang: str = "English",
+        translator_hosts: Dict[str, Tuple[str, str]] = None,
     ):
         """
         Initialize RAG application with model-specific vLLM hosts
@@ -26,7 +27,7 @@ class RAGApplication:
             api_key=api_key,
             embedding_model=embedding_model,
         )
-        self.llm_evaluator = LLMEvaluator(model_hosts, target_lang)
+        self.llm_evaluator = LLMEvaluator(model_hosts, target_lang, translator_hosts)
 
     async def hybrid_search(self, query: str, top_k: int = 5) -> List[Dict]:
         """

@@ -15,6 +15,72 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 SUMMARY_SYSTEM_PROMPT = """\
+Kamu adalah asisten cerdas yang mengkhususkan diri dalam menganalisis profil dan memberikan wawasan berdasarkan basis data pengetahuan TNI Angkatan Udara (TNI-AU).
+Tugasmu adalah mengekstrak dan menyajikan detail relevan tentang personel TNI-AU secara ringkas namun komprehensif.
+
+Instruksi:
+Ringkas profil personel berdasarkan basis data pengetahuan yang diberikan.
+Sertakan informasi berikut (jika tersedia):
+1. Nama Lengkap & Pangkat
+2. Jabatan Saat Ini & Satuan
+3. Lama Pengabdian & Perkembangan Karier
+4. Pengalaman Operasional (misi tempur, operasi gabungan, peran komando)
+5. Pendidikan & Pelatihan (akademi militer, gelar lanjutan, kursus khusus)
+6. Keahlian Teknis (teknologi penerbangan, sistem persenjataan, perencanaan strategis)
+7. Prestasi & Penghargaan yang Menonjol
+
+Saat Menjawab:
+Jika informasi yang diminta tidak tersedia atau tidak relevan, sertakan kalimat:
+"Informasi yang Anda cari tidak ditemukan dalam basis data pengetahuan!"
+
+- Struktur jawaban dengan jelas, gunakan poin-poin, tabel, atau paragraf singkat sesuai kebutuhan untuk menonjolkan poin penting.
+- Gunakan headings Markdown untuk setiap bagian.
+- Tuliskan seluruh isi dalam Bahasa Indonesia, mengikuti gaya bahasa dari data sumber. Tulis headings dalam **Bahasa Mandarin**. Contoh: # 全名和职级
+
+Berikut adalah basis data pengetahuan:
+{knowledge}
+"""
+
+COMPARE_SUMMARY_SYSTEM_PROMPT = """\
+Anda adalah asisten cerdas yang mengkhususkan diri dalam menganalisis data personel dan membandingkan profil pengabdian berdasarkan basis data pengetahuan TNI Angkatan Udara (TNI-AU).
+
+Tugas Anda adalah menghasilkan ringkasan perbandingan profil personel TNI-AU yang ringkas dan informatif dengan menggunakan basis data yang tersedia.
+
+Instruksi:
+
+Ambil dan sajikan informasi berikut jika tersedia dalam basis data:
+
+1. Nama & Pangkat Saat Ini
+    (Nama lengkap dan pangkat terkini)
+2. Korps atau Kejuruan
+    (Korps atau spesialisasi militer)
+3. Riwayat Pendidikan Militer
+    - Daftar semua pendidikan dan program pelatihan militer formal maupun khusus yang pernah diikuti
+    - Sertakan tahun dan angkatan jika tersedia
+
+4. Riwayat Jabatan
+    - Daftar semua jabatan yang pernah dan sedang diemban oleh personel beserta tanggal
+    - Sertakan satuan/pangkalan dan rentang waktu jika tersedia
+
+5. Riwayat Kepangkatan
+    - Riwayat kenaikan pangkat beserta tanggal efektifnya
+
+6. Riwayat Tanda Jasa
+    - Penghargaan, tanda jasa, atau piagam kehormatan yang pernah diterima
+
+Format Keluaran:
+
+    - Tampilkan hanya bagian-bagian yang tersedia dalam catatan personel.
+    - Gunakan poin-poin atau bagian-bagian pendek berlabel untuk memperjelas informasi.
+    - Gunakan headings Markdown untuk setiap bagian.
+    - Tuliskan seluruh isi dalam Bahasa Indonesia, mengikuti gaya bahasa dari data sumber. Tulis headings dalam **Bahasa Mandarin**. Contoh: # 全名和职级
+    - Jangan menyertakan pesan placeholder untuk data yang tidak tersedia.
+
+Basis Data Pengetahuan:
+{knowledge}
+"""
+
+SUMMARY_SYSTEM_PROMPT_OLD = """\
 You are an intelligent assistant specializing in analyzing profiles and providing insights based on the Indonesian Air Force (TNI-AU) knowledge base. Your task is to extract and present relevant details about TNI-AU personnel in a concise yet comprehensive format."
 
 Instructions:
@@ -40,7 +106,7 @@ Here is the knowledge base:
 The above is the knowledge base.
 """
 
-COMPARE_SUMMARY_SYSTEM_PROMPT = """\
+COMPARE_SUMMARY_SYSTEM_PROMPT_OLD = """\
 You are an intelligent assistant specializing in analyzing personnel records and comparing service profiles based on the Indonesian Air Force (TNI-AU) knowledge base.
 
 Your task is to generate a **concise and informative profile comparison summary** of TNI-AU personnel using the knowledge base provided.
@@ -91,13 +157,14 @@ Extract and present the following information **if available** in the knowledge 
 
 
 class LLMEvaluator:
-    def __init__(self, model_hosts: Dict[str, str], target_lang: str):
+    def __init__(self, model_hosts: Dict[str, str], target_lang: str, translator_hosts: Dict[str, str]):
         """
         Initialize LLMEvaluator with a dictionary mapping model names to their vLLM hosts
         Args:
             model_hosts: Dict mapping model names to their vLLM host URLs
         """
         self.model_hosts = model_hosts
+        self.translator_hosts = translator_hosts
         self.SUMMARY_SYSTEM_PROMPTs = {
             "summary": SUMMARY_SYSTEM_PROMPT,
             "compare": COMPARE_SUMMARY_SYSTEM_PROMPT
@@ -207,17 +274,17 @@ class LLMEvaluator:
                 start_pos = c_chars[1][i]
                 substring = c_chars[0][i]
                 j = i + 1
-                
+
                 # Extend substring while characters are adjacent
                 while j < len(c_chars[1]) and c_chars[1][j] == c_chars[1][j-1] + 1:
                     substring += c_chars[0][j]
                     j += 1
-                
+
                 # Get context around the substring
                 context_start = max(0, start_pos - 10)
                 context_end = min(len(text_to_evaluate), start_pos + len(substring) + 10)
                 context = text_to_evaluate[context_start:context_end]
-                
+
                 connected_substrings.append({
                     "substring": substring,
                     "position": start_pos,
@@ -225,7 +292,7 @@ class LLMEvaluator:
                     "context": context
                 })
                 i = j
-            
+
             metrics = {
                 f"{prefix}chinese_char_count": len(c_chars[0]),
                 f"{prefix}chinese_char_percentage": chinese_char_percentage,
@@ -287,9 +354,7 @@ class LLMEvaluator:
         # If Chinese characters detected, translate and calculate metrics for translated text
         if evaluation["chinese_char_count"] > 0:
             logger.info("Starting translation process")
-            for model_name, (host, api_key) in self.model_hosts.items():
-                if "BGE" in model_name.upper():
-                    continue
+            for model_name, (host, api_key) in self.translator_hosts.items():
                 try:
                     logger.info(f"Attempting translation with model: {model_name}")
                     translated_text, translation_time = await self._translate_text(text, model_name)

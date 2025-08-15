@@ -1,0 +1,3315 @@
+[
+  {
+    "query_id": "cahyono_summary",
+    "query": "Give a full summary of FX Cahyono Wibowo",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\nNama lengkap: FX. Cahyono Wibowo  \nPangkat: Sertu\n\n# 当前职位及单位\nPosisi saat ini: Anggota Skatek 043 Lanud Adisutjipto  \nUnit: Lanud Adisutjipto\n\n# 服役年份与职业晋升历程\nTahun masuk TNI-AU: 1998  \nPeriode pendidikan dan pelatihan awal:\n- SMA BOPKRI Wanasari, Gunungkidul (1996)\n- Sekolah Bahasa Inggris Teknik, Lanud Sulaiman (1998)\n\nPangkat berubah menjadi:\n- Serda (1 Januari 1998)\n- Serma (April 2012)\n\n# 战斗经验（作战任务、联合行动、指挥角色）\nThe answer you are looking for is not found in the knowledge base!\n\n# 教育与培训（军事学院，高级学位，专业课程）\nPendidikan formal yang telah diikuti:\n- Sekolah Calon Bintara, Komando Pendidikan (Januari - Desember 1997)\n- Kursus Bintara Manajemen Kejuruan Pembekalan, Komando Pendidikan (Maret - Juni 2010)\n- Sekolah Bahasa Inggris Teknik, Lanud Sulaiman (Januari - September 1998)\n\nPelatihan lanjutan lainnya termasuk kursus bahasa Inggris teknikal dan sekolah calon bintara.\n\n# 技术专长（航空技术，武器系统，战略规划）\nThe answer you are looking for is not found in the knowledge base!\n\n# 突出成就与认可\nPrestasi tercatat:\n- Mendapatkan Satyalancana Kesetiaan 8 tahun pada tanggal 6 Desember 2015\n\nLainnya tidak ditemukan dalam basis pengetahuan!",
+    "translated_text": "# Nama Lengkap dan Golongan\nNama lengkap: FX. Cahyono Wibowo  \nGolongan: Sertu\n\n# Posisi Saat Ini dan Unit\nPosisi saat ini: Anggota Skatek 043 Lanud Adisutjipto  \nUnit: Lanud Adisutjipto\n\n# Tahun Masuk TNI-AU dan Perjalanan Karir\nTahun masuk TNI-AU: 1998  \nPeriode pendidikan dan pelatihan awal:\n- SMA BOPKRI Wanasari, Gunungkidul (1996)\n- Sekolah Bahasa Inggris Teknik, Lanud Sulaiman (1998)\n\nGolongan berubah menjadi:\n- Serda (1 Januari 1998)\n- Serma (April 2012)\n\n# Pengalaman Perang (Tugas Operasi, Operasi Bersama, Peran Pemimpin)\nJawaban yang Anda cari tidak ditemukan dalam basis pengetahuan!\n\n# Pendidikan dan Pelatihan (Akademi Militer, Gelar Pascasarjana, Kursus Profesional)\nPendidikan formal yang telah diikuti:\n- Sekolah Calon Bintara, Komando Pendidikan (Januari - Desember 1997)\n- Kursus Bintara Manajemen Kejuruan Pembekalan, Komando Pendidikan (Maret - Juni 2010)\n- Sekolah Bahasa Inggris Teknik, Lanud Sulaiman (Januari - September 1998)\n\nPelatihan lanjutan lainnya termasuk kursus bahasa Inggris teknikal dan sekolah calon bintara.\n\n# Keahlian Teknis (Teknologi Udara, Sistem Senjata, Perencanaan Strategis)\nJawaban yang Anda cari tidak ditemukan dalam basis pengetahuan!\n\n# Prestasi dan Pengakuan\nPrestasi tercatat:\n- Mendapatkan Satyalancana Kesetiaan 8 tahun pada tanggal 6 Desember 2015\n\nLainnya tidak ditemukan dalam basis pengetahuan!",
+    "metrics": {
+      "chinese_char_count": 79,
+      "chinese_char_percentage": 7.02846975088968,
+      "chinese_chars_found": "全名和职级当前职位及单位服役年份与职业晋升历程战斗经验作战任务联合行动指挥角色教育与培训军事学院高级学位专业课程技术专长航空技术武器系统战略规划突出成就与认可",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\nNama leng"
+        },
+        {
+          "substring": "当前职位及单位",
+          "position": 61,
+          "length": 7,
+          "context": " Sertu\n\n# 当前职位及单位\nPosisi sa"
+        },
+        {
+          "substring": "服役年份与职业晋升历程",
+          "position": 152,
+          "length": 11,
+          "context": "tjipto\n\n# 服役年份与职业晋升历程\nTahun mas"
+        },
+        {
+          "substring": "战斗经验",
+          "position": 402,
+          "length": 4,
+          "context": " 2012)\n\n# 战斗经验（作战任务、联合行动"
+        },
+        {
+          "substring": "作战任务",
+          "position": 407,
+          "length": 4,
+          "context": ")\n\n# 战斗经验（作战任务、联合行动、指挥角色"
+        },
+        {
+          "substring": "联合行动",
+          "position": 412,
+          "length": 4,
+          "context": "战斗经验（作战任务、联合行动、指挥角色）\nThe"
+        },
+        {
+          "substring": "指挥角色",
+          "position": 417,
+          "length": 4,
+          "context": "作战任务、联合行动、指挥角色）\nThe answ"
+        },
+        {
+          "substring": "教育与培训",
+          "position": 493,
+          "length": 5,
+          "context": " base!\n\n# 教育与培训（军事学院，高级学位"
+        },
+        {
+          "substring": "军事学院",
+          "position": 499,
+          "length": 4,
+          "context": "\n\n# 教育与培训（军事学院，高级学位，专业课程"
+        },
+        {
+          "substring": "高级学位",
+          "position": 504,
+          "length": 4,
+          "context": "育与培训（军事学院，高级学位，专业课程）\nPen"
+        },
+        {
+          "substring": "专业课程",
+          "position": 509,
+          "length": 4,
+          "context": "军事学院，高级学位，专业课程）\nPendidik"
+        },
+        {
+          "substring": "技术专长",
+          "position": 883,
+          "length": 4,
+          "context": "ntara.\n\n# 技术专长（航空技术，武器系统"
+        },
+        {
+          "substring": "航空技术",
+          "position": 888,
+          "length": 4,
+          "context": ".\n\n# 技术专长（航空技术，武器系统，战略规划"
+        },
+        {
+          "substring": "武器系统",
+          "position": 893,
+          "length": 4,
+          "context": "技术专长（航空技术，武器系统，战略规划）\nThe"
+        },
+        {
+          "substring": "战略规划",
+          "position": 898,
+          "length": 4,
+          "context": "航空技术，武器系统，战略规划）\nThe answ"
+        },
+        {
+          "substring": "突出成就与认可",
+          "position": 974,
+          "length": 7,
+          "context": " base!\n\n# 突出成就与认可\nPrestasi "
+        }
+      ],
+      "average_sentence_length": 5.586206896551724,
+      "token_count": 162,
+      "compression_ratio": 0.17363344051446947,
+      "content_density": 0.9135802469135802,
+      "rouge_scores": {
+        "rouge1": 0.08012326656394451,
+        "rouge2": 0.037017994858611826,
+        "rougeL": 0.04725218284540318
+      },
+      "generation_time": 11.36325478553772,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 6.551724137931035,
+      "translated_token_count": 190,
+      "translated_compression_ratio": 0.20364415862808147,
+      "translated_content_density": 0.8315789473684211,
+      "translated_rouge_scores": {
+        "rouge1": 0.08774583963691378,
+        "rouge2": 0.0353356890459364,
+        "rougeL": 0.048411497730711045
+      },
+      "translation_time": 11.68708062171936
+    }
+  },
+  {
+    "query_id": "ardi_summary",
+    "query": "Give a full summary of Ardi Adrian Pualam Sakti",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\nNama lengkap: Ardi Ardian Pualam Sakti  \nPangkat: Kapten Tek NRP 533633\n\n# 当前职位及单位\nPosisi saat ini: Kadok B Satmar 11 Depohar 10  \nUnit saat ini: TNI-AU (Tentara Nasional Indonesia Angkatan Udara)\n\n# 服役年份与职业晋升\n- Lulus Akademi Angkatan Udara pada tahun 2005.\n- Diterbitkan sebagai Letda Tek pada tahun 2006.\n- Dipromosikan menjadi Kapten Tek pada beberapa waktu yang belum ditentukan.\n\n# 战斗经验（作战任务、联合行动、指挥角色）\n- 答案您正在寻找的信息未在知识库中找到！\n\n# 教育与培训（军事学院，高级学位，专业课程）\n| 培训项目 | 学校名称 | 开始日期 | 结束日期 |\n| --- | --- | --- | --- |\n| SD   | Negeri Limbangan I, Limbangan, Kendal    | 1996年2月7日     | -       |\n| SMA   | SMU Taruna Nusantara, Magelang           | 2002年6月14日    | -       |\n| 飞行技术培训   | Akademi Angkatan Udara                    | 1984年8月28日至2005年12月1日      |-        |\n| 工程技术培训   | Komando Pendidikan                        |-          |-        |\n\n# 技术专长（航空技术，武器系统，战略规划）\n- 答案您正在寻找的信息未在知识库中找到！\n\n# 成就与认可\n- 获得“Satyalancana Keshetiaan”勋章于2014年4月3日。\n\n以上是关于Ardi Ardian Pualam Sakti的详细信息总结。",
+    "translated_text": "# Nama lengkap dan Pangkat\nNama lengkap: Ardi Ardian Pualam Sakti  \nPangkat: Kapten Tek NRP 533633\n\n# Posisi dan Unit saat ini\nPosisi saat ini: Kadok B Satmar 11 Depohar 10  \nUnit saat ini: TNI-AU (Tentara Nasional Indonesia Angkatan Udara)\n\n# Tahun Kerja dan Peningkatan Karir\n- Lulus Akademi Angkatan Udara pada tahun 2005.\n- Diterbitkan sebagai Letda Tek pada tahun 2006.\n- Dipromosikan menjadi Kapten Tek pada beberapa waktu yang belum ditentukan.\n\n# Pengalaman Perang (Tugas Operasi, Operasi Bersama, Peran Pemimpin)\n- Jawaban untuk informasi yang Anda cari tidak ditemukan di basis data!\n\n# Pendidikan dan Pelatihan (Akademi Militer, Gelar Pascasarjana, Kursus Profesional)\n| Program Pelatihan | Nama Sekolah | Tanggal Mulai | Tanggal Selesai |\n| --- | --- | --- | --- |\n| SD   | Negeri Limbangan I, Limbangan, Kendal    | 7 Februari 1996     | -       |\n| SMA   | SMU Taruna Nusantara, Magelang           | 14 Juni 2002    | -       |\n| Pelatihan Teknik Penerbangan   | Akademi Angkatan Udara                    | 28 Agustus 1984 hingga 1 Desember 2005      |-        |\n| Pelatihan Teknik Mesin   | Komando Pendidikan                        |-          |-        |\n\n# Keahlian Teknis (Teknologi Penerbangan, Sistem Senjata, Perencanaan Strategis)\n- Jawaban untuk informasi yang Anda cari tidak ditemukan di basis data!\n\n# Prestasi dan Penghargaan\n- Mendapatkan Medali \"Satyalancana Keshetiaan\" pada tanggal 3 April 2014.\n\nInformasi di atas adalah ringkasan detail tentang Ardi Ardian Pualam Sakti.",
+    "metrics": {
+      "chinese_char_count": 172,
+      "chinese_char_percentage": 17.426545086119553,
+      "chinese_chars_found": "全名和职级当前职位及单位服役年份与职业晋升战斗经验作战任务联合行动指挥角色答案您正在寻找的信息未在知识库中找到教育与培训军事学院高级学位专业课程培训项目学校名称开始日期结束日期年月日年月日飞行技术培训年月日至年月日工程技术培训技术专长航空技术武器系统战略规划答案您正在寻找的信息未在知识库中找到成就与认可获得勋章于年月日以上是关于的详细信息总结",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\nNama leng"
+        },
+        {
+          "substring": "当前职位及单位",
+          "position": 83,
+          "length": 7,
+          "context": "533633\n\n# 当前职位及单位\nPosisi sa"
+        },
+        {
+          "substring": "服役年份与职业晋升",
+          "position": 208,
+          "length": 9,
+          "context": "Udara)\n\n# 服役年份与职业晋升\n- Lulus A"
+        },
+        {
+          "substring": "战斗经验",
+          "position": 395,
+          "length": 4,
+          "context": "tukan.\n\n# 战斗经验（作战任务、联合行动"
+        },
+        {
+          "substring": "作战任务",
+          "position": 400,
+          "length": 4,
+          "context": ".\n\n# 战斗经验（作战任务、联合行动、指挥角色"
+        },
+        {
+          "substring": "联合行动",
+          "position": 405,
+          "length": 4,
+          "context": "战斗经验（作战任务、联合行动、指挥角色）\n- 答"
+        },
+        {
+          "substring": "指挥角色",
+          "position": 410,
+          "length": 4,
+          "context": "作战任务、联合行动、指挥角色）\n- 答案您正在寻"
+        },
+        {
+          "substring": "答案您正在寻找的信息未在知识库中找到",
+          "position": 418,
+          "length": 18,
+          "context": "动、指挥角色）\n- 答案您正在寻找的信息未在知识库中找到！\n\n# 教育与培训"
+        },
+        {
+          "substring": "教育与培训",
+          "position": 441,
+          "length": 5,
+          "context": "识库中找到！\n\n# 教育与培训（军事学院，高级学位"
+        },
+        {
+          "substring": "军事学院",
+          "position": 447,
+          "length": 4,
+          "context": "\n\n# 教育与培训（军事学院，高级学位，专业课程"
+        },
+        {
+          "substring": "高级学位",
+          "position": 452,
+          "length": 4,
+          "context": "育与培训（军事学院，高级学位，专业课程）\n| 培"
+        },
+        {
+          "substring": "专业课程",
+          "position": 457,
+          "length": 4,
+          "context": "军事学院，高级学位，专业课程）\n| 培训项目 |"
+        },
+        {
+          "substring": "培训项目",
+          "position": 465,
+          "length": 4,
+          "context": "位，专业课程）\n| 培训项目 | 学校名称 | "
+        },
+        {
+          "substring": "学校名称",
+          "position": 472,
+          "length": 4,
+          "context": "\n| 培训项目 | 学校名称 | 开始日期 | "
+        },
+        {
+          "substring": "开始日期",
+          "position": 479,
+          "length": 4,
+          "context": " | 学校名称 | 开始日期 | 结束日期 |\n"
+        },
+        {
+          "substring": "结束日期",
+          "position": 486,
+          "length": 4,
+          "context": " | 开始日期 | 结束日期 |\n| --- |"
+        },
+        {
+          "substring": "年",
+          "position": 575,
+          "length": 1,
+          "context": "    | 1996年2月7日     |"
+        },
+        {
+          "substring": "月",
+          "position": 577,
+          "length": 1,
+          "context": "  | 1996年2月7日     | -"
+        },
+        {
+          "substring": "日",
+          "position": 579,
+          "length": 1,
+          "context": "| 1996年2月7日     | -  "
+        },
+        {
+          "substring": "年",
+          "position": 654,
+          "length": 1,
+          "context": "    | 2002年6月14日    |"
+        },
+        {
+          "substring": "月",
+          "position": 656,
+          "length": 1,
+          "context": "  | 2002年6月14日    | -"
+        },
+        {
+          "substring": "日",
+          "position": 659,
+          "length": 1,
+          "context": " 2002年6月14日    | -   "
+        },
+        {
+          "substring": "飞行技术培训",
+          "position": 678,
+          "length": 6,
+          "context": "      |\n| 飞行技术培训   | Akade"
+        },
+        {
+          "substring": "年",
+          "position": 737,
+          "length": 1,
+          "context": "    | 1984年8月28日至2005"
+        },
+        {
+          "substring": "月",
+          "position": 739,
+          "length": 1,
+          "context": "  | 1984年8月28日至2005年1"
+        },
+        {
+          "substring": "日至",
+          "position": 742,
+          "length": 2,
+          "context": " 1984年8月28日至2005年12月1日"
+        },
+        {
+          "substring": "年",
+          "position": 748,
+          "length": 1,
+          "context": "8月28日至2005年12月1日     "
+        },
+        {
+          "substring": "月",
+          "position": 751,
+          "length": 1,
+          "context": "8日至2005年12月1日      |-"
+        },
+        {
+          "substring": "日",
+          "position": 753,
+          "length": 1,
+          "context": "至2005年12月1日      |-  "
+        },
+        {
+          "substring": "工程技术培训",
+          "position": 774,
+          "length": 6,
+          "context": "      |\n| 工程技术培训   | Koman"
+        },
+        {
+          "substring": "技术专长",
+          "position": 854,
+          "length": 4,
+          "context": "     |\n\n# 技术专长（航空技术，武器系统"
+        },
+        {
+          "substring": "航空技术",
+          "position": 859,
+          "length": 4,
+          "context": "|\n\n# 技术专长（航空技术，武器系统，战略规划"
+        },
+        {
+          "substring": "武器系统",
+          "position": 864,
+          "length": 4,
+          "context": "技术专长（航空技术，武器系统，战略规划）\n- 答"
+        },
+        {
+          "substring": "战略规划",
+          "position": 869,
+          "length": 4,
+          "context": "航空技术，武器系统，战略规划）\n- 答案您正在寻"
+        },
+        {
+          "substring": "答案您正在寻找的信息未在知识库中找到",
+          "position": 877,
+          "length": 18,
+          "context": "统，战略规划）\n- 答案您正在寻找的信息未在知识库中找到！\n\n# 成就与认可"
+        },
+        {
+          "substring": "成就与认可",
+          "position": 900,
+          "length": 5,
+          "context": "识库中找到！\n\n# 成就与认可\n- 获得“Saty"
+        },
+        {
+          "substring": "获得",
+          "position": 908,
+          "length": 2,
+          "context": "# 成就与认可\n- 获得“Satyalanc"
+        },
+        {
+          "substring": "勋章于",
+          "position": 935,
+          "length": 3,
+          "context": "eshetiaan”勋章于2014年4月3日。"
+        },
+        {
+          "substring": "年",
+          "position": 942,
+          "length": 1,
+          "context": "an”勋章于2014年4月3日。\n\n以上是"
+        },
+        {
+          "substring": "月",
+          "position": 944,
+          "length": 1,
+          "context": "”勋章于2014年4月3日。\n\n以上是关于"
+        },
+        {
+          "substring": "日",
+          "position": 946,
+          "length": 1,
+          "context": "章于2014年4月3日。\n\n以上是关于Ar"
+        },
+        {
+          "substring": "以上是关于",
+          "position": 950,
+          "length": 5,
+          "context": "14年4月3日。\n\n以上是关于Ardi Ardia"
+        },
+        {
+          "substring": "的详细信息总结",
+          "position": 979,
+          "length": 7,
+          "context": "alam Sakti的详细信息总结。"
+        }
+      ],
+      "average_sentence_length": 5.916666666666667,
+      "token_count": 142,
+      "compression_ratio": 0.1761786600496278,
+      "content_density": 0.9084507042253521,
+      "rouge_scores": {
+        "rouge1": 0.07566204287515764,
+        "rouge2": 0.03282828282828283,
+        "rougeL": 0.045397225725094574
+      },
+      "generation_time": 11.430192708969116,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 9.541666666666666,
+      "translated_token_count": 229,
+      "translated_compression_ratio": 0.2841191066997519,
+      "translated_content_density": 0.8209606986899564,
+      "translated_rouge_scores": {
+        "rouge1": 0.10023866348448687,
+        "rouge2": 0.04420549581839904,
+        "rougeL": 0.060859188544152745
+      },
+      "translation_time": 12.07086730003357
+    }
+  },
+  {
+    "query_id": "edi_summary",
+    "query": "Give a full summary of Edi Suyono",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\nNama lengkap: Edi Suyono  \nPangkat: Serda (Sertu)\n\n# 当前职位及单位\nPosisi saat ini: Anggota Skatek 042 Lanud Iswahjudi\n\n# 服役年份与职业晋升\nTahun masuk TNI-AU: 1993  \nPeriode pendidikan dan pelatihan di Komando Pendidikan (1998): SERDA  \nPromosi ke posisi berikutnya (2012): SERMA  \n\n# 战斗经验（作战任务、联合行动、指挥角色）\nThe answer you are looking for is not found in the knowledge base!\n\n# 教育与培训（军事学院，高级学位，专业课程）\n- **Sekolah Menengah Umum Tingkat Pertama (SMP)**, SMP 2, Sidoharjo, Wonogiri - Lulus pada 15 Februari 1992  \n- **Sekolah Menengah Umum Tingkat Atas (SMA)**, SMA 3 Wonogiri - Lulus pada 26 Mei 1995  \n- **Komando Pendidikan**, Sekolah Bahasa Inggris Teknik - Mulai tanggal 19 Januari 1998 hingga selesai pada tanggal 28 September 1998  \n- **Komando Pendidikan**, Sekolah Dasar Kejuruan Teknik - Mulai tanggal 28 September 1998 hingga selesai pada tanggal 24 Maret 1999  \n- **Komando Komando Pendidikan**, Sekolah Calon Bintara - Mulai tanggal 12 Agustus 1977 hingga selesai pada tanggal September tahun yang tidak jelas tetapi lebih dari satu tahun setelah lulus SMA  \n\n# 技术专长（航空技术、武器系统、战略规划）\nThe answer you are looking for is not found in the knowledge base!\n\n# 成就与认可\nEdi Suyono menerima penghargaan Satyalancana Kesetiaan selama delapan tahun. Penghargaan tersebut diberikan pada tanggal [06 Desember] [Tahun].\n\n以上是关于 Edi Suyono 的详细总结。",
+    "translated_text": "# Nama Lengkap dan Golongan\nNama lengkap: Edi Suyono  \nGolongan: Serda (Sertu)\n\n# Posisi Saat Ini dan Satuan\nPosisi saat ini: Anggota Skatek 042 Lanud Iswahjudi\n\n# Tahun Masuk TNI-AU dan Peningkatan Karir\nTahun masuk TNI-AU: 1993  \nPeriode pendidikan dan pelatihan di Komando Pendidikan (1998): SERDA  \nPromosi ke posisi berikutnya (2012): SERMA  \n\n# Pengalaman Perang (Tugas Operasi, Operasi Bersama, Peran Pemimpin)\nJawaban yang Anda cari tidak ditemukan dalam basis data!\n\n# Pendidikan dan Pelatihan (Akademi Militer, Gelar Pascasarjana, Kursus Profesional)\n- **Sekolah Menengah Umum Tingkat Pertama (SMP)**, SMP 2, Sidoharjo, Wonogiri - Lulus pada 15 Februari 1992  \n- **Sekolah Menengah Umum Tingkat Atas (SMA)**, SMA 3 Wonogiri - Lulus pada 26 Mei 1995  \n- **Komando Pendidikan**, Sekolah Bahasa Inggris Teknik - Mulai tanggal 19 Januari 1998 hingga selesai pada tanggal 28 September 1998  \n- **Komando Pendidikan**, Sekolah Dasar Kejuruan Teknik - Mulai tanggal 28 September 1998 hingga selesai pada tanggal 24 Maret 1999  \n- **Komando Komando Pendidikan**, Sekolah Calon Bintara - Mulai tanggal 12 Agustus 1977 hingga selesai pada tanggal September tahun yang tidak jelas tetapi lebih dari satu tahun setelah lulus SMA  \n\n# Keahlian Teknis (Teknologi Udara, Sistem Senjata, Penyusunan Strategi)\nJawaban yang Anda cari tidak ditemukan dalam basis data!\n\n# Prestasi dan Pengakuan\nEdi Suyono menerima penghargaan Satyalancana Kesetiaan selama delapan tahun. Penghargaan tersebut diberikan pada tanggal [06 Desember] [Tahun].\n\nInformasi di atas adalah ringkasan detail tentang Edi Suyono.",
+    "metrics": {
+      "chinese_char_count": 85,
+      "chinese_char_percentage": 6.3957863054928525,
+      "chinese_chars_found": "全名和职级当前职位及单位服役年份与职业晋升战斗经验作战任务联合行动指挥角色教育与培训军事学院高级学位专业课程技术专长航空技术武器系统战略规划成就与认可以上是关于的详细总结",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\nNama leng"
+        },
+        {
+          "substring": "当前职位及单位",
+          "position": 61,
+          "length": 7,
+          "context": "Sertu)\n\n# 当前职位及单位\nPosisi sa"
+        },
+        {
+          "substring": "服役年份与职业晋升",
+          "position": 124,
+          "length": 9,
+          "context": "ahjudi\n\n# 服役年份与职业晋升\nTahun mas"
+        },
+        {
+          "substring": "战斗经验",
+          "position": 280,
+          "length": 4,
+          "context": "ERMA  \n\n# 战斗经验（作战任务、联合行动"
+        },
+        {
+          "substring": "作战任务",
+          "position": 285,
+          "length": 4,
+          "context": " \n\n# 战斗经验（作战任务、联合行动、指挥角色"
+        },
+        {
+          "substring": "联合行动",
+          "position": 290,
+          "length": 4,
+          "context": "战斗经验（作战任务、联合行动、指挥角色）\nThe"
+        },
+        {
+          "substring": "指挥角色",
+          "position": 295,
+          "length": 4,
+          "context": "作战任务、联合行动、指挥角色）\nThe answ"
+        },
+        {
+          "substring": "教育与培训",
+          "position": 371,
+          "length": 5,
+          "context": " base!\n\n# 教育与培训（军事学院，高级学位"
+        },
+        {
+          "substring": "军事学院",
+          "position": 377,
+          "length": 4,
+          "context": "\n\n# 教育与培训（军事学院，高级学位，专业课程"
+        },
+        {
+          "substring": "高级学位",
+          "position": 382,
+          "length": 4,
+          "context": "育与培训（军事学院，高级学位，专业课程）\n- *"
+        },
+        {
+          "substring": "专业课程",
+          "position": 387,
+          "length": 4,
+          "context": "军事学院，高级学位，专业课程）\n- **Seko"
+        },
+        {
+          "substring": "技术专长",
+          "position": 1064,
+          "length": 4,
+          "context": " SMA  \n\n# 技术专长（航空技术、武器系统"
+        },
+        {
+          "substring": "航空技术",
+          "position": 1069,
+          "length": 4,
+          "context": " \n\n# 技术专长（航空技术、武器系统、战略规划"
+        },
+        {
+          "substring": "武器系统",
+          "position": 1074,
+          "length": 4,
+          "context": "技术专长（航空技术、武器系统、战略规划）\nThe"
+        },
+        {
+          "substring": "战略规划",
+          "position": 1079,
+          "length": 4,
+          "context": "航空技术、武器系统、战略规划）\nThe answ"
+        },
+        {
+          "substring": "成就与认可",
+          "position": 1155,
+          "length": 5,
+          "context": " base!\n\n# 成就与认可\nEdi Suyon"
+        },
+        {
+          "substring": "以上是关于",
+          "position": 1306,
+          "length": 5,
+          "context": "[Tahun].\n\n以上是关于 Edi Suyon"
+        },
+        {
+          "substring": "的详细总结",
+          "position": 1323,
+          "length": 5,
+          "context": "di Suyono 的详细总结。"
+        }
+      ],
+      "average_sentence_length": 8.608695652173912,
+      "token_count": 198,
+      "compression_ratio": 0.2131324004305705,
+      "content_density": 0.8232323232323232,
+      "rouge_scores": {
+        "rouge1": 0.10174563591022444,
+        "rouge2": 0.05192211682476286,
+        "rougeL": 0.07680798004987532
+      },
+      "generation_time": 12.849249362945557,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 10.043478260869565,
+      "translated_token_count": 231,
+      "translated_compression_ratio": 0.24865446716899892,
+      "translated_content_density": 0.7532467532467533,
+      "translated_rouge_scores": {
+        "rouge1": 0.10839843749999999,
+        "rouge2": 0.04985337243401759,
+        "rougeL": 0.076171875
+      },
+      "translation_time": 13.279226064682007
+    }
+  },
+  {
+    "query_id": "amin_summary",
+    "query": "Give me a full summary of Amin Rahardjo",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "The answer you are looking for is not found in the knowledge base!",
+    "translated_text": "",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "chinese_chars_found": "",
+      "chinese_substrings": [],
+      "average_sentence_length": 13.0,
+      "token_count": 13,
+      "compression_ratio": 0.16666666666666666,
+      "content_density": 1.0,
+      "rouge_scores": {
+        "rouge1": 0.0,
+        "rouge2": 0.0,
+        "rougeL": 0.0
+      },
+      "generation_time": 0.45830464363098145
+    }
+  },
+  {
+    "query_id": "rudito_summary",
+    "query": "Give me a full summary of Rudito Dwi Wibowo",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\nNama lengkap: Rudito Dwi Wibowo  \nPangkat: Mayor Tek\n\n# 当前职位及单位\nPosisi saat ini: Kasi AS-202/R-172, Disaeroau  \nUnit: Lanud Adi\n\n# 服役年份与职业晋升\nTahun masuk TNI-AU: 1995  \nTahun pendidikan di Akademi TNI Angkatan Udara (Yogyakarta): 1995  \nPangkat terakhir diperoleh: Mayor Tek (NRP 520266)\n\n# 战斗经验（作战任务、联合行动、指挥角色）\n- Milobs pada misi MONUC di Kongo (2007)\n- Dansathar 11 Depohar 10 Hsn (sebelumnya)  \n\n# 教育与培训（军事学院，高级学位，专业课程）\n- Sekolah Staf dan Komando Angkatan Udara, Lembang, November 2010\n- Akademi TNI Angkatan Udara, Yogya, Juli 1995\n\n# 技术专长（航空技术，武器系统，战略规划）\n未找到相关信息。\n\n# 突出成就与认可\n- Satyalancana Santi Dharma (27 Desember 2007)\n- Satyalancana Dwidyasista (6 Oktober 2011)\n- Satyalancana Ketiaan (19 April 2012)\n\nThe answer you are looking for is not found in the knowledge base!",
+    "translated_text": "# Nama Lengkap dan Pangkat\nNama lengkap: Rudito Dwi Wibowo  \nPangkat: Mayor Tek\n\n# Posisi Saat Ini dan Unit\nPosisi saat ini: Kasi AS-202/R-172, Disaeroau  \nUnit: Lanud Adi\n\n# Tahun Masa Tugas dan Penyandang Pangkat\nTahun masuk TNI-AU: 1995  \nTahun pendidikan di Akademi TNI Angkatan Udara (Yogyakarta): 1995  \nPangkat terakhir diperoleh: Mayor Tek (NRP 520266)\n\n# Pengalaman Perang (Tugas Operasi, Operasi Bersama, Peran Pemimpin)\n- Milobs pada misi MONUC di Kongo (2007)\n- Dansathar 11 Depohar 10 Hsn (sebelumnya)  \n\n# Pendidikan dan Pelatihan (Akademi Militer, Gelar Pascasarjana, Kursus Spesialis)\n- Sekolah Staf dan Komando Angkatan Udara, Lembang, November 2010\n- Akademi TNI Angkatan Udara, Yogya, Juli 1995\n\n# Keahlian Teknis (Teknik Udara, Sistem Senjata, Perencanaan Strategis)\nTidak ditemukan informasi yang relevan.\n\n# Prestasi dan Penghargaan\n- Satyalancana Santi Dharma (27 Desember 2007)\n- Satyalancana Dwidyasista (6 Oktober 2011)\n- Satyalancana Ketiaan (19 April 2012)\n\nThe answer you are looking for is not found in the knowledge base!",
+    "metrics": {
+      "chinese_char_count": 84,
+      "chinese_char_percentage": 10.714285714285714,
+      "chinese_chars_found": "全名和职级当前职位及单位服役年份与职业晋升战斗经验作战任务联合行动指挥角色教育与培训军事学院高级学位专业课程技术专长航空技术武器系统战略规划未找到相关信息突出成就与认可",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\nNama leng"
+        },
+        {
+          "substring": "当前职位及单位",
+          "position": 64,
+          "length": 7,
+          "context": "or Tek\n\n# 当前职位及单位\nPosisi sa"
+        },
+        {
+          "substring": "服役年份与职业晋升",
+          "position": 139,
+          "length": 9,
+          "context": "ud Adi\n\n# 服役年份与职业晋升\nTahun mas"
+        },
+        {
+          "substring": "战斗经验",
+          "position": 298,
+          "length": 4,
+          "context": "20266)\n\n# 战斗经验（作战任务、联合行动"
+        },
+        {
+          "substring": "作战任务",
+          "position": 303,
+          "length": 4,
+          "context": ")\n\n# 战斗经验（作战任务、联合行动、指挥角色"
+        },
+        {
+          "substring": "联合行动",
+          "position": 308,
+          "length": 4,
+          "context": "战斗经验（作战任务、联合行动、指挥角色）\n- M"
+        },
+        {
+          "substring": "指挥角色",
+          "position": 313,
+          "length": 4,
+          "context": "作战任务、联合行动、指挥角色）\n- Milobs"
+        },
+        {
+          "substring": "教育与培训",
+          "position": 408,
+          "length": 5,
+          "context": "nya)  \n\n# 教育与培训（军事学院，高级学位"
+        },
+        {
+          "substring": "军事学院",
+          "position": 414,
+          "length": 4,
+          "context": "\n\n# 教育与培训（军事学院，高级学位，专业课程"
+        },
+        {
+          "substring": "高级学位",
+          "position": 419,
+          "length": 4,
+          "context": "育与培训（军事学院，高级学位，专业课程）\n- S"
+        },
+        {
+          "substring": "专业课程",
+          "position": 424,
+          "length": 4,
+          "context": "军事学院，高级学位，专业课程）\n- Sekola"
+        },
+        {
+          "substring": "技术专长",
+          "position": 546,
+          "length": 4,
+          "context": "i 1995\n\n# 技术专长（航空技术，武器系统"
+        },
+        {
+          "substring": "航空技术",
+          "position": 551,
+          "length": 4,
+          "context": "5\n\n# 技术专长（航空技术，武器系统，战略规划"
+        },
+        {
+          "substring": "武器系统",
+          "position": 556,
+          "length": 4,
+          "context": "技术专长（航空技术，武器系统，战略规划）\n未找到"
+        },
+        {
+          "substring": "战略规划",
+          "position": 561,
+          "length": 4,
+          "context": "航空技术，武器系统，战略规划）\n未找到相关信息。"
+        },
+        {
+          "substring": "未找到相关信息",
+          "position": 567,
+          "length": 7,
+          "context": "器系统，战略规划）\n未找到相关信息。\n\n# 突出成就与"
+        },
+        {
+          "substring": "突出成就与认可",
+          "position": 579,
+          "length": 7,
+          "context": "到相关信息。\n\n# 突出成就与认可\n- Satyala"
+        }
+      ],
+      "average_sentence_length": 5.086956521739131,
+      "token_count": 117,
+      "compression_ratio": 0.09906858594411516,
+      "content_density": 0.9316239316239316,
+      "rouge_scores": {
+        "rouge1": 0.060632688927943754,
+        "rouge2": 0.03430079155672823,
+        "rougeL": 0.03163444639718805
+      },
+      "generation_time": 9.7975172996521,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 6.826086956521739,
+      "translated_token_count": 157,
+      "translated_compression_ratio": 0.13293818797629128,
+      "translated_content_density": 0.8789808917197452,
+      "translated_rouge_scores": {
+        "rouge1": 0.06970740103270222,
+        "rouge2": 0.03531438415159345,
+        "rougeL": 0.0378657487091222
+      },
+      "translation_time": 9.79326581954956
+    }
+  },
+  {
+    "query_id": "cahyono_id_summary",
+    "query": "Tolong berikan informasi lengkap mengenai FX Cahyono Wibowo",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\nNama lengkap: FX. Cahyono Wibowo  \nPangkat: Serma\n\n# 当前职位及单位\nPosisi saat ini: Anggota TB Skatek 043 Lanud Adisutjipto\n\n# 服役年份与职业晋升历程\nTahun pendaftaran sebagai prajurit: 1998  \nPangkat terakhir dinyatakan: Serma (2012)\n\n# 战斗经验（作战任务、联合行动、指挥角色）\n- 答案您所寻找的信息未在知识库中找到！\n\n# 教育与培训（军事学院，高级学位，专业课程）\n- **Sekolah Calon Bintara**: \n  - Nomor ijazah: 2-2925/SECABA PK/XXI/98\n  - Tanggal lulus: 9 Januari 1998\n  \n- **Komando Pendidikan**:\n  - Sekolah Bahasa Inggris Teknik:\n    - Nomor ijazah: JN-03212\n    - Tanggal lulus: 5 Agustus 2003\n    \n- **Komando Komando Pendidikan**:\n   - Kursus Bintara Manajemen Kejuruan Pembekalan:\n     - Nomor ijazah: No.78/SBIT/XXV/98\n     - Tanggal lulus: September, 1998\n\n# 技术专长（航空技术，武器系统，战略规划）\n- 答案您所寻找的信息未在知识库中找到！\n\n# 成就与认可\n- Satyalancana Kesetiaan (Satya Lencana Setia) untuk kesebelas tahun layanan (diterima pada tanggal yang tidak ditentukan dalam data)\n- Satyalancana Kesetiaan delapan tahun (terima pada tanggal 15 Desember, tahun yang tidak ditentukan dalam data)\n\n---\n\nDengan informasi yang tersedia, dapat diketahui bahwa FX Cahyono Wibowo telah menempuh pendidikan di berbagai akademi militer dan telah mendapatkan beberapa penghargaan setia dari TNI-AU. Namun, detail lebih lanjut tentang pengalaman operasionalnya belum disebutkan dalam knowledge base tersebut.",
+    "translated_text": "# Nama Lengkap dan Golongan\nNama lengkap: FX. Cahyono Wibowo  \nGolongan: Serma\n\n# Posisi Saat Ini dan Satuan\nPosisi saat ini: Anggota TB Skatek 043 Lanud Adisutjipto\n\n# Tahun Pendaftaran dan Penugasan Golongan Terakhir\nTahun pendaftaran sebagai prajurit: 1998  \nGolongan terakhir dinyatakan: Serma (2012)\n\n# Pengalaman Perang (Tugas Operasi, Operasi Bersama, Peran Pemimpin)\n- Jawaban untuk informasi yang Anda cari tidak ditemukan di basis data!\n\n# Pendidikan dan Pelatihan (Akademi Militer, Gelar Pascasarjana, Kursus Profesional)\n- **Sekolah Calon Bintara**: \n  - Nomor ijazah: 2-2925/SECABA PK/XXI/98\n  - Tanggal lulus: 9 Januari 1998\n  \n- **Komando Pendidikan**:\n  - Sekolah Bahasa Inggris Teknik:\n    - Nomor ijazah: JN-03212\n    - Tanggal lulus: 5 Agustus 2003\n    \n- **Komando Komando Pendidikan**:\n   - Kursus Bintara Manajemen Kejuruan Pembekalan:\n     - Nomor ijazah: No.78/SBIT/XXV/98\n     - Tanggal lulus: September, 1998\n\n# Keahlian Teknis (Teknologi Udara, Sistem Senjata, Perencanaan Strategis)\n- Jawaban untuk informasi yang Anda cari tidak ditemukan di basis data!\n\n# Prestasi dan Penghargaan\n- Satyalancana Kesetiaan (Satya Lencana Setia) untuk sebelas tahun layanan (diterima pada tanggal yang tidak ditentukan dalam data)\n- Satyalancana Kesetiaan delapan tahun (terima pada tanggal 15 Desember, tahun yang tidak ditentukan dalam data)\n\n---\n\nDengan informasi yang tersedia, dapat diketahui bahwa FX Cahyono Wibowo telah menempuh pendidikan di berbagai akademi militer dan telah mendapatkan beberapa penghargaan setia dari TNI-AU. Namun, detail lebih lanjut tentang pengalaman operasionalnya belum disebutkan di basis data tersebut.",
+    "metrics": {
+      "chinese_char_count": 111,
+      "chinese_char_percentage": 8.531898539584935,
+      "chinese_chars_found": "全名和职级当前职位及单位服役年份与职业晋升历程战斗经验作战任务联合行动指挥角色答案您所寻找的信息未在知识库中找到教育与培训军事学院高级学位专业课程技术专长航空技术武器系统战略规划答案您所寻找的信息未在知识库中找到成就与认可",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\nNama leng"
+        },
+        {
+          "substring": "当前职位及单位",
+          "position": 61,
+          "length": 7,
+          "context": " Serma\n\n# 当前职位及单位\nPosisi sa"
+        },
+        {
+          "substring": "服役年份与职业晋升历程",
+          "position": 129,
+          "length": 11,
+          "context": "tjipto\n\n# 服役年份与职业晋升历程\nTahun pen"
+        },
+        {
+          "substring": "战斗经验",
+          "position": 229,
+          "length": 4,
+          "context": "(2012)\n\n# 战斗经验（作战任务、联合行动"
+        },
+        {
+          "substring": "作战任务",
+          "position": 234,
+          "length": 4,
+          "context": ")\n\n# 战斗经验（作战任务、联合行动、指挥角色"
+        },
+        {
+          "substring": "联合行动",
+          "position": 239,
+          "length": 4,
+          "context": "战斗经验（作战任务、联合行动、指挥角色）\n- 答"
+        },
+        {
+          "substring": "指挥角色",
+          "position": 244,
+          "length": 4,
+          "context": "作战任务、联合行动、指挥角色）\n- 答案您所寻找"
+        },
+        {
+          "substring": "答案您所寻找的信息未在知识库中找到",
+          "position": 252,
+          "length": 17,
+          "context": "动、指挥角色）\n- 答案您所寻找的信息未在知识库中找到！\n\n# 教育与培训"
+        },
+        {
+          "substring": "教育与培训",
+          "position": 274,
+          "length": 5,
+          "context": "识库中找到！\n\n# 教育与培训（军事学院，高级学位"
+        },
+        {
+          "substring": "军事学院",
+          "position": 280,
+          "length": 4,
+          "context": "\n\n# 教育与培训（军事学院，高级学位，专业课程"
+        },
+        {
+          "substring": "高级学位",
+          "position": 285,
+          "length": 4,
+          "context": "育与培训（军事学院，高级学位，专业课程）\n- *"
+        },
+        {
+          "substring": "专业课程",
+          "position": 290,
+          "length": 4,
+          "context": "军事学院，高级学位，专业课程）\n- **Seko"
+        },
+        {
+          "substring": "技术专长",
+          "position": 701,
+          "length": 4,
+          "context": ", 1998\n\n# 技术专长（航空技术，武器系统"
+        },
+        {
+          "substring": "航空技术",
+          "position": 706,
+          "length": 4,
+          "context": "8\n\n# 技术专长（航空技术，武器系统，战略规划"
+        },
+        {
+          "substring": "武器系统",
+          "position": 711,
+          "length": 4,
+          "context": "技术专长（航空技术，武器系统，战略规划）\n- 答"
+        },
+        {
+          "substring": "战略规划",
+          "position": 716,
+          "length": 4,
+          "context": "航空技术，武器系统，战略规划）\n- 答案您所寻找"
+        },
+        {
+          "substring": "答案您所寻找的信息未在知识库中找到",
+          "position": 724,
+          "length": 17,
+          "context": "统，战略规划）\n- 答案您所寻找的信息未在知识库中找到！\n\n# 成就与认可"
+        },
+        {
+          "substring": "成就与认可",
+          "position": 746,
+          "length": 5,
+          "context": "识库中找到！\n\n# 成就与认可\n- Satyala"
+        }
+      ],
+      "average_sentence_length": 5.3125,
+      "token_count": 169,
+      "compression_ratio": 0.18017057569296374,
+      "content_density": 0.7928994082840237,
+      "rouge_scores": {
+        "rouge1": 0.09081632653061225,
+        "rouge2": 0.04494382022471909,
+        "rougeL": 0.05
+      },
+      "generation_time": 13.71233057975769,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 7.0625,
+      "translated_token_count": 225,
+      "translated_compression_ratio": 0.23987206823027718,
+      "translated_content_density": 0.7511111111111111,
+      "translated_rouge_scores": {
+        "rouge1": 0.09679012345679014,
+        "rouge2": 0.043499752842313395,
+        "rougeL": 0.05135802469135802
+      },
+      "translation_time": 13.61699104309082
+    }
+  },
+  {
+    "query_id": "ardi_id_summary",
+    "query": "Jelaskan secara detail tentang Ardi Adrian Pualam Sakti",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\nNama lengkap: Ardi Ardian Pualam Sakti  \nRank: Kapten Tek NRP 533633\n\n# 当前职位及单位\nCurrent Position & Unit: Kadok B Satmar 11 Depohar 10 (Kepala Dokter Satuan Mariner 11 Depohar 10)\n\n# 年限与职业晋升\nYears of Service & Career Progression:\n- Lulus Akademi Angkatan Udara pada tahun 2005.\n- Diterbitkan sebagai Letda Tek pada tahun 2006.\n- Promoted to Kapten Tek pada tahun yang belum disebutkan, tetapi terakhir dinyatakan menjabat sebagai Kadok B Satmar 11 Depohar 10 sejak tanggal 19 September 2012.\n\n# 战斗经验（作战任务、联合行动、指挥角色）\nOperational Experience:\nThe answer you are looking for is not found in the knowledge base!\n\n# 教育与培训（军事学院，高级学位，专业课程）\nEducation & Training:\n- SD: Negeri Limbangan I, Kendal (Graduated on February 7, 1996)\n- SMP: SLTP Negeri Boja, Kendal (Graduated on May 24, 1999)\n- SMA/SMU Taruna Nusantara, Magelang (Graduated on June 14, 2002)\n- Akademi Angkatan Udara Yogyakarta (Graduated on December 3, 2005)\n- Komando Pendidikan TNI AD Jakarta (Completed studies from April to October in the year of graduation)\n\n# 技术专长（航空技术，武器系统，战略规划）\nTechnical Expertise:\nThe answer you are looking for is not found in the knowledge base!\n\n# 成就与认可\nNotable Achievements & Recognitions:\n- Mendapatkan Tanda Kehormatan Satyalancana Kesetiaan VIII Tahun pada tanggal kejadian tidak diketahui.\n- Mendapatkan SATYALANCANA KESETIAAN pada tanggal April murni tahun kejadian tidak diketahui.",
+    "translated_text": "# Nama lengkap dan jabatan\nNama lengkap: Ardi Ardian Pualam Sakti  \nJabatan: Kapten Tek NRP 533633\n\n# Jabatan dan unit saat ini\nPosisi dan Unit Saat Ini: Kadok B Satmar 11 Depohar 10 (Kepala Dokter Satuan Mariner 11 Depohar 10)\n\n# Tahun layanan dan kemajuan karir\nTahun Layanan & Kemajuan Karir:\n- Lulus Akademi Angkatan Udara pada tahun 2005.\n- Diterbitkan sebagai Letda Tek pada tahun 2006.\n- Promoted to Kapten Tek pada tahun yang belum disebutkan, tetapi terakhir dinyatakan menjabat sebagai Kadok B Satmar 11 Depohar 10 sejak tanggal 19 September 2012.\n\n# Pengalaman operasional (tugas operasional, tindakan bersama, peran komando)\nPengalaman Operasional:\nJawaban yang Anda cari tidak ditemukan dalam basis pengetahuan!\n\n# Pendidikan dan pelatihan (akademi militer, gelar sarjana tinggi, kursus profesional)\nPendidikan & Pelatihan:\n- SD: Negeri Limbangan I, Kendal (Lulus pada tanggal 7 Februari 1996)\n- SMP: SLTP Negeri Boja, Kendal (Lulus pada tanggal 24 Mei 1999)\n- SMA/SMU Taruna Nusantara, Magelang (Lulus pada tanggal 14 Juni 2002)\n- Akademi Angkatan Udara Yogyakarta (Lulus pada tanggal 3 Desember 2005)\n- Komando Pendidikan TNI AD Jakarta (Menyelesaikan studi dari bulan April hingga Oktober tahun lulus)\n\n# Keahlian teknis (teknologi udara, sistem senjata, perencanaan strategis)\nKeahlian Teknis:\nJawaban yang Anda cari tidak ditemukan dalam basis pengetahuan!\n\n# Prestasi dan penghargaan\nPrestasi & Penghargaan Signifikan:\n- Mendapatkan Tanda Kehormatan Satyalancana Kesetiaan VIII Tahun pada tanggal kejadian tidak diketahui.\n- Mendapatkan SATYALANCINA KESETIAAN pada tanggal April murni tahun kejadian tidak diketahui.",
+    "metrics": {
+      "chinese_char_count": 73,
+      "chinese_char_percentage": 5.293691080493111,
+      "chinese_chars_found": "全名和职级当前职位及单位年限与职业晋升战斗经验作战任务联合行动指挥角色教育与培训军事学院高级学位专业课程技术专长航空技术武器系统战略规划成就与认可",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\nNama leng"
+        },
+        {
+          "substring": "当前职位及单位",
+          "position": 80,
+          "length": 7,
+          "context": "533633\n\n# 当前职位及单位\nCurrent P"
+        },
+        {
+          "substring": "年限与职业晋升",
+          "position": 190,
+          "length": 7,
+          "context": "ar 10)\n\n# 年限与职业晋升\nYears of "
+        },
+        {
+          "substring": "战斗经验",
+          "position": 502,
+          "length": 4,
+          "context": " 2012.\n\n# 战斗经验（作战任务、联合行动"
+        },
+        {
+          "substring": "作战任务",
+          "position": 507,
+          "length": 4,
+          "context": ".\n\n# 战斗经验（作战任务、联合行动、指挥角色"
+        },
+        {
+          "substring": "联合行动",
+          "position": 512,
+          "length": 4,
+          "context": "战斗经验（作战任务、联合行动、指挥角色）\nOpe"
+        },
+        {
+          "substring": "指挥角色",
+          "position": 517,
+          "length": 4,
+          "context": "作战任务、联合行动、指挥角色）\nOperatio"
+        },
+        {
+          "substring": "教育与培训",
+          "position": 617,
+          "length": 5,
+          "context": " base!\n\n# 教育与培训（军事学院，高级学位"
+        },
+        {
+          "substring": "军事学院",
+          "position": 623,
+          "length": 4,
+          "context": "\n\n# 教育与培训（军事学院，高级学位，专业课程"
+        },
+        {
+          "substring": "高级学位",
+          "position": 628,
+          "length": 4,
+          "context": "育与培训（军事学院，高级学位，专业课程）\nEdu"
+        },
+        {
+          "substring": "专业课程",
+          "position": 633,
+          "length": 4,
+          "context": "军事学院，高级学位，专业课程）\nEducatio"
+        },
+        {
+          "substring": "技术专长",
+          "position": 1027,
+          "length": 4,
+          "context": "ation)\n\n# 技术专长（航空技术，武器系统"
+        },
+        {
+          "substring": "航空技术",
+          "position": 1032,
+          "length": 4,
+          "context": ")\n\n# 技术专长（航空技术，武器系统，战略规划"
+        },
+        {
+          "substring": "武器系统",
+          "position": 1037,
+          "length": 4,
+          "context": "技术专长（航空技术，武器系统，战略规划）\nTec"
+        },
+        {
+          "substring": "战略规划",
+          "position": 1042,
+          "length": 4,
+          "context": "航空技术，武器系统，战略规划）\nTechnica"
+        },
+        {
+          "substring": "成就与认可",
+          "position": 1139,
+          "length": 5,
+          "context": " base!\n\n# 成就与认可\nNotable A"
+        }
+      ],
+      "average_sentence_length": 7.814814814814815,
+      "token_count": 211,
+      "compression_ratio": 0.2617866004962779,
+      "content_density": 0.9004739336492891,
+      "rouge_scores": {
+        "rouge1": 0.1131625967837999,
+        "rouge2": 0.04531902206320811,
+        "rougeL": 0.05836807623585467
+      },
+      "generation_time": 12.588379144668579,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 8.925925925925926,
+      "translated_token_count": 241,
+      "translated_compression_ratio": 0.2990074441687345,
+      "translated_content_density": 0.7925311203319502,
+      "translated_rouge_scores": {
+        "rouge1": 0.12463599301106582,
+        "rouge2": 0.052478134110787174,
+        "rougeL": 0.06406523005241702
+      },
+      "translation_time": 13.592115879058838
+    }
+  },
+  {
+    "query_id": "edi_alt_summary",
+    "query": "What can you tell me about Edi Suyono?",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\nNama lengkap: Edi Suyono  \nPangkat: Serda (523525)\n\n# 当前职位及单位\nPosisi saat ini: Anggota Skatek 042 Lanud Iswahjudi\n\n# 服役年份与职业晋升\nTahun masuk TNI-AU: 1993  \nTahun lulus Sekolah Calon Bintara (SECABA): 1998  \nTahun lulus Sekolah Dasar Kejuruan Teknik (SESARJUR TEK): 1999  \nTahun lulus Sekolah Bahasa Inggris Teknik (SBIT): 1998  \n\n# 战斗经验（作战任务、联合行动、指挥角色）\nThe answer you are looking for is not found in the knowledge base!\n\n# 教育与培训（军事学院，高级学位，专业课程）\n- **Sekolah Menengah Umum Tingkat Pertama (SMP)**, SMP 2, Sidoharjo, Wonogiri - Lulus pada tanggal 15 Februari 1992\n- **Sekolah Dasar Negeri Tremes II**, Kecamatan Sidoharjo, Kabupaten Wonogiri - Lulus pada tanggal 15 Juni 1989\n- **Sekolah Menengah Umum Tingkat Atas (SMA)**, SMA 3 Wonogiri - Lulus pada tanggal 26 Mei 1995\n- **Komando Pendidikan**: \n    - Studi jurusan Motor Jet dari tanggal 24 Maret hingga Oktober November tahun yang sama.\n    - Studi jurusan Sekolah Bahasa Inggris Teknik dari Januari hingga September tahun yang sama.\n    - Studi jurusan Sekolah Dasar Kejuruan Teknik dari September hingga Maret tahun berikutnya.\n\n# 技术专长（航空技术、武器系统、战略规划）\nThe answer you are looking for is not found in the knowledge base!\n\n# 成就与认可\n- Satyalancana Kesetiaan untuk periode delapan tahun diberikan pada tanggal [06 Desember] [2015].\n\n以上是关于Edi Suyono的简要总结。",
+    "translated_text": "# Nama Lengkap dan Pangkat\nNama lengkap: Edi Suyono  \nPangkat: Serda (523525)\n\n# Posisi Saat Ini dan Satuan\nPosisi saat ini: Anggota Skatek 042 Lanud Iswahjudi\n\n# Tahun Masuk dan Peningkatan Karir di TNI-AU\nTahun masuk TNI-AU: 1993  \nTahun lulus Sekolah Calon Bintara (SECABA): 1998  \nTahun lulus Sekolah Dasar Kejuruan Teknik (SESARJUR TEK): 1999  \nTahun lulus Sekolah Bahasa Inggris Teknik (SBIT): 1998  \n\n# Pengalaman Perang (Tugas Operasi, Operasi Bersama, Peran Komando)\nJawaban yang Anda cari tidak ditemukan dalam basis data!\n\n# Pendidikan dan Pelatihan (Akademi Militer, Gelar Pascasarjana, Kursus Profesional)\n- **Sekolah Menengah Umum Tingkat Pertama (SMP)**, SMP 2, Sidoharjo, Wonogiri - Lulus pada tanggal 15 Februari 1992\n- **Sekolah Dasar Negeri Tremes II**, Kecamatan Sidoharjo, Kabupaten Wonogiri - Lulus pada tanggal 15 Juni 1989\n- **Sekolah Menengah Umum Tingkat Atas (SMA)**, SMA 3 Wonogiri - Lulus pada tanggal 26 Mei 1995\n- **Komando Pendidikan**:\n    - Studi jurusan Motor Jet dari tanggal 24 Maret hingga Oktober November tahun yang sama.\n    - Studi jurusan Sekolah Bahasa Inggris Teknik dari Januari hingga September tahun yang sama.\n    - Studi jurusan Sekolah Dasar Kejuruan Teknik dari September hingga Maret tahun berikutnya.\n\n# Keahlian Teknis (Teknologi Udara, Sistem Senjata, Perencanaan Strategis)\nJawaban yang Anda cari tidak ditemukan dalam basis data!\n\n# Prestasi dan Pengakuan\n- Satyalancana Kesetiaan untuk periode delapan tahun diberikan pada tanggal [06 Desember] [2015].\n\nIni adalah ringkasan singkat tentang Edi Suyono.",
+    "metrics": {
+      "chinese_char_count": 85,
+      "chinese_char_percentage": 6.498470948012232,
+      "chinese_chars_found": "全名和职级当前职位及单位服役年份与职业晋升战斗经验作战任务联合行动指挥角色教育与培训军事学院高级学位专业课程技术专长航空技术武器系统战略规划成就与认可以上是关于的简要总结",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\nNama leng"
+        },
+        {
+          "substring": "当前职位及单位",
+          "position": 62,
+          "length": 7,
+          "context": "23525)\n\n# 当前职位及单位\nPosisi sa"
+        },
+        {
+          "substring": "服役年份与职业晋升",
+          "position": 125,
+          "length": 9,
+          "context": "ahjudi\n\n# 服役年份与职业晋升\nTahun mas"
+        },
+        {
+          "substring": "战斗经验",
+          "position": 338,
+          "length": 4,
+          "context": "1998  \n\n# 战斗经验（作战任务、联合行动"
+        },
+        {
+          "substring": "作战任务",
+          "position": 343,
+          "length": 4,
+          "context": " \n\n# 战斗经验（作战任务、联合行动、指挥角色"
+        },
+        {
+          "substring": "联合行动",
+          "position": 348,
+          "length": 4,
+          "context": "战斗经验（作战任务、联合行动、指挥角色）\nThe"
+        },
+        {
+          "substring": "指挥角色",
+          "position": 353,
+          "length": 4,
+          "context": "作战任务、联合行动、指挥角色）\nThe answ"
+        },
+        {
+          "substring": "教育与培训",
+          "position": 429,
+          "length": 5,
+          "context": " base!\n\n# 教育与培训（军事学院，高级学位"
+        },
+        {
+          "substring": "军事学院",
+          "position": 435,
+          "length": 4,
+          "context": "\n\n# 教育与培训（军事学院，高级学位，专业课程"
+        },
+        {
+          "substring": "高级学位",
+          "position": 440,
+          "length": 4,
+          "context": "育与培训（军事学院，高级学位，专业课程）\n- *"
+        },
+        {
+          "substring": "专业课程",
+          "position": 445,
+          "length": 4,
+          "context": "军事学院，高级学位，专业课程）\n- **Seko"
+        },
+        {
+          "substring": "技术专长",
+          "position": 1091,
+          "length": 4,
+          "context": "utnya.\n\n# 技术专长（航空技术、武器系统"
+        },
+        {
+          "substring": "航空技术",
+          "position": 1096,
+          "length": 4,
+          "context": ".\n\n# 技术专长（航空技术、武器系统、战略规划"
+        },
+        {
+          "substring": "武器系统",
+          "position": 1101,
+          "length": 4,
+          "context": "技术专长（航空技术、武器系统、战略规划）\nThe"
+        },
+        {
+          "substring": "战略规划",
+          "position": 1106,
+          "length": 4,
+          "context": "航空技术、武器系统、战略规划）\nThe answ"
+        },
+        {
+          "substring": "成就与认可",
+          "position": 1182,
+          "length": 5,
+          "context": " base!\n\n# 成就与认可\n- Satyala"
+        },
+        {
+          "substring": "以上是关于",
+          "position": 1287,
+          "length": 5,
+          "context": " [2015].\n\n以上是关于Edi Suyono"
+        },
+        {
+          "substring": "的简要总结",
+          "position": 1302,
+          "length": 5,
+          "context": "Edi Suyono的简要总结。"
+        }
+      ],
+      "average_sentence_length": 7.8,
+      "token_count": 195,
+      "compression_ratio": 0.20990312163616792,
+      "content_density": 0.8615384615384616,
+      "rouge_scores": {
+        "rouge1": 0.10783824263604593,
+        "rouge2": 0.05697151424287855,
+        "rougeL": 0.06989515726410385
+      },
+      "generation_time": 13.098300457000732,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 9.16,
+      "translated_token_count": 229,
+      "translated_compression_ratio": 0.2465016146393972,
+      "translated_content_density": 0.7860262008733624,
+      "translated_rouge_scores": {
+        "rouge1": 0.11638141809290956,
+        "rouge2": 0.055800293685756244,
+        "rougeL": 0.07237163814180929
+      },
+      "translation_time": 13.229056358337402
+    }
+  },
+  {
+    "query_id": "amin_id_summary",
+    "query": "Siapa itu Amin Rahardjo? Berikan informasi selengkapnya",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "Maaf, dalam knowledge base yang disediakan tidak terdapat informasi tentang Amin Rahardjo. Informasi yang tersedia hanya berisi data pendidikan dasar dari seorang siswa bernama Syarifudin, namun nama tersebut tidak cocok dengan nama yang Anda cari. \n\n# 全名和职级\nThe answer you are looking for is not found in the knowledge base!\n\n# 目前职位及单位\nThe answer you are looking for is not found in the knowledge base!\n\n# 服役年数与职业发展\nThe answer you are looking for is not found in the knowledge base!\n\n# 战斗经验（作战任务、联合行动、指挥角色）\nThe answer you are looking for is not found in the knowledge base!\n\n# 教育与培训（军事学院，高级学位，专业课程）\nThe answer you are looking for is not found in the knowledge base!\n\n# 技术专长（航空技术，武器系统，战略规划）\nThe answer you are looking for is not found in the knowledge base!\n\n# 成就与认可\nThe answer you are looking for is not found in the knowledge base!",
+    "translated_text": "Maaf, dalam knowledge base yang disediakan tidak terdapat informasi tentang Amin Rahardjo. Informasi yang tersedia hanya berisi data pendidikan dasar dari seorang siswa bernama Syarifudin, namun nama tersebut tidak cocok dengan nama yang Anda cari.\n\n# Nama Lengkap dan Jabatan\nJawaban yang Anda cari tidak ditemukan dalam knowledge base!\n\n# Posisi Saat Ini dan Instansi\nJawaban yang Anda cari tidak ditemukan dalam knowledge base!\n\n# Tahun Kerja dan Pengembangan Karir\nJawaban yang Anda cari tidak ditemukan dalam knowledge base!\n\n# Pengalaman Perang (Tugas Operasi, Operasi Bersama, Peran Pemimpin)\nJawaban yang Anda cari tidak ditemukan dalam knowledge base!\n\n# Pendidikan dan Pelatihan (Akademi Militer, Gelar Pascasarjana, Kursus Profesional)\nJawaban yang Anda cari tidak ditemukan dalam knowledge base!\n\n# Keahlian Teknis (Teknik Udara, Sistem Senjata, Penyusunan Strategi)\nJawaban yang Anda cari tidak ditemukan dalam knowledge base!\n\n# Prestasi dan Pengakuan\nJawaban yang Anda cari tidak ditemukan dalam knowledge base!",
+    "metrics": {
+      "chinese_char_count": 75,
+      "chinese_char_percentage": 9.003601440576231,
+      "chinese_chars_found": "全名和职级目前职位及单位服役年数与职业发展战斗经验作战任务联合行动指挥角色教育与培训军事学院高级学位专业课程技术专长航空技术武器系统战略规划成就与认可",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 253,
+          "length": 5,
+          "context": "cari. \n\n# 全名和职级\nThe answe"
+        },
+        {
+          "substring": "目前职位及单位",
+          "position": 329,
+          "length": 7,
+          "context": " base!\n\n# 目前职位及单位\nThe answe"
+        },
+        {
+          "substring": "服役年数与职业发展",
+          "position": 407,
+          "length": 9,
+          "context": " base!\n\n# 服役年数与职业发展\nThe answe"
+        },
+        {
+          "substring": "战斗经验",
+          "position": 487,
+          "length": 4,
+          "context": " base!\n\n# 战斗经验（作战任务、联合行动"
+        },
+        {
+          "substring": "作战任务",
+          "position": 492,
+          "length": 4,
+          "context": "!\n\n# 战斗经验（作战任务、联合行动、指挥角色"
+        },
+        {
+          "substring": "联合行动",
+          "position": 497,
+          "length": 4,
+          "context": "战斗经验（作战任务、联合行动、指挥角色）\nThe"
+        },
+        {
+          "substring": "指挥角色",
+          "position": 502,
+          "length": 4,
+          "context": "作战任务、联合行动、指挥角色）\nThe answ"
+        },
+        {
+          "substring": "教育与培训",
+          "position": 578,
+          "length": 5,
+          "context": " base!\n\n# 教育与培训（军事学院，高级学位"
+        },
+        {
+          "substring": "军事学院",
+          "position": 584,
+          "length": 4,
+          "context": "\n\n# 教育与培训（军事学院，高级学位，专业课程"
+        },
+        {
+          "substring": "高级学位",
+          "position": 589,
+          "length": 4,
+          "context": "育与培训（军事学院，高级学位，专业课程）\nThe"
+        },
+        {
+          "substring": "专业课程",
+          "position": 594,
+          "length": 4,
+          "context": "军事学院，高级学位，专业课程）\nThe answ"
+        },
+        {
+          "substring": "技术专长",
+          "position": 670,
+          "length": 4,
+          "context": " base!\n\n# 技术专长（航空技术，武器系统"
+        },
+        {
+          "substring": "航空技术",
+          "position": 675,
+          "length": 4,
+          "context": "!\n\n# 技术专长（航空技术，武器系统，战略规划"
+        },
+        {
+          "substring": "武器系统",
+          "position": 680,
+          "length": 4,
+          "context": "技术专长（航空技术，武器系统，战略规划）\nThe"
+        },
+        {
+          "substring": "战略规划",
+          "position": 685,
+          "length": 4,
+          "context": "航空技术，武器系统，战略规划）\nThe answ"
+        },
+        {
+          "substring": "成就与认可",
+          "position": 761,
+          "length": 5,
+          "context": " base!\n\n# 成就与认可\nThe answe"
+        }
+      ],
+      "average_sentence_length": 8.75,
+      "token_count": 140,
+      "compression_ratio": 1.794871794871795,
+      "content_density": 0.8928571428571429,
+      "rouge_scores": {
+        "rouge1": 0.04152249134948097,
+        "rouge2": 0.0,
+        "rougeL": 0.03460207612456747
+      },
+      "generation_time": 5.945824384689331,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 9.1875,
+      "translated_token_count": 147,
+      "translated_compression_ratio": 1.8846153846153846,
+      "translated_content_density": 0.6054421768707483,
+      "translated_rouge_scores": {
+        "rouge1": 0.07920792079207922,
+        "rouge2": 0.0,
+        "rougeL": 0.052805280528052806
+      },
+      "translation_time": 7.1013875007629395
+    }
+  },
+  {
+    "query_id": "rudito_alt_summary",
+    "query": "Could you provide information about Rudito Dwi Wibowo?",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\nNama lengkap: Rudito Dwi Wibowo  \nPangkat: Mayor Tek\n\n# 当前职位及单位\nPosisi saat ini: Kasi AS-202/R-172, Disaeroau  \nUnit: Lanud Adi (Lapangan Udara Adisucipto)\n\n# 服役年份与职业晋升\nTahun masuk TNI-AU: 1995  \nPerkembangan karir:\n- Letnan Dua (Sermatar): 27 Juli 1995\n- Kapten Tek: N/A (未提供具体日期)\n- Letkol Tek NRP 520266/Kasi KT-1B/T-34C Disaeroau: N/A (未提供具体日期)\n- Mayor Tek NRP 520266/Kasi AS-202/R-172, Disaeroau\n\n# 战斗经验（作战任务、联合行动、指挥角色）\n作战经验：参与了MONUC在刚果的军事观察任务。  \n\n# 教育与培训（军事学院，高级学位，专业课程）\n教育背景：\n- SD: Sekolah Dasar Negeri Legoso, Ciputat, Tangerang (Graduated in February 1986)\n- SMP: Sekolah Menengah Umum Tingkat Pertama (SMP) Negeri 1 Ciputat - Kab. Tangerang (Graduated on June 8, 1989)\n- SMA: Sekolah Menengah Umum Tingkat Atas (SMA) Negeri Ciputat, Ciputat, Tangerang (Graduated on June 12, 1992)\n- Akademi TNI Angkatan Udara Yogyakarta\n\n培训经历：\n已获得飞行技术相关证书，并完成了高级军事指挥课程。\n\n# 技术专长（航空技术，武器系统，战略规划）\n技术专长包括航空技术和战术操作知识。\n\n# 突出成就与认可\n荣誉奖项：\n- Satyalancana Santi Dharma （颁发于 December 27, 2007） \n- Satyalancana Kesiapan （颁发于 April 19, 2012） \n- Satyalancana Dwidya Sista （颁发于 October 6, 2011）\n\n其他信息未提及更多关于其战斗经验和详细的技术专长内容。",
+    "translated_text": "# Nama Lengkap dan Pangkat\nNama lengkap: Rudito Dwi Wibowo  \nPangkat: Mayor Tek\n\n# Posisi Saat Ini dan Unit\nPosisi saat ini: Kasi AS-202/R-172, Disaeroau  \nUnit: Lanud Adi (Lapangan Udara Adisucipto)\n\n# Tahun Masuk TNI-AU dan Perkembangan Karir\nTahun masuk TNI-AU: 1995  \nPerkembangan karir:\n- Letnan Dua (Sermatar): 27 Juli 1995\n- Kapten Tek: N/A (belum menyediakan tanggal spesifik)\n- Letkol Tek NRP 520266/Kasi KT-1B/T-34C Disaeroau: N/A (belum menyediakan tanggal spesifik)\n- Mayor Tek NRP 520266/Kasi AS-202/R-172, Disaeroau\n\n# Pengalaman Perang (Tugas Operasi, Operasi Bersama, Peran Pemimpin)\nPengalaman perang: Berpartisipasi dalam tugas pengamatan militer MONUC di Congo.\n\n# Pendidikan dan Pelatihan (Akademi TNI, Gelar Pascasarjana, Kursus Profesional)\nPendidikan:\n- SD: Sekolah Dasar Negeri Legoso, Ciputat, Tangerang (lulus pada Februari 1986)\n- SMP: Sekolah Menengah Umum Tingkat Pertama (SMP) Negeri 1 Ciputat - Kab. Tangerang (lulus pada 8 Juni 1989)\n- SMA: Sekolah Menengah Umum Tingkat Atas (SMA) Negeri Ciputat, Ciputat, Tangerang (lulus pada 12 Juni 1992)\n- Akademi TNI Angkatan Udara Yogyakarta\n\nPelatihan:\nTelah memperoleh sertifikat terkait teknik penerbangan dan menyelesaikan kursus pemimpin militer tingkat lanjut.\n\n# Keahlian Teknis (Teknik Penerbangan, Sistem Senjata, Perencanaan Strategis)\nKeahlian teknis mencakup pengetahuan tentang teknik penerbangan dan operasi taktis.\n\n# Prestasi dan Penghargaan\nPrestasi:\n- Satyalancana Santi Dharma (diberikan pada 27 Desember 2007) \n- Satyalancana Kesiapan (diberikan pada 19 April 2012) \n- Satyalancana Dwidya Sista (diberikan pada 6 Oktober 2011)\n\nInformasi lain tidak menyebutkan lebih lanjut tentang pengalaman perangnya dan keahlian teknis yang lebih detail.",
+    "metrics": {
+      "chinese_char_count": 195,
+      "chinese_char_percentage": 17.59927797833935,
+      "chinese_chars_found": "全名和职级当前职位及单位服役年份与职业晋升未提供具体日期未提供具体日期战斗经验作战任务联合行动指挥角色作战经验参与了在刚果的军事观察任务教育与培训军事学院高级学位专业课程教育背景培训经历已获得飞行技术相关证书并完成了高级军事指挥课程技术专长航空技术武器系统战略规划技术专长包括航空技术和战术操作知识突出成就与认可荣誉奖项颁发于颁发于颁发于其他信息未提及更多关于其战斗经验和详细的技术专长内容",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\nNama leng"
+        },
+        {
+          "substring": "当前职位及单位",
+          "position": 64,
+          "length": 7,
+          "context": "or Tek\n\n# 当前职位及单位\nPosisi sa"
+        },
+        {
+          "substring": "服役年份与职业晋升",
+          "position": 167,
+          "length": 9,
+          "context": "cipto)\n\n# 服役年份与职业晋升\nTahun mas"
+        },
+        {
+          "substring": "未提供具体日期",
+          "position": 281,
+          "length": 7,
+          "context": "Tek: N/A (未提供具体日期)\n- Letkol"
+        },
+        {
+          "substring": "未提供具体日期",
+          "position": 347,
+          "length": 7,
+          "context": "oau: N/A (未提供具体日期)\n- Mayor "
+        },
+        {
+          "substring": "战斗经验",
+          "position": 411,
+          "length": 4,
+          "context": "aeroau\n\n# 战斗经验（作战任务、联合行动"
+        },
+        {
+          "substring": "作战任务",
+          "position": 416,
+          "length": 4,
+          "context": "u\n\n# 战斗经验（作战任务、联合行动、指挥角色"
+        },
+        {
+          "substring": "联合行动",
+          "position": 421,
+          "length": 4,
+          "context": "战斗经验（作战任务、联合行动、指挥角色）\n作战经"
+        },
+        {
+          "substring": "指挥角色",
+          "position": 426,
+          "length": 4,
+          "context": "作战任务、联合行动、指挥角色）\n作战经验：参与了"
+        },
+        {
+          "substring": "作战经验",
+          "position": 432,
+          "length": 4,
+          "context": "合行动、指挥角色）\n作战经验：参与了MONUC在"
+        },
+        {
+          "substring": "参与了",
+          "position": 437,
+          "length": 3,
+          "context": "挥角色）\n作战经验：参与了MONUC在刚果的军"
+        },
+        {
+          "substring": "在刚果的军事观察任务",
+          "position": 445,
+          "length": 10,
+          "context": "验：参与了MONUC在刚果的军事观察任务。  \n\n# 教育与"
+        },
+        {
+          "substring": "教育与培训",
+          "position": 462,
+          "length": 5,
+          "context": "察任务。  \n\n# 教育与培训（军事学院，高级学位"
+        },
+        {
+          "substring": "军事学院",
+          "position": 468,
+          "length": 4,
+          "context": "\n\n# 教育与培训（军事学院，高级学位，专业课程"
+        },
+        {
+          "substring": "高级学位",
+          "position": 473,
+          "length": 4,
+          "context": "育与培训（军事学院，高级学位，专业课程）\n教育背"
+        },
+        {
+          "substring": "专业课程",
+          "position": 478,
+          "length": 4,
+          "context": "军事学院，高级学位，专业课程）\n教育背景：\n- "
+        },
+        {
+          "substring": "教育背景",
+          "position": 484,
+          "length": 4,
+          "context": "级学位，专业课程）\n教育背景：\n- SD: Se"
+        },
+        {
+          "substring": "培训经历",
+          "position": 839,
+          "length": 4,
+          "context": "gyakarta\n\n培训经历：\n已获得飞行技术相"
+        },
+        {
+          "substring": "已获得飞行技术相关证书",
+          "position": 845,
+          "length": 11,
+          "context": "ta\n\n培训经历：\n已获得飞行技术相关证书，并完成了高级军事指"
+        },
+        {
+          "substring": "并完成了高级军事指挥课程",
+          "position": 857,
+          "length": 12,
+          "context": "得飞行技术相关证书，并完成了高级军事指挥课程。\n\n# 技术专长（"
+        },
+        {
+          "substring": "技术专长",
+          "position": 874,
+          "length": 4,
+          "context": "事指挥课程。\n\n# 技术专长（航空技术，武器系统"
+        },
+        {
+          "substring": "航空技术",
+          "position": 879,
+          "length": 4,
+          "context": "。\n\n# 技术专长（航空技术，武器系统，战略规划"
+        },
+        {
+          "substring": "武器系统",
+          "position": 884,
+          "length": 4,
+          "context": "技术专长（航空技术，武器系统，战略规划）\n技术专"
+        },
+        {
+          "substring": "战略规划",
+          "position": 889,
+          "length": 4,
+          "context": "航空技术，武器系统，战略规划）\n技术专长包括航空"
+        },
+        {
+          "substring": "技术专长包括航空技术和战术操作知识",
+          "position": 895,
+          "length": 17,
+          "context": "器系统，战略规划）\n技术专长包括航空技术和战术操作知识。\n\n# 突出成就与"
+        },
+        {
+          "substring": "突出成就与认可",
+          "position": 917,
+          "length": 7,
+          "context": "术操作知识。\n\n# 突出成就与认可\n荣誉奖项：\n- S"
+        },
+        {
+          "substring": "荣誉奖项",
+          "position": 925,
+          "length": 4,
+          "context": "# 突出成就与认可\n荣誉奖项：\n- Satyal"
+        },
+        {
+          "substring": "颁发于",
+          "position": 960,
+          "length": 3,
+          "context": "i Dharma （颁发于 December "
+        },
+        {
+          "substring": "颁发于",
+          "position": 1009,
+          "length": 3,
+          "context": "Kesiapan （颁发于 April 19,"
+        },
+        {
+          "substring": "颁发于",
+          "position": 1059,
+          "length": 3,
+          "context": "ya Sista （颁发于 October 6"
+        },
+        {
+          "substring": "其他信息未提及更多关于其战斗经验和详细的技术专长内容",
+          "position": 1081,
+          "length": 26,
+          "context": "6, 2011）\n\n其他信息未提及更多关于其战斗经验和详细的技术专长内容。"
+        }
+      ],
+      "average_sentence_length": 4.75,
+      "token_count": 152,
+      "compression_ratio": 0.15447154471544716,
+      "content_density": 0.9539473684210527,
+      "rouge_scores": {
+        "rouge1": 0.11314824515453116,
+        "rouge2": 0.061877294179339286,
+        "rougeL": 0.07019381875327396
+      },
+      "generation_time": 13.99476933479309,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 7.53125,
+      "translated_token_count": 241,
+      "translated_compression_ratio": 0.24491869918699186,
+      "translated_content_density": 0.8506224066390041,
+      "translated_rouge_scores": {
+        "rouge1": 0.12890431333663857,
+        "rouge2": 0.06550868486352357,
+        "rougeL": 0.07535944471988101
+      },
+      "translation_time": 15.928268909454346
+    }
+  },
+  {
+    "query_id": "cahyono_ardi_id_compare",
+    "query": "Bandingkan profil FX Cahyono Wibowo dengan Ardi Adrian Pualam Sakti",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\n- **FX Cahyono Wibowo**\n  - 姓名及当前军衔: FX. Cahyono Wibowo, Sersan Mayor Udara Karbol (NRP: 523535)\n- **Ardi Ardian Pualam Sakti**\n  - 姓名及当前军衔: Ardi Ardian Pualam Sakti, Kapten Teknik (NRP: 533633)\n\n# 军种或军事专业\n- **FX Cahyono Wibowo**\n  - 军种或军事专业: 空军（未明确具体专业）\n- **Ardi Ardian Pualam Sakti**\n  - 军种或军事专业: 航空工程学\n\n# 正式和特殊军事教育与培训经历\n- **FX Cahyono Wibowo**\n  - 学历：空军学院学员，1998年注册。\n    - 开始日期：1998年1月\n    - 结束日期：未提供详细信息\n- **Ardi Ardian Pualam Sakti**\n  - 学历：\n    - 小学：Negeri Limbangan I，毕业日期：1996年2月7日\n    - 初中：Sekolah Lanjutan Tingkat Pertama (SLTP) Negeri 1 Boja，毕业日期：1999年5月24日\n    - 高中：SMU Taruna Nusantara，毕业日期：2002年6月14日\n    - 大学/技术学院：\n      - 空军学院航空工程系，开始于1984年8月28日结束于2005年12月1日。\n      - 技术大学航空工程和技术支援课程，开始于2006年4月3日至同年10月3日。\n\n# 工作经历历史记录\n- **FX Cahyono Wibowo**\n  - 当前职位:\n    * 时间段: 自成立以来至今（具体单位不详）\n      * 单位/基地名称及时间段未提供详细信息。\n  \n- **Ardi Ardian Pualam Sakti**\n  - 当前职位:\n    * 时间段: 没有具体的职位信息显示在提供的文档中。\n  \n# 职务晋升历史记录\n- **FX Cahyono Wibowo**\n  * 晋升至士官生的时间为1998年。\n  \n- **Ardi Ardian Pualam Sakti**\n   * 晋升至少校工程师的时间为尚未找到相关信息。\n\n# 功勋记录和服务勋章 \n- **FX Cahyono Wibowo** \n   * 获得“忠诚奖章”服务勋章的日期为2014年4月3日。 \n   \n- **Ardi Ardian Pualam Sakti** \n   * 获得“忠诚奖章”的服务勋章的日期为2014年4月3日。 \n\n以上是根据现有知识库对比两人的基本信息、教育背景、工作经历以及荣誉情况。请注意部分细节可能因数据缺失而无法完整呈现。",
+    "translated_text": "# Nama Lengkap dan Pangkat\n- **FX Cahyono Wibowo**\n  - Nama dan Pangkat Saat Ini: FX. Cahyono Wibowo, Sersan Mayor Udara Karbol (NRP: 523535)\n- **Ardi Ardian Pualam Sakti**\n  - Nama dan Pangkat Saat Ini: Ardi Ardian Pualam Sakti, Kapten Teknik (NRP: 533633)\n\n# Tipe Angkatan atau Bidang Militer\n- **FX Cahyono Wibowo**\n  - Tipe Angkatan atau Bidang Militer: Angkatan Udara (Tidak Jelas Spesialisasi Khusus)\n- **Ardi Ardian Pualam Sakti**\n  - Tipe Angkatan atau Bidang Militer: Teknik Penerbangan\n\n# Pendidikan dan Pelatihan Militer Formal dan Khusus\n- **FX Cahyono Wibowo**\n  - Pendidikan: Peserta Akademi Angkatan Udara, Daftar Pendaftaran Tahun 1998.\n    - Tanggal Mulai: Januari 1998\n    - Tanggal Selesai: Informasi Detail Tidak Disediakan\n- **Ardi Ardian Pualam Sakti**\n  - Pendidikan:\n    - Sekolah Dasar: Sekolah Negeri Limbangan I, Tanggal Lulus: 7 Februari 1996\n    - Sekolah Menengah Atas: Sekolah Lanjutan Tingkat Pertama (SLTP) Negeri 1 Boja, Tanggal Lulus: 24 Mei 1999\n    - Sekolah Menengah Atas: SMU Taruna Nusantara, Tanggal Lulus: 14 Juni 2002\n    - Perguruan Tinggi/Institut Teknologi:\n      - Jurusan Teknik Penerbangan Akademi Angkatan Udara, Mulai Tanggal 28 Agustus 1984 Sampai 1 Desember 2005.\n      - Program Teknik Penerbangan dan Dukungan Teknis Universitas Teknik, Mulai Tanggal 3 April 2006 Sampai 3 Oktober 2006.\n\n# Riwayat Pengalaman Kerja\n- **FX Cahyono Wibowo**\n  - Jabatan Saat Ini:\n    * Periode: Sejak Didirkan Sampai Sekarang (Informasi Unit Tidak Disediakan)\n      * Nama Unit/Darat Tidak Disediakan.\n  \n- **Ardi Ardian Pualam Sakti**\n  - Jabatan Saat Ini:\n    * Periode: Informasi Tentang Jabatan Tidak Disediakan dalam Dokumen.\n\n# Riwayat Promosi Jabatan\n- **FX Cahyono Wibowo**\n  * Waktu Promosi ke Tertinggi sebagai Prajurit adalah 1998.\n  \n- **Ardi Ardian Pualam Sakti**\n   * Waktu Promosi ke Letnan Satu sebagai Insinyur Belum Ditemukan Informasi.\n\n# Rekam Prestasi dan Medali Layanan\n- **FX Cahyono Wibowo** \n   * Mendapatkan Medali \"Prestasi Loyal\" pada Tanggal 3 April 2014. \n   \n- **Ardi Ardian Pualam Sakti** \n   * Mendapatkan Medali \"Prestasi Loyal\" pada Tanggal 3 April 2014. \n\nInformasi di atas didasarkan pada data yang ada untuk membandingkan informasi dasar, pendidikan, pengalaman kerja, dan prestasi kedua individu. Harap dicatat bahwa beberapa detail mungkin hilang karena data yang tidak lengkap.",
+    "metrics": {
+      "chinese_char_count": 385,
+      "chinese_char_percentage": 31.377343113284432,
+      "chinese_chars_found": "全名和职级姓名及当前军衔姓名及当前军衔军种或军事专业军种或军事专业空军未明确具体专业军种或军事专业航空工程学正式和特殊军事教育与培训经历学历空军学院学员年注册开始日期年月结束日期未提供详细信息学历小学毕业日期年月日初中毕业日期年月日高中毕业日期年月日大学技术学院空军学院航空工程系开始于年月日结束于年月日技术大学航空工程和技术支援课程开始于年月日至同年月日工作经历历史记录当前职位时间段自成立以来至今具体单位不详单位基地名称及时间段未提供详细信息当前职位时间段没有具体的职位信息显示在提供的文档中职务晋升历史记录晋升至士官生的时间为年晋升至少校工程师的时间为尚未找到相关信息功勋记录和服务勋章获得忠诚奖章服务勋章的日期为年月日获得忠诚奖章的服务勋章的日期为年月日以上是根据现有知识库对比两人的基本信息教育背景工作经历以及荣誉情况请注意部分细节可能因数据缺失而无法完整呈现",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\n- **FX Ca"
+        },
+        {
+          "substring": "姓名及当前军衔",
+          "position": 36,
+          "length": 7,
+          "context": "owo**\n  - 姓名及当前军衔: FX. Cahy"
+        },
+        {
+          "substring": "姓名及当前军衔",
+          "position": 140,
+          "length": 7,
+          "context": "kti**\n  - 姓名及当前军衔: Ardi Ard"
+        },
+        {
+          "substring": "军种或军事专业",
+          "position": 206,
+          "length": 7,
+          "context": "33633)\n\n# 军种或军事专业\n- **FX Ca"
+        },
+        {
+          "substring": "军种或军事专业",
+          "position": 242,
+          "length": 7,
+          "context": "owo**\n  - 军种或军事专业: 空军（未明确具体"
+        },
+        {
+          "substring": "空军",
+          "position": 251,
+          "length": 2,
+          "context": " 军种或军事专业: 空军（未明确具体专业）\n"
+        },
+        {
+          "substring": "未明确具体专业",
+          "position": 254,
+          "length": 7,
+          "context": "或军事专业: 空军（未明确具体专业）\n- **Ardi"
+        },
+        {
+          "substring": "军种或军事专业",
+          "position": 298,
+          "length": 7,
+          "context": "kti**\n  - 军种或军事专业: 航空工程学\n\n#"
+        },
+        {
+          "substring": "航空工程学",
+          "position": 307,
+          "length": 5,
+          "context": " 军种或军事专业: 航空工程学\n\n# 正式和特殊军"
+        },
+        {
+          "substring": "正式和特殊军事教育与培训经历",
+          "position": 316,
+          "length": 14,
+          "context": " 航空工程学\n\n# 正式和特殊军事教育与培训经历\n- **FX Ca"
+        },
+        {
+          "substring": "学历",
+          "position": 359,
+          "length": 2,
+          "context": "owo**\n  - 学历：空军学院学员，19"
+        },
+        {
+          "substring": "空军学院学员",
+          "position": 362,
+          "length": 6,
+          "context": "**\n  - 学历：空军学院学员，1998年注册。\n"
+        },
+        {
+          "substring": "年注册",
+          "position": 373,
+          "length": 3,
+          "context": "军学院学员，1998年注册。\n    - 开始"
+        },
+        {
+          "substring": "开始日期",
+          "position": 384,
+          "length": 4,
+          "context": "注册。\n    - 开始日期：1998年1月\n "
+        },
+        {
+          "substring": "年",
+          "position": 393,
+          "length": 1,
+          "context": " 开始日期：1998年1月\n    - 结"
+        },
+        {
+          "substring": "月",
+          "position": 395,
+          "length": 1,
+          "context": "始日期：1998年1月\n    - 结束日"
+        },
+        {
+          "substring": "结束日期",
+          "position": 403,
+          "length": 4,
+          "context": "年1月\n    - 结束日期：未提供详细信息\n-"
+        },
+        {
+          "substring": "未提供详细信息",
+          "position": 408,
+          "length": 7,
+          "context": "   - 结束日期：未提供详细信息\n- **Ardi "
+        },
+        {
+          "substring": "学历",
+          "position": 451,
+          "length": 2,
+          "context": "kti**\n  - 学历：\n    - 小学"
+        },
+        {
+          "substring": "小学",
+          "position": 461,
+          "length": 2,
+          "context": "学历：\n    - 小学：Negeri Li"
+        },
+        {
+          "substring": "毕业日期",
+          "position": 483,
+          "length": 4,
+          "context": "mbangan I，毕业日期：1996年2月7日"
+        },
+        {
+          "substring": "年",
+          "position": 492,
+          "length": 1,
+          "context": "，毕业日期：1996年2月7日\n    -"
+        },
+        {
+          "substring": "月",
+          "position": 494,
+          "length": 1,
+          "context": "业日期：1996年2月7日\n    - 初"
+        },
+        {
+          "substring": "日",
+          "position": 496,
+          "length": 1,
+          "context": "期：1996年2月7日\n    - 初中："
+        },
+        {
+          "substring": "初中",
+          "position": 504,
+          "length": 2,
+          "context": "月7日\n    - 初中：Sekolah L"
+        },
+        {
+          "substring": "毕业日期",
+          "position": 561,
+          "length": 4,
+          "context": "ri 1 Boja，毕业日期：1999年5月24"
+        },
+        {
+          "substring": "年",
+          "position": 570,
+          "length": 1,
+          "context": "，毕业日期：1999年5月24日\n    "
+        },
+        {
+          "substring": "月",
+          "position": 572,
+          "length": 1,
+          "context": "业日期：1999年5月24日\n    - "
+        },
+        {
+          "substring": "日",
+          "position": 575,
+          "length": 1,
+          "context": "：1999年5月24日\n    - 高中："
+        },
+        {
+          "substring": "高中",
+          "position": 583,
+          "length": 2,
+          "context": "24日\n    - 高中：SMU Tarun"
+        },
+        {
+          "substring": "毕业日期",
+          "position": 607,
+          "length": 4,
+          "context": "Nusantara，毕业日期：2002年6月14"
+        },
+        {
+          "substring": "年",
+          "position": 616,
+          "length": 1,
+          "context": "，毕业日期：2002年6月14日\n    "
+        },
+        {
+          "substring": "月",
+          "position": 618,
+          "length": 1,
+          "context": "业日期：2002年6月14日\n    - "
+        },
+        {
+          "substring": "日",
+          "position": 621,
+          "length": 1,
+          "context": "：2002年6月14日\n    - 大学/"
+        },
+        {
+          "substring": "大学",
+          "position": 629,
+          "length": 2,
+          "context": "14日\n    - 大学/技术学院：\n   "
+        },
+        {
+          "substring": "技术学院",
+          "position": 632,
+          "length": 4,
+          "context": "\n    - 大学/技术学院：\n      - "
+        },
+        {
+          "substring": "空军学院航空工程系",
+          "position": 646,
+          "length": 9,
+          "context": "：\n      - 空军学院航空工程系，开始于1984年8"
+        },
+        {
+          "substring": "开始于",
+          "position": 656,
+          "length": 3,
+          "context": "空军学院航空工程系，开始于1984年8月28日"
+        },
+        {
+          "substring": "年",
+          "position": 663,
+          "length": 1,
+          "context": "程系，开始于1984年8月28日结束于20"
+        },
+        {
+          "substring": "月",
+          "position": 665,
+          "length": 1,
+          "context": "，开始于1984年8月28日结束于2005"
+        },
+        {
+          "substring": "日结束于",
+          "position": 668,
+          "length": 4,
+          "context": "于1984年8月28日结束于2005年12月1日"
+        },
+        {
+          "substring": "年",
+          "position": 676,
+          "length": 1,
+          "context": "28日结束于2005年12月1日。\n   "
+        },
+        {
+          "substring": "月",
+          "position": 679,
+          "length": 1,
+          "context": "结束于2005年12月1日。\n      "
+        },
+        {
+          "substring": "日",
+          "position": 681,
+          "length": 1,
+          "context": "于2005年12月1日。\n      - "
+        },
+        {
+          "substring": "技术大学航空工程和技术支援课程",
+          "position": 692,
+          "length": 15,
+          "context": "。\n      - 技术大学航空工程和技术支援课程，开始于2006年4"
+        },
+        {
+          "substring": "开始于",
+          "position": 708,
+          "length": 3,
+          "context": "工程和技术支援课程，开始于2006年4月3日至"
+        },
+        {
+          "substring": "年",
+          "position": 715,
+          "length": 1,
+          "context": "课程，开始于2006年4月3日至同年10月"
+        },
+        {
+          "substring": "月",
+          "position": 717,
+          "length": 1,
+          "context": "，开始于2006年4月3日至同年10月3日"
+        },
+        {
+          "substring": "日至同年",
+          "position": 719,
+          "length": 4,
+          "context": "始于2006年4月3日至同年10月3日。\n\n# "
+        },
+        {
+          "substring": "月",
+          "position": 725,
+          "length": 1,
+          "context": "年4月3日至同年10月3日。\n\n# 工作经"
+        },
+        {
+          "substring": "日",
+          "position": 727,
+          "length": 1,
+          "context": "月3日至同年10月3日。\n\n# 工作经历历"
+        },
+        {
+          "substring": "工作经历历史记录",
+          "position": 733,
+          "length": 8,
+          "context": "10月3日。\n\n# 工作经历历史记录\n- **FX Ca"
+        },
+        {
+          "substring": "当前职位",
+          "position": 770,
+          "length": 4,
+          "context": "owo**\n  - 当前职位:\n    * 时间"
+        },
+        {
+          "substring": "时间段",
+          "position": 782,
+          "length": 3,
+          "context": "职位:\n    * 时间段: 自成立以来至今（"
+        },
+        {
+          "substring": "自成立以来至今",
+          "position": 787,
+          "length": 7,
+          "context": "   * 时间段: 自成立以来至今（具体单位不详）\n "
+        },
+        {
+          "substring": "具体单位不详",
+          "position": 795,
+          "length": 6,
+          "context": ": 自成立以来至今（具体单位不详）\n      * "
+        },
+        {
+          "substring": "单位",
+          "position": 811,
+          "length": 2,
+          "context": "）\n      * 单位/基地名称及时间段未"
+        },
+        {
+          "substring": "基地名称及时间段未提供详细信息",
+          "position": 814,
+          "length": 15,
+          "context": "     * 单位/基地名称及时间段未提供详细信息。\n  \n- **A"
+        },
+        {
+          "substring": "当前职位",
+          "position": 869,
+          "length": 4,
+          "context": "kti**\n  - 当前职位:\n    * 时间"
+        },
+        {
+          "substring": "时间段",
+          "position": 881,
+          "length": 3,
+          "context": "职位:\n    * 时间段: 没有具体的职位信"
+        },
+        {
+          "substring": "没有具体的职位信息显示在提供的文档中",
+          "position": 886,
+          "length": 18,
+          "context": "   * 时间段: 没有具体的职位信息显示在提供的文档中。\n  \n# 职务晋"
+        },
+        {
+          "substring": "职务晋升历史记录",
+          "position": 911,
+          "length": 8,
+          "context": "文档中。\n  \n# 职务晋升历史记录\n- **FX Ca"
+        },
+        {
+          "substring": "晋升至士官生的时间为",
+          "position": 948,
+          "length": 10,
+          "context": "owo**\n  * 晋升至士官生的时间为1998年。\n  \n"
+        },
+        {
+          "substring": "年",
+          "position": 962,
+          "length": 1,
+          "context": "官生的时间为1998年。\n  \n- **A"
+        },
+        {
+          "substring": "晋升至少校工程师的时间为尚未找到相关信息",
+          "position": 1004,
+          "length": 20,
+          "context": "ti**\n   * 晋升至少校工程师的时间为尚未找到相关信息。\n\n# 功勋记录和"
+        },
+        {
+          "substring": "功勋记录和服务勋章",
+          "position": 1029,
+          "length": 9,
+          "context": "到相关信息。\n\n# 功勋记录和服务勋章 \n- **FX C"
+        },
+        {
+          "substring": "获得",
+          "position": 1070,
+          "length": 2,
+          "context": "o** \n   * 获得“忠诚奖章”服务勋章"
+        },
+        {
+          "substring": "忠诚奖章",
+          "position": 1073,
+          "length": 4,
+          "context": " \n   * 获得“忠诚奖章”服务勋章的日期为2"
+        },
+        {
+          "substring": "服务勋章的日期为",
+          "position": 1078,
+          "length": 8,
+          "context": "* 获得“忠诚奖章”服务勋章的日期为2014年4月3日。"
+        },
+        {
+          "substring": "年",
+          "position": 1090,
+          "length": 1,
+          "context": "勋章的日期为2014年4月3日。 \n   "
+        },
+        {
+          "substring": "月",
+          "position": 1092,
+          "length": 1,
+          "context": "的日期为2014年4月3日。 \n   \n-"
+        },
+        {
+          "substring": "日",
+          "position": 1094,
+          "length": 1,
+          "context": "期为2014年4月3日。 \n   \n- *"
+        },
+        {
+          "substring": "获得",
+          "position": 1139,
+          "length": 2,
+          "context": "i** \n   * 获得“忠诚奖章”的服务勋"
+        },
+        {
+          "substring": "忠诚奖章",
+          "position": 1142,
+          "length": 4,
+          "context": " \n   * 获得“忠诚奖章”的服务勋章的日期为"
+        },
+        {
+          "substring": "的服务勋章的日期为",
+          "position": 1147,
+          "length": 9,
+          "context": "* 获得“忠诚奖章”的服务勋章的日期为2014年4月3日。"
+        },
+        {
+          "substring": "年",
+          "position": 1160,
+          "length": 1,
+          "context": "勋章的日期为2014年4月3日。 \n\n以上"
+        },
+        {
+          "substring": "月",
+          "position": 1162,
+          "length": 1,
+          "context": "的日期为2014年4月3日。 \n\n以上是根"
+        },
+        {
+          "substring": "日",
+          "position": 1164,
+          "length": 1,
+          "context": "期为2014年4月3日。 \n\n以上是根据现"
+        },
+        {
+          "substring": "以上是根据现有知识库对比两人的基本信息",
+          "position": 1169,
+          "length": 19,
+          "context": "4年4月3日。 \n\n以上是根据现有知识库对比两人的基本信息、教育背景、工作经历"
+        },
+        {
+          "substring": "教育背景",
+          "position": 1189,
+          "length": 4,
+          "context": "对比两人的基本信息、教育背景、工作经历以及荣誉情"
+        },
+        {
+          "substring": "工作经历以及荣誉情况",
+          "position": 1194,
+          "length": 10,
+          "context": "基本信息、教育背景、工作经历以及荣誉情况。请注意部分细节可能"
+        },
+        {
+          "substring": "请注意部分细节可能因数据缺失而无法完整呈现",
+          "position": 1205,
+          "length": 21,
+          "context": "作经历以及荣誉情况。请注意部分细节可能因数据缺失而无法完整呈现。"
+        }
+      ],
+      "average_sentence_length": 3.372093023255814,
+      "token_count": 145,
+      "compression_ratio": 0.1521511017838405,
+      "content_density": 0.993103448275862,
+      "rouge_scores": {
+        "rouge1": 0.10761854022376133,
+        "rouge2": 0.05653333333333333,
+        "rougeL": 0.05860415556739477
+      },
+      "generation_time": 18.350517988204956,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 7.7727272727272725,
+      "translated_token_count": 342,
+      "translated_compression_ratio": 0.3588667366211962,
+      "translated_content_density": 0.8333333333333334,
+      "translated_rouge_scores": {
+        "rouge1": 0.14829080404429468,
+        "rouge2": 0.07132530120481928,
+        "rougeL": 0.08281174771304767
+      },
+      "translation_time": 20.961416482925415
+    }
+  },
+  {
+    "query_id": "edi_amin_alt_compare",
+    "query": "What are the differences and similarities between Edi Suyono and Amin Rahardjo?",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "Informasi ini tidak tersedia dalam basis data untuk membandingkan Edi Suyono dan Amin Rahardjo. Berikut adalah profil singkat dari Edi Suyono berdasarkan informasi yang ada:\n\n# 全名和职级\nNama & Pangkat Saat Ini: Serma Edy Suyono (NRP 523525)\n\n# 军种或军事专业\nKorps atau Kejuruan: TNI-AU\n\n# 军事教育背景\nRiwayat Pendidikan Militer:\n- Sekolah Bahasa Inggris Teknik, LANUD Sulaiman, 19-01-1998 s/d 28-09-1998\n- Sekolah Dasar Kejuruan Teknik, Komando Pendidikan, Surabaya, 28-09-1998 s/d 24-03-1999\n- Motor Jet Training School, Surabaya, 24-03-1999 s/d 23-10-1999\n- Sekolah Calon Bintara (SECABA), Komando Pendidikan, Surabaya, 12/08/1977 s/d 06/06/17\n\n# 职位历史\nRiwayat Jabatan:\nSerda Anggota Skatek 042 Lanud Iswahjudi (sejak tanggal yang tidak ditentukan hingga saat ini)\nSertu Anggota Skatek 042 Lanud Iswahjudi (sejak tanggal yang tidak ditentukan hingga saat ini)\n\n# 职衔晋升历史\nRiwayat Kepangkatan:\nPrajurit Siswa → Serda → Sertu (effective date not specified)\n\n# 奖励记录\nRiwayat Tanda Jasa:\nSatyalancana Kesetiaan 8 tahun pada tanggal penghargaan: DD-MM-YEAR = [未提供具体日期]\n\n请注意，上述信息仅基于提供的知识库内容。对于Amin Rahardjo的详细信息没有提供，因此无法进行比较分析。",
+    "translated_text": "Informasi ini tidak tersedia dalam basis data untuk membandingkan Edi Suyono dan Amin Rahardjo. Berikut adalah profil singkat dari Edi Suyono berdasarkan informasi yang ada:\n\n# Nama & Pangkat Saat Ini\nNama & Pangkat Saat Ini: Serma Edy Suyono (NRP 523525)\n\n# Korps atau Kejuruan\nKorps atau Kejuruan: TNI-AU\n\n# Riwayat Pendidikan Militer\nRiwayat Pendidikan Militer:\n- Sekolah Bahasa Inggris Teknik, LANUD Sulaiman, 19-01-1998 s/d 28-09-1998\n- Sekolah Dasar Kejuruan Teknik, Komando Pendidikan, Surabaya, 28-09-1998 s/d 24-03-1999\n- Motor Jet Training School, Surabaya, 24-03-1999 s/d 23-10-1999\n- Sekolah Calon Bintara (SECABA), Komando Pendidikan, Surabaya, 12/08/1977 s/d 06/06/17\n\n# Riwayat Jabatan\nRiwayat Jabatan:\nSerda Anggota Skatek 042 Lanud Iswahjudi (sejak tanggal yang tidak ditentukan hingga saat ini)\nSertu Anggota Skatek 042 Lanud Iswahjudi (sejak tanggal yang tidak ditentukan hingga saat ini)\n\n# Riwayat Kepangkatan\nRiwayat Kepangkatan:\nPrajurit Siswa → Serda → Sertu (tanggal efektif tidak disebutkan)\n\n# Riwayat Tanda Jasa\nRiwayat Tanda Jasa:\nSatyalancana Kesetiaan 8 tahun pada tanggal penghargaan: DD-MM-TAHUN = [tidak disediakan tanggal spesifik]\n\nPerhatian: Informasi di atas hanya berdasarkan pengetahuan yang tersedia. Untuk Amin Rahardjo, informasi detail tidak disediakan, sehingga tidak dapat dilakukan analisis perbandingan.",
+    "metrics": {
+      "chinese_char_count": 78,
+      "chinese_char_percentage": 7.0588235294117645,
+      "chinese_chars_found": "全名和职级军种或军事专业军事教育背景职位历史职衔晋升历史奖励记录未提供具体日期请注意上述信息仅基于提供的知识库内容对于的详细信息没有提供因此无法进行比较分析",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 177,
+          "length": 5,
+          "context": "g ada:\n\n# 全名和职级\nNama & Pa"
+        },
+        {
+          "substring": "军种或军事专业",
+          "position": 241,
+          "length": 7,
+          "context": "23525)\n\n# 军种或军事专业\nKorps ata"
+        },
+        {
+          "substring": "军事教育背景",
+          "position": 280,
+          "length": 6,
+          "context": "TNI-AU\n\n# 军事教育背景\nRiwayat P"
+        },
+        {
+          "substring": "职位历史",
+          "position": 635,
+          "length": 4,
+          "context": "/06/17\n\n# 职位历史\nRiwayat J"
+        },
+        {
+          "substring": "职衔晋升历史",
+          "position": 850,
+          "length": 6,
+          "context": "t ini)\n\n# 职衔晋升历史\nRiwayat K"
+        },
+        {
+          "substring": "奖励记录",
+          "position": 943,
+          "length": 4,
+          "context": "ified)\n\n# 奖励记录\nRiwayat T"
+        },
+        {
+          "substring": "未提供具体日期",
+          "position": 1039,
+          "length": 7,
+          "context": "M-YEAR = [未提供具体日期]\n\n请注意，上述信"
+        },
+        {
+          "substring": "请注意",
+          "position": 1049,
+          "length": 3,
+          "context": "未提供具体日期]\n\n请注意，上述信息仅基于提供"
+        },
+        {
+          "substring": "上述信息仅基于提供的知识库内容",
+          "position": 1053,
+          "length": 15,
+          "context": "体日期]\n\n请注意，上述信息仅基于提供的知识库内容。对于Amin Ra"
+        },
+        {
+          "substring": "对于",
+          "position": 1069,
+          "length": 2,
+          "context": "于提供的知识库内容。对于Amin Rahar"
+        },
+        {
+          "substring": "的详细信息没有提供",
+          "position": 1084,
+          "length": 9,
+          "context": "n Rahardjo的详细信息没有提供，因此无法进行比较分"
+        },
+        {
+          "substring": "因此无法进行比较分析",
+          "position": 1094,
+          "length": 10,
+          "context": "的详细信息没有提供，因此无法进行比较分析。"
+        }
+      ],
+      "average_sentence_length": 6.608695652173913,
+      "token_count": 152,
+      "compression_ratio": 0.16291532690246516,
+      "content_density": 0.8618421052631579,
+      "rouge_scores": {
+        "rouge1": 0.09590409590409592,
+        "rouge2": 0.05499999999999999,
+        "rougeL": 0.05594405594405595
+      },
+      "generation_time": 12.484928131103516,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 7.791666666666667,
+      "translated_token_count": 187,
+      "translated_compression_ratio": 0.20042872454448016,
+      "translated_content_density": 0.8128342245989305,
+      "translated_rouge_scores": {
+        "rouge1": 0.10083210964268233,
+        "rouge2": 0.0538951494365507,
+        "rougeL": 0.05873715124816446
+      },
+      "translation_time": 12.484618663787842
+    }
+  },
+  {
+    "query_id": "rudito_cahyono_id_compare",
+    "query": "Apa perbedaan dan persamaan antara Rudito Dwi Wibowo dengan FX Cahyono Wibowo?",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\n- Rudito Dwi Wibowo saat ini berpangkat Mayor Tek.\n- FX Cahyono Wibowo saat ini berpangkat Sertu.\n\n# 军种或军事专业\n- Rudito Dwi Wibowo tidak memiliki informasi tentang korps atau kejuruan dalam basis data.\n- FX Cahyono Wibowo juga tidak memiliki informasi tentang korps atau kejuruan dalam basis data.\n\n# 军事教育历史\n- Rudito Dwi Wibowo telah menyelesaikan pendidikan di Akademi TNI Angkatan Udara dengan jurusan Aeronautika pada 17 Juli 1995.\n- FX Cahyono Wibowo telah menyelesaikan pendidikan di Sekolah Komando Kesatuan TNI AU dari tanggal 06 hingga 17 Desember 2004.\n\n# 工作经历\n- Rudito Dwi Wibowo pernah menjadi Letnan II dan sekarang menjadi Mayor Tek. Dia juga pernah bekerja sebagai Milobs pada misi MONUC di Kongo.\n- FX Cahyono Wibowo pernah menjadi Prajurit Siswa, Serda, dan sekarang berpangkat Sertu. Dia bertugas sebagai anggota Skatek 043 Lanud Adisutjipto.\n\n# 职位晋升历史\n- Informasi ini tidak tersedia dalam basis data untuk Rudito Dwi Wibowo.\n- Informasi ini tidak tersedia dalam basis data untuk FX Cahyono Wibowo.\n\n# 勋章和荣誉记录\n- Rudito Dwi Wibowo menerima Satyalancana Santi Dharma pada tanggal 27 Desember 2007.\n- FX Cahyono Wibowo menerima Satyalancana Kesetiaan 8 tahun pada tanggal 15 Desember 2006.\n\n从提供的信息来看，Rudito Dwi Wibowo 和 FX Cahyono Wibowo 在军种、军事专业以及工作经历方面没有具体的信息。他们的主要区别在于他们所接受的军事教育背景不同，并且他们在职业生涯中获得的不同勋章。",
+    "translated_text": "# Nama Lengkap dan Pangkat\n- Rudito Dwi Wibowo saat ini berpangkat Mayor Tek.\n- FX Cahyono Wibowo saat ini berpangkat Sertu.\n\n# Jenis Angkatan atau Bidang Keahlian Militer\n- Rudito Dwi Wibowo tidak memiliki informasi tentang korps atau kejuruan dalam basis data.\n- FX Cahyono Wibowo juga tidak memiliki informasi tentang korps atau kejuruan dalam basis data.\n\n# Riwayat Pendidikan Militer\n- Rudito Dwi Wibowo telah menyelesaikan pendidikan di Akademi TNI Angkatan Udara dengan jurusan Aeronautika pada 17 Juli 1995.\n- FX Cahyono Wibowo telah menyelesaikan pendidikan di Sekolah Komando Kesatuan TNI AU dari tanggal 06 hingga 17 Desember 2004.\n\n# Pengalaman Kerja\n- Rudito Dwi Wibowo pernah menjadi Letnan II dan sekarang menjadi Mayor Tek. Dia juga pernah bekerja sebagai Milobs pada misi MONUC di Kongo.\n- FX Cahyono Wibowo pernah menjadi Prajurit Siswa, Serda, dan sekarang berpangkat Sertu. Dia bertugas sebagai anggota Skatek 043 Lanud Adisutjipto.\n\n# Riwayat Penugasan\n- Informasi ini tidak tersedia dalam basis data untuk Rudito Dwi Wibowo.\n- Informasi ini tidak tersedia dalam basis data untuk FX Cahyono Wibowo.\n\n# Medali dan Prestasi\n- Rudito Dwi Wibowo menerima Satyalancana Santi Dharma pada tanggal 27 Desember 2007.\n- FX Cahyono Wibowo menerima Satyalancana Kesetiaan 8 tahun pada tanggal 15 Desember 2006.\n\nDari informasi yang tersedia, Rudito Dwi Wibowo dan FX Cahyono Wibowo tidak memiliki informasi spesifik tentang angkatan atau bidang keahlian militer mereka. Perbedaan utama mereka terletak pada latar belakang pendidikan militer mereka dan medali yang diterima dalam karir mereka.",
+    "metrics": {
+      "chinese_char_count": 106,
+      "chinese_char_percentage": 8.006042296072508,
+      "chinese_chars_found": "全名和职级军种或军事专业军事教育历史工作经历职位晋升历史勋章和荣誉记录从提供的信息来看和在军种军事专业以及工作经历方面没有具体的信息他们的主要区别在于他们所接受的军事教育背景不同并且他们在职业生涯中获得的不同勋章",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\n- Rudito "
+        },
+        {
+          "substring": "军种或军事专业",
+          "position": 109,
+          "length": 7,
+          "context": "Sertu.\n\n# 军种或军事专业\n- Rudito "
+        },
+        {
+          "substring": "军事教育历史",
+          "position": 307,
+          "length": 6,
+          "context": " data.\n\n# 军事教育历史\n- Rudito "
+        },
+        {
+          "substring": "工作经历",
+          "position": 571,
+          "length": 4,
+          "context": " 2004.\n\n# 工作经历\n- Rudito "
+        },
+        {
+          "substring": "职位晋升历史",
+          "position": 869,
+          "length": 6,
+          "context": "jipto.\n\n# 职位晋升历史\n- Informa"
+        },
+        {
+          "substring": "勋章和荣誉记录",
+          "position": 1025,
+          "length": 7,
+          "context": "ibowo.\n\n# 勋章和荣誉记录\n- Rudito "
+        },
+        {
+          "substring": "从提供的信息来看",
+          "position": 1211,
+          "length": 8,
+          "context": "er 2006.\n\n从提供的信息来看，Rudito Dw"
+        },
+        {
+          "substring": "和",
+          "position": 1238,
+          "length": 1,
+          "context": "wi Wibowo 和 FX Cahyon"
+        },
+        {
+          "substring": "在军种",
+          "position": 1258,
+          "length": 3,
+          "context": "no Wibowo 在军种、军事专业以及工作经"
+        },
+        {
+          "substring": "军事专业以及工作经历方面没有具体的信息",
+          "position": 1262,
+          "length": 19,
+          "context": "ibowo 在军种、军事专业以及工作经历方面没有具体的信息。他们的主要区别在于"
+        },
+        {
+          "substring": "他们的主要区别在于他们所接受的军事教育背景不同",
+          "position": 1282,
+          "length": 23,
+          "context": "方面没有具体的信息。他们的主要区别在于他们所接受的军事教育背景不同，并且他们在职业生涯"
+        },
+        {
+          "substring": "并且他们在职业生涯中获得的不同勋章",
+          "position": 1306,
+          "length": 17,
+          "context": "的军事教育背景不同，并且他们在职业生涯中获得的不同勋章。"
+        }
+      ],
+      "average_sentence_length": 9.571428571428571,
+      "token_count": 201,
+      "compression_ratio": 0.23103448275862068,
+      "content_density": 0.7512437810945274,
+      "rouge_scores": {
+        "rouge1": 0.11861421021726364,
+        "rouge2": 0.06701940035273368,
+        "rougeL": 0.06576629477392835
+      },
+      "generation_time": 12.26073169708252,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 11.181818181818182,
+      "translated_token_count": 246,
+      "translated_compression_ratio": 0.2827586206896552,
+      "translated_content_density": 0.7317073170731707,
+      "translated_rouge_scores": {
+        "rouge1": 0.1264236902050114,
+        "rouge2": 0.06499429874572406,
+        "rougeL": 0.0683371298405467
+      },
+      "translation_time": 12.236503839492798
+    }
+  },
+  {
+    "query_id": "ardi_amin_detailed_compare",
+    "query": "Provide a detailed comparison between Ardi Adrian Pualam Sakti and Amin Rahardjo",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\nInformasi ini tidak tersedia dalam basis data.\n\n# 军队或军事专业\nInformasi ini tidak tersedia dalam basis data.\n\n# 军事教育背景\n- **SD Negeri Limbangan I**\n  - Tempat: Limbangan, Kabupaten Kendal\n  - Tanggal Lulus: 7 Februari 1996\n\n- **SLTP Negeri 1 Boja**\n  - Tempat: Boja, Kabupaten Kendal\n  - Tanggal Lulus: 24 Mei 1999\n\n- **SMU Taruna Nusantara**\n  - Tempat: Magelang\n  - Tanggal Lulus: 14 Juni 2002\n\n- **Akademi Angkatan Udara**\n  - Jurusan: Aeronautika\n  - Tanggal Mulai Ujian: Agustus, tahun lahir (1984)\n    *Tanggal Berakhir Ujian*: Desember, tahun lulus (2005)\n\n- **Komando Pendidikan**\n   - Jurusan: Teknik Pesawat Terbang dan Sarana Bantuan \n   *Tanggal Mulai Ujian*: April, tahun lulus (2006)\n   *Tanggal Berakhir Ujian*: Oktober, tahun lulus (2006)\n\n- **Pengmilim Kodiklat TNI AD**\n   *Mulai Pelajaran*: April, tahun lulus (2008)\n   *Berakhir Pelajaran*: Juli, tahun lulus (2008)\n\nInformasi tentang Amin Rahardjo tidak tersedia dalam basis data untuk dibandingkan.",
+    "translated_text": "# Nama Lengkap dan Jabatan\nInformasi ini tidak tersedia dalam basis data.\n\n# Angkatan atau Bidang Militer\nInformasi ini tidak tersedia dalam basis data.\n\n# Pendidikan Militer\n- **SD Negeri Limbangan I**\n  - Tempat: Limbangan, Kabupaten Kendal\n  - Tanggal Lulus: 7 Februari 1996\n\n- **SLTP Negeri 1 Boja**\n  - Tempat: Boja, Kabupaten Kendal\n  - Tanggal Lulus: 24 Mei 1999\n\n- **SMU Taruna Nusantara**\n  - Tempat: Magelang\n  - Tanggal Lulus: 14 Juni 2002\n\n- **Akademi Angkatan Udara**\n  - Jurusan: Aeronautika\n  - Tanggal Mulai Ujian: Agustus, tahun lahir (1984)\n    *Tanggal Berakhir Ujian*: Desember, tahun lulus (2005)\n\n- **Komando Pendidikan**\n   - Jurusan: Teknik Pesawat Terbang dan Sarana Bantuan \n   *Tanggal Mulai Ujian*: April, tahun lulus (2006)\n   *Tanggal Berakhir Ujian*: Oktober, tahun lulus (2006)\n\n- **Pengmilim Kodiklat TNI AD**\n   *Mulai Pelajaran*: April, tahun lulus (2008)\n   *Berakhir Pelajaran*: Juli, tahun lulus (2008)\n\nInformasi tentang Amin Rahardjo tidak tersedia dalam basis data untuk dibandingkan.",
+    "metrics": {
+      "chinese_char_count": 18,
+      "chinese_char_percentage": 1.8499486125385407,
+      "chinese_chars_found": "全名和职级军队或军事专业军事教育背景",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\nInformasi"
+        },
+        {
+          "substring": "军队或军事专业",
+          "position": 58,
+          "length": 7,
+          "context": " data.\n\n# 军队或军事专业\nInformasi"
+        },
+        {
+          "substring": "军事教育背景",
+          "position": 116,
+          "length": 6,
+          "context": " data.\n\n# 军事教育背景\n- **SD Ne"
+        }
+      ],
+      "average_sentence_length": 5.384615384615385,
+      "token_count": 140,
+      "compression_ratio": 0.17073170731707318,
+      "content_density": 0.85,
+      "rouge_scores": {
+        "rouge1": 0.09585798816568047,
+        "rouge2": 0.04028436018957346,
+        "rougeL": 0.08994082840236686
+      },
+      "generation_time": 9.572422504425049,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 5.653846153846154,
+      "translated_token_count": 147,
+      "translated_compression_ratio": 0.17926829268292682,
+      "translated_content_density": 0.8435374149659864,
+      "translated_rouge_scores": {
+        "rouge1": 0.09999999999999999,
+        "rouge2": 0.04004711425206125,
+        "rougeL": 0.09176470588235294
+      },
+      "translation_time": 8.96665096282959
+    }
+  },
+  {
+    "query_id": "edi_rudito_id_compare",
+    "query": "Mohon jelaskan perbandingan antara Edi Suyono dengan Rudito Dwi Wibowo",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\nEdi Suyono saat ini memiliki pangkat Prajurit Siswa, sedangkan Rudito Dwi Wibowo berada pada pangkat Mayor Tek.\n\n# 基本教育背景\n- **Edi Suyono:**\n  - SD: Sekolah Dasar Negeri Tremes II, Sidoharjo, Wonogiri (15 Juni 1989)\n  - SMP: SMP 2 Negeri Sidoharjo, Wonogiri (15 Februari 1992)\n  - SMA: SMA 3 Wonogiri (26 Mei 1995)\n\n- **Rudito Dwi Wibowo:**\n  - SD: Sekolah Dasar Negeri Legoso, Ciputat (4 Februari 1986)\n  - SMP: SMP Negeri Ciputat (8 Juni 1989)\n  - SMA: SMA Negeri Ciputat (12 Juni 1992)\n\n# 军事培训经历\n- **Edi Suyono:** \n   Informasi ini tidak tersedia dalam basis data.\n\n- **Rudito Dwi Wibowo:**  \n   - Sekolah Staf dan Komando Angkatan Udara (Sektor Pendidikan): Jakarta, tanggal kelulusan tidak disebutkan.\n   - Komando Pendidikan TNI AU : Jakarta, dari tanggal mulai ujian yang ditentukan hingga akhir ujian yang ditentukan.\n\n# 职务历史\n- **Edi Suyono:** \n   Informasi tentang jabatan sebelumnya tidak tersedia dalam basis data. Saat ini menjabat sebagai Serda.\n\n- **Rudito Dwi Wibowo:** \n   Sebelum menjadi Letkol Tek di Disaeroau:\n   - Dansathar Depohar Hsn\n\n# 等级晋升历史\n- **Edi Suyono:** \n   Informasi tentang promosi tingkatannya tidak tersedia dalam basis data.\n\n- **Rudito Dwi Wibowo:** \n   Promosi ke Kapten Tek dilakukan pada tahun yang belum spesifik.\n   \n# 表彰记录\n- **Edi Suyono:** \n   Informasi tentang penghargaan atau medali yang diterima tidak tersedia dalam basis data.\n\n- **Rudito Dwi Wibowo:**  \n   Satyalancana Dwidya Sista diberikan pada tanggal \"06 Oktober\" tahun \"2011\".\n   \nInformasi tambahan seperti tempat lahir dan tanggal pernikahan juga telah disediakan untuk kedua individu tersebut.",
+    "translated_text": "# Nama Lengkap dan Pangkat\nEdi Suyono saat ini memiliki pangkat Prajurit Siswa, sedangkan Rudito Dwi Wibowo berada pada pangkat Mayor Tek.\n\n# Pendidikan Dasar\n- **Edi Suyono:**\n  - SD: Sekolah Dasar Negeri Tremes II, Sidoharjo, Wonogiri (15 Juni 1989)\n  - SMP: SMP 2 Negeri Sidoharjo, Wonogiri (15 Februari 1992)\n  - SMA: SMA 3 Wonogiri (26 Mei 1995)\n\n- **Rudito Dwi Wibowo:**\n  - SD: Sekolah Dasar Negeri Legoso, Ciputat (4 Februari 1986)\n  - SMP: SMP Negeri Ciputat (8 Juni 1989)\n  - SMA: SMA Negeri Ciputat (12 Juni 1992)\n\n# Pengalaman Pelatihan Militer\n- **Edi Suyono:** \n   Informasi ini tidak tersedia dalam basis data.\n\n- **Rudito Dwi Wibowo:**  \n   - Sekolah Staf dan Komando Angkatan Udara (Sektor Pendidikan): Jakarta, tanggal kelulusan tidak disebutkan.\n   - Komando Pendidikan TNI AU : Jakarta, dari tanggal mulai ujian yang ditentukan hingga akhir ujian yang ditentukan.\n\n# Riwayat Jabatan\n- **Edi Suyono:** \n   Informasi tentang jabatan sebelumnya tidak tersedia dalam basis data. Saat ini menjabat sebagai Serda.\n\n- **Rudito Dwi Wibowo:** \n   Sebelum menjadi Letkol Tek di Disaeroau:\n   - Dansathar Depohar Hsn\n\n# Riwayat Penugasan\n- **Edi Suyono:** \n   Informasi tentang promosi tingkatannya tidak tersedia dalam basis data.\n\n- **Rudito Dwi Wibowo:** \n   Promosi ke Kapten Tek dilakukan pada tahun yang belum spesifik.\n   \n# Rekam Penghargaan\n- **Edi Suyono:** \n   Informasi tentang penghargaan atau medali yang diterima tidak tersedia dalam basis data.\n\n- **Rudito Dwi Wibowo:**  \n   Satyalancana Dwidya Sista diberikan pada tanggal \"06 Oktober\" tahun \"2011\".\n   \nInformasi tambahan seperti tempat lahir dan tanggal pernikahan juga telah disediakan untuk kedua individu tersebut.",
+    "metrics": {
+      "chinese_char_count": 31,
+      "chinese_char_percentage": 1.9254658385093166,
+      "chinese_chars_found": "全名和职级基本教育背景军事培训经历职务历史等级晋升历史表彰记录",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\nEdi Suyon"
+        },
+        {
+          "substring": "基本教育背景",
+          "position": 123,
+          "length": 6,
+          "context": "r Tek.\n\n# 基本教育背景\n- **Edi S"
+        },
+        {
+          "substring": "军事培训经历",
+          "position": 499,
+          "length": 6,
+          "context": " 1992)\n\n# 军事培训经历\n- **Edi S"
+        },
+        {
+          "substring": "职务历史",
+          "position": 836,
+          "length": 4,
+          "context": "tukan.\n\n# 职务历史\n- **Edi S"
+        },
+        {
+          "substring": "等级晋升历史",
+          "position": 1067,
+          "length": 6,
+          "context": "ar Hsn\n\n# 等级晋升历史\n- **Edi S"
+        },
+        {
+          "substring": "表彰记录",
+          "position": 1268,
+          "length": 4,
+          "context": "ik.\n   \n# 表彰记录\n- **Edi S"
+        }
+      ],
+      "average_sentence_length": 6.828571428571428,
+      "token_count": 239,
+      "compression_ratio": 0.2443762781186094,
+      "content_density": 0.7907949790794979,
+      "rouge_scores": {
+        "rouge1": 0.12487611496531219,
+        "rouge2": 0.06547619047619048,
+        "rougeL": 0.0842418235877106
+      },
+      "generation_time": 14.997299671173096,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 7.085714285714285,
+      "translated_token_count": 248,
+      "translated_compression_ratio": 0.25357873210633947,
+      "translated_content_density": 0.7943548387096774,
+      "translated_rouge_scores": {
+        "rouge1": 0.13084112149532715,
+        "rouge2": 0.06499261447562776,
+        "rougeL": 0.08755533694048204
+      },
+      "translation_time": 14.037662744522095
+    }
+  },
+  {
+    "query_id": "three_way_compare",
+    "query": "Bandingkan pengalaman dan keahlian dari tiga orang berikut: FX Cahyono Wibowo, Amin Rahardjo, dan Rudito Dwi Wibowo",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\nInformasi ini tidak tersedia dalam basis data.\n\n# 军种或军事专业\n- FX Cahyono Wibowo: Informasi ini tidak tersedia dalam basis data.\n- Amin Rahardjo: Informasi ini tidak tersedia dalam basis data.\n- Rudito Dwi Wibowo: TNI AU\n\n# 军事教育背景\n- FX Cahyono Wibowo:\n  - Sekolah Bahasa Inggris Teknik (LANUD SULAIMAN, 28 September 1998)\n  - Sekolah Menengah Umum Tingkat Atas (SMA) Negeri Ciputat (12 Juni 1992)\n  \n- Amin Rahardjo: Informasi ini tidak tersedia dalam basis data.\n  \n- Rudito Dwi Wibowo:\n  - Komando Pendidikan (Jakarta, 17 Desember 2004)\n  - SMA Negeri Ciputat (Ciputat, Kabupaten Tangerang, 12 Juni 1992)\n\n# 工作经历\n- FX Cahyono Wibowo:\n  - Serda di Skatek 043 Lanud Adisutjipto (Tidak ada tanggal spesifik)\n\n- Amin Rahardjo: Informasi ini tidak tersedia dalam basis data.\n\n- Rudito Dwi Wibowo:\n  - Dansathar di Depohar Hsn (Tidak ada tanggal spesifik)\n    -> Ditetapkan sebagai Dansataktek di Lanud Adi pada tanggal yang belum ditentukan\n\n# 职务晋升历史\n- FX Cahyono Wibowo:\n    - Prajurit Siswa pada tanggal yang belum ditentukan\n    - Serma pada saat terakhir diperbarui informasinya\n\n- Amin Rahardjo: Informasi ini tidak tersedia dalam basis数据。\n\n根据提供的信息，我们可以总结以下内容：\n\n## 全名和职级\n相关信息在知识库中未找到。\n\n## 军种或军事专业\nFX Cahyono Wibowo：信息未提供。\nAmin Rahardjo：信息未提供。\nRudito Dwi Wibowo：空军（TNI-AU）。\n\n## 军事教育背景\nFX Cahyono Wibowo：\n* 英语技术学校（兰杜尔苏拉曼，1998年9月28日）\n* 塞普塔蒂国立中学（西爪哇省潭葛县，1992年6月12日）\n\nAmin Rahardjo：无相关记录。\n\nRudito Dwi Wibowo：\n* 空军指挥学院（雅加达，2004年12月17日）\n* 塞普塔蒂国立中学（西爪哇省潭葛县，1992年6月）\n\n## 工作经历\nFX Cahyono Wibowo：\n* 在Skatek部队担任士官，并于最近一次更新时为上士。具体日期不详。\n\nAmin Rahardjo：无相关记录。\n\nRudito Dwi Wibowo：\n* 曾任Depohar Hsn的参谋长助理。具体日期不详。\n   * 担任Danskatek部队的参谋长助理，并于某天被任命。具体日期不详\n\n## 职务晋升历史\nFX Cahyono Wibowo：\n* 最初是学员兵，在最近的信息更新时已升至上士。具体日期不详\n\nAmin Rahardjo：无相关记录\n\nRudito Dwi Wibow...\n",
+    "translated_text": "# Nama Lengkap dan Pangkat\nInformasi ini tidak tersedia dalam basis data.\n\n# Angkatan atau Bidang Militer\n- FX Cahyono Wibowo: Informasi ini tidak tersedia dalam basis data.\n- Amin Rahardjo: Informasi ini tidak tersedia dalam basis data.\n- Rudito Dwi Wibowo: TNI AU\n\n# Pendidikan Militer\n- FX Cahyono Wibowo:\n  - Sekolah Bahasa Inggris Teknik (LANUD SULAIMAN, 28 September 1998)\n  - Sekolah Menengah Umum Tingkat Atas (SMA) Negeri Ciputat (12 Juni 1992)\n  \n- Amin Rahardjo: Informasi ini tidak tersedia dalam basis data.\n  \n- Rudito Dwi Wibowo:\n  - Komando Pendidikan (Jakarta, 17 Desember 2004)\n  - SMA Negeri Ciputat (Ciputat, Kabupaten Tangerang, 12 Juni 1992)\n\n# Pengalaman Kerja\n- FX Cahyono Wibowo:\n  - Serda di Skatek 043 Lanud Adisutjipto (Tidak ada tanggal spesifik)\n\n- Amin Rahardjo: Informasi ini tidak tersedia dalam basis data.\n\n- Rudito Dwi Wibowo:\n  - Dansathar di Depohar Hsn (Tidak ada tanggal spesifik)\n    -> Ditetapkan sebagai Dansataktek di Lanud Adi pada tanggal yang belum ditentukan\n\n# Riwayat Peningkatan Pangkat\n- FX Cahyono Wibowo:\n    - Prajurit Siswa pada tanggal yang belum ditentukan\n    - Serma pada saat terakhir diperbarui informasinya\n\n- Amin Rahardjo: Informasi ini tidak tersedia dalam basis data.\n\n- Rudito Dwi Wibowo:\n    - Prajurit Siswa pada tanggal yang belum ditentukan\n    - Serma pada saat terakhir diperbarui informasinya",
+    "metrics": {
+      "chinese_char_count": 264,
+      "chinese_char_percentage": 15.12893982808023,
+      "chinese_chars_found": "全名和职级军种或军事专业军事教育背景工作经历职务晋升历史数据根据提供的信息我们可以总结以下内容全名和职级相关信息在知识库中未找到军种或军事专业信息未提供信息未提供空军军事教育背景英语技术学校兰杜尔苏拉曼年月日塞普塔蒂国立中学西爪哇省潭葛县年月日无相关记录空军指挥学院雅加达年月日塞普塔蒂国立中学西爪哇省潭葛县年月工作经历在部队担任士官并于最近一次更新时为上士具体日期不详无相关记录曾任的参谋长助理具体日期不详担任部队的参谋长助理并于某天被任命具体日期不详职务晋升历史最初是学员兵在最近的信息更新时已升至上士具体日期不详无相关记录",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\nInformasi"
+        },
+        {
+          "substring": "军种或军事专业",
+          "position": 58,
+          "length": 7,
+          "context": " data.\n\n# 军种或军事专业\n- FX Cahy"
+        },
+        {
+          "substring": "军事教育背景",
+          "position": 229,
+          "length": 6,
+          "context": "TNI AU\n\n# 军事教育背景\n- FX Cahy"
+        },
+        {
+          "substring": "工作经历",
+          "position": 615,
+          "length": 4,
+          "context": " 1992)\n\n# 工作经历\n- FX Cahy"
+        },
+        {
+          "substring": "职务晋升历史",
+          "position": 946,
+          "length": 6,
+          "context": "ntukan\n\n# 职务晋升历史\n- FX Cahy"
+        },
+        {
+          "substring": "数据",
+          "position": 1143,
+          "length": 2,
+          "context": "alam basis数据。\n\n根据提供的信息"
+        },
+        {
+          "substring": "根据提供的信息",
+          "position": 1148,
+          "length": 7,
+          "context": "basis数据。\n\n根据提供的信息，我们可以总结以下内"
+        },
+        {
+          "substring": "我们可以总结以下内容",
+          "position": 1156,
+          "length": 10,
+          "context": "\n\n根据提供的信息，我们可以总结以下内容：\n\n## 全名和职"
+        },
+        {
+          "substring": "全名和职级",
+          "position": 1172,
+          "length": 5,
+          "context": "以下内容：\n\n## 全名和职级\n相关信息在知识库中"
+        },
+        {
+          "substring": "相关信息在知识库中未找到",
+          "position": 1178,
+          "length": 12,
+          "context": "\n## 全名和职级\n相关信息在知识库中未找到。\n\n## 军种或军"
+        },
+        {
+          "substring": "军种或军事专业",
+          "position": 1196,
+          "length": 7,
+          "context": "中未找到。\n\n## 军种或军事专业\nFX Cahyon"
+        },
+        {
+          "substring": "信息未提供",
+          "position": 1222,
+          "length": 5,
+          "context": "no Wibowo：信息未提供。\nAmin Rah"
+        },
+        {
+          "substring": "信息未提供",
+          "position": 1243,
+          "length": 5,
+          "context": " Rahardjo：信息未提供。\nRudito D"
+        },
+        {
+          "substring": "空军",
+          "position": 1268,
+          "length": 2,
+          "context": "wi Wibowo：空军（TNI-AU）。\n"
+        },
+        {
+          "substring": "军事教育背景",
+          "position": 1284,
+          "length": 6,
+          "context": "-AU）。\n\n## 军事教育背景\nFX Cahyon"
+        },
+        {
+          "substring": "英语技术学校",
+          "position": 1312,
+          "length": 6,
+          "context": "Wibowo：\n* 英语技术学校（兰杜尔苏拉曼，19"
+        },
+        {
+          "substring": "兰杜尔苏拉曼",
+          "position": 1319,
+          "length": 6,
+          "context": "\n* 英语技术学校（兰杜尔苏拉曼，1998年9月28"
+        },
+        {
+          "substring": "年",
+          "position": 1330,
+          "length": 1,
+          "context": "杜尔苏拉曼，1998年9月28日）\n* 塞"
+        },
+        {
+          "substring": "月",
+          "position": 1332,
+          "length": 1,
+          "context": "苏拉曼，1998年9月28日）\n* 塞普塔"
+        },
+        {
+          "substring": "日",
+          "position": 1335,
+          "length": 1,
+          "context": "，1998年9月28日）\n* 塞普塔蒂国立"
+        },
+        {
+          "substring": "塞普塔蒂国立中学",
+          "position": 1340,
+          "length": 8,
+          "context": "年9月28日）\n* 塞普塔蒂国立中学（西爪哇省潭葛县，1"
+        },
+        {
+          "substring": "西爪哇省潭葛县",
+          "position": 1349,
+          "length": 7,
+          "context": " 塞普塔蒂国立中学（西爪哇省潭葛县，1992年6月12"
+        },
+        {
+          "substring": "年",
+          "position": 1361,
+          "length": 1,
+          "context": "哇省潭葛县，1992年6月12日）\n\nAm"
+        },
+        {
+          "substring": "月",
+          "position": 1363,
+          "length": 1,
+          "context": "潭葛县，1992年6月12日）\n\nAmin"
+        },
+        {
+          "substring": "日",
+          "position": 1366,
+          "length": 1,
+          "context": "，1992年6月12日）\n\nAmin Ra"
+        },
+        {
+          "substring": "无相关记录",
+          "position": 1384,
+          "length": 5,
+          "context": " Rahardjo：无相关记录。\n\nRudito "
+        },
+        {
+          "substring": "空军指挥学院",
+          "position": 1413,
+          "length": 6,
+          "context": "Wibowo：\n* 空军指挥学院（雅加达，2004年"
+        },
+        {
+          "substring": "雅加达",
+          "position": 1420,
+          "length": 3,
+          "context": "\n* 空军指挥学院（雅加达，2004年12月1"
+        },
+        {
+          "substring": "年",
+          "position": 1428,
+          "length": 1,
+          "context": "院（雅加达，2004年12月17日）\n* "
+        },
+        {
+          "substring": "月",
+          "position": 1431,
+          "length": 1,
+          "context": "加达，2004年12月17日）\n* 塞普塔"
+        },
+        {
+          "substring": "日",
+          "position": 1434,
+          "length": 1,
+          "context": "2004年12月17日）\n* 塞普塔蒂国立"
+        },
+        {
+          "substring": "塞普塔蒂国立中学",
+          "position": 1439,
+          "length": 8,
+          "context": "12月17日）\n* 塞普塔蒂国立中学（西爪哇省潭葛县，1"
+        },
+        {
+          "substring": "西爪哇省潭葛县",
+          "position": 1448,
+          "length": 7,
+          "context": " 塞普塔蒂国立中学（西爪哇省潭葛县，1992年6月）\n"
+        },
+        {
+          "substring": "年",
+          "position": 1460,
+          "length": 1,
+          "context": "哇省潭葛县，1992年6月）\n\n## 工作"
+        },
+        {
+          "substring": "月",
+          "position": 1462,
+          "length": 1,
+          "context": "潭葛县，1992年6月）\n\n## 工作经历"
+        },
+        {
+          "substring": "工作经历",
+          "position": 1469,
+          "length": 4,
+          "context": "2年6月）\n\n## 工作经历\nFX Cahyon"
+        },
+        {
+          "substring": "在",
+          "position": 1495,
+          "length": 1,
+          "context": "Wibowo：\n* 在Skatek部队担任"
+        },
+        {
+          "substring": "部队担任士官",
+          "position": 1502,
+          "length": 6,
+          "context": "\n* 在Skatek部队担任士官，并于最近一次更新时"
+        },
+        {
+          "substring": "并于最近一次更新时为上士",
+          "position": 1509,
+          "length": 12,
+          "context": "tek部队担任士官，并于最近一次更新时为上士。具体日期不详。\n\n"
+        },
+        {
+          "substring": "具体日期不详",
+          "position": 1522,
+          "length": 6,
+          "context": "近一次更新时为上士。具体日期不详。\n\nAmin Ra"
+        },
+        {
+          "substring": "无相关记录",
+          "position": 1545,
+          "length": 5,
+          "context": " Rahardjo：无相关记录。\n\nRudito "
+        },
+        {
+          "substring": "曾任",
+          "position": 1574,
+          "length": 2,
+          "context": "Wibowo：\n* 曾任Depohar Hs"
+        },
+        {
+          "substring": "的参谋长助理",
+          "position": 1587,
+          "length": 6,
+          "context": "epohar Hsn的参谋长助理。具体日期不详。\n "
+        },
+        {
+          "substring": "具体日期不详",
+          "position": 1594,
+          "length": 6,
+          "context": "Hsn的参谋长助理。具体日期不详。\n   * 担任D"
+        },
+        {
+          "substring": "担任",
+          "position": 1607,
+          "length": 2,
+          "context": "期不详。\n   * 担任Danskatek部"
+        },
+        {
+          "substring": "部队的参谋长助理",
+          "position": 1618,
+          "length": 8,
+          "context": "任Danskatek部队的参谋长助理，并于某天被任命。具"
+        },
+        {
+          "substring": "并于某天被任命",
+          "position": 1627,
+          "length": 7,
+          "context": "k部队的参谋长助理，并于某天被任命。具体日期不详\n\n#"
+        },
+        {
+          "substring": "具体日期不详",
+          "position": 1635,
+          "length": 6,
+          "context": "理，并于某天被任命。具体日期不详\n\n## 职务晋升历"
+        },
+        {
+          "substring": "职务晋升历史",
+          "position": 1646,
+          "length": 6,
+          "context": "体日期不详\n\n## 职务晋升历史\nFX Cahyon"
+        },
+        {
+          "substring": "最初是学员兵",
+          "position": 1674,
+          "length": 6,
+          "context": "Wibowo：\n* 最初是学员兵，在最近的信息更新时"
+        },
+        {
+          "substring": "在最近的信息更新时已升至上士",
+          "position": 1681,
+          "length": 14,
+          "context": "\n* 最初是学员兵，在最近的信息更新时已升至上士。具体日期不详\n\nA"
+        },
+        {
+          "substring": "具体日期不详",
+          "position": 1696,
+          "length": 6,
+          "context": "息更新时已升至上士。具体日期不详\n\nAmin Rah"
+        },
+        {
+          "substring": "无相关记录",
+          "position": 1718,
+          "length": 5,
+          "context": " Rahardjo：无相关记录\n\nRudito D"
+        }
+      ],
+      "average_sentence_length": 4.528301886792453,
+      "token_count": 240,
+      "compression_ratio": 0.27586206896551724,
+      "content_density": 0.8541666666666666,
+      "rouge_scores": {
+        "rouge1": 0.13181818181818183,
+        "rouge2": 0.07053469852104664,
+        "rougeL": 0.07272727272727274
+      },
+      "generation_time": 19.920902967453003,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 7.206896551724138,
+      "translated_token_count": 209,
+      "translated_compression_ratio": 0.24022988505747125,
+      "translated_content_density": 0.7942583732057417,
+      "translated_rouge_scores": {
+        "rouge1": 0.10441767068273092,
+        "rouge2": 0.05743825387708213,
+        "rougeL": 0.06540447504302926
+      },
+      "translation_time": 11.276244401931763
+    }
+  },
+  {
+    "query_id": "experience_focused_compare",
+    "query": "Which one has more relevant experience in their field: Edi Suyono or Ardi Adrian Pualam Sakti? Please focus on their professional background",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\n- **Edi Suyono**: \n  - 姓名及当前军衔: Edi Suyono, Prajurit Siswa (截至1998年1月)\n  - 军种或专业领域: N/A\n- **Ardi Ardian Pualam Sakti**: \n  - 姓名及当前军衔: Ardi Ardian Pualam Sakti, Lettu Tek (中校技术官)\n  - 军种或专业领域: Aeronautika（航空）\n\n# 正规军事教育背景\n- **Edi Suyono**:\n  - 小学教育：Sekolah Dasar Negeri Tremes II，毕业日期：15 June 1989\n  - 初中教育：SMP 2，Wonoqiri，毕业日期：15 February 1992\n  - 英语技术学校培训：Komando Pendidikan，证书编号：76/SBIT/XXV/98，开始日期：January 19, 1998，结束日期：September 28, 1998\n  \n- **Ardi Ardian Pualam Sakti**:\n  - 小学教育：Negeri Limbangan I，毕业日期：February 7, 1996\n  - 初中教育：SMU Taruna Nusantara，毕业日期：June 14, 2002\n    > 高等技术学院培训：\n    * Akademi Angkatan Udara（空军学院），证书编号:I/4312 /XII/2005/AAU，专业方向:Aeronautika（航空工程），开始日期:August September, 毕业日期:December December, 年份为2005。\n    * Komando Pendidikan（指挥学院），证书编号:02/SESARCAB TPT DAN SARBAN/21/06，专业方向:TEKNIK PESAWAT TERBANG DAN SARANA BANTUAN（飞行器与辅助设备工程技术），开始日期:April March 至 October October ，年份为2006。\n  \n# 职务经历\n- **Edi Suyono**:\n   - 现任职务及时间范围未明确提供。\n\n- **Ardi Ardian Pualam Sakti**:\n   - Kaunithar AS-202 Dok B Satyar Hsn Depohar （暂定）至 Ka Dok B Satyar Hsn Depohar （现职位）。任命新职位的生效时间为 September September , 年份为2012。\n\n# 职称晋升历史\n- **Edi Suyono**: \n   晋升记录未在提供的信息中找到。\n\n- **Ardi Ardian Pualam Sakti**: \n   根据现有信息显示从 Prajurit 到 Lettu Tek 的晋升。具体有效晋升时间未详细列出。\n\n# 表彰奖励历史\n- **Edi Suyono**: \n   表彰记录未在提供的信息中找到。\n\n- **Ardi Ardian Pualam Sakti**:\n   卫国勋章于 April August , 年份为2014获得。\n\n综上所述，在职业背景方面：\n\n* Edi Suyno 更专注于基础教育和短期的专业英语培训。\n* Ardi Ardian Pualam Sakti 在高等教育和技术培训方面有更深入的学习，并且拥有更高的军衔和相关表彰。因此，在其专业的航空技术和军事训练方面具有更多的经验。",
+    "translated_text": "# Nama Lengkap dan Pangkat\n- **Edi Suyono**: \n  - Nama dan Pangkat Saat Ini: Edi Suyono, Prajurit Siswa (sampai Januari 1998)\n  - Bidang Militer atau Keahlian: N/A\n- **Ardi Ardian Pualam Sakti**: \n  - Nama dan Pangkat Saat Ini: Ardi Ardian Pualam Sakti, Lettu Tek (Letnan Twee Teknik)\n  - Bidang Militer atau Keahlian: Aeronautika (Penerbangan)\n\n# Pendidikan Militer Formal\n- **Edi Suyono**:\n  - Pendidikan Sekolah Rendah: Sekolah Dasar Negeri Tremes II, Tanggal Lulus: 15 Juni 1989\n  - Pendidikan Menengah Atas: SMP 2 Wonoqiri, Tanggal Lulus: 15 Februari 1992\n  - Pelatihan Sekolah Teknik Inggris: Komando Pendidikan, Nomor Sertifikat: 76/SBIT/XXV/98, Tanggal Mulai: 19 Januari 1998, Tanggal Selesai: 28 September 1998\n\n- **Ardi Ardian Pualam Sakti**:\n  - Pendidikan Sekolah Rendah: Negeri Limbangan I, Tanggal Lulus: 7 Februari 1996\n  - Pendidikan Menengah Atas: SMU Taruna Nusantara, Tanggal Lulus: 14 Juni 2002\n    > Pelatihan Sekolah Tinggi Teknik:\n    * Akademi Angkatan Udara (Akademi Penerbangan), Nomor Sertifikat: I/4312/XII/2005/AAU, Bidang Keahlian: Aeronautika (Teknik Penerbangan), Tanggal Mulai: Agustus September, Tanggal Lulus: Desember Desember, Tahun 2005.\n    * Komando Pendidikan (Akademi Komando), Nomor Sertifikat: 02/SESARCAB TPT DAN SARBAN/21/06, Bidang Keahlian: TEKNIK PESAWAT TERBANG DAN SARANA BANTUAN (Teknik Mesin Pesawat dan Alat Bantu), Tanggal Mulai: Maret April hingga Oktober Oktober, Tahun 2006.\n\n# Riwayat Jabatan\n- **Edi Suyono**:\n   - Jabatan Saat Ini dan Rentang Waktu Tidak Disediakan.\n\n- **Ardi Ardian Pualam Sakti**:\n   - Kaunithar AS-202 Dok B Satyar Hsn Depohar (prospektif) hingga Ka Dok B Satyar Hsn Depohar (jabatan saat ini). Pengangkatan ke jabatan baru berlaku pada September September, Tahun 2012.\n\n# Riwayat Penugasan Pangkat\n- **Edi Suyono**: \n   - Riwayat Penugasan Pangkat Tidak Ditemukan dalam Informasi yang Diberikan.\n\n- **Ardi Ardian Pualam Sakti**: \n   - Berdasarkan Informasi yang Tersedia, penugasan dari Prajurit ke Lettu Tek. Waktu Penugasan Spesifik Tidak Dinyatakan.\n\n# Riwayat Penghargaan\n- **Edi Suyono**: \n   - Riwayat Penghargaan Tidak Ditemukan dalam Informasi yang Diberikan.\n\n- **Ardi Ardian Pualam Sakti**:\n   - Medali Kebangsaan diperoleh pada Agustus 2014.\n\nSecara keseluruhan, dalam aspek latar belakang profesional:\n\n* Edi Suyno lebih fokus pada pendidikan dasar dan pelatihan teknis singkat dalam bahasa Inggris.\n* Ardi Ardian Pualam Sakti memiliki pelatihan pendidikan tinggi dan teknis yang lebih mendalam, serta pangkat yang lebih tinggi dan penghargaan yang relevan. Oleh karena itu, dia memiliki lebih banyak pengalaman dalam teknologi penerbangan militer dan pelatihan militer.",
+    "metrics": {
+      "chinese_char_count": 372,
+      "chinese_char_percentage": 24.6031746031746,
+      "chinese_chars_found": "全名和职级姓名及当前军衔截至年月军种或专业领域姓名及当前军衔中校技术官军种或专业领域航空正规军事教育背景小学教育毕业日期初中教育毕业日期英语技术学校培训证书编号开始日期结束日期小学教育毕业日期初中教育毕业日期高等技术学院培训空军学院证书编号专业方向航空工程开始日期毕业日期年份为指挥学院证书编号专业方向飞行器与辅助设备工程技术开始日期至年份为职务经历现任职务及时间范围未明确提供暂定至现职位任命新职位的生效时间为年份为职称晋升历史晋升记录未在提供的信息中找到根据现有信息显示从到的晋升具体有效晋升时间未详细列出表彰奖励历史表彰记录未在提供的信息中找到卫国勋章于年份为获得综上所述在职业背景方面更专注于基础教育和短期的专业英语培训在高等教育和技术培训方面有更深入的学习并且拥有更高的军衔和相关表彰因此在其专业的航空技术和军事训练方面具有更多的经验",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\n- **Edi S"
+        },
+        {
+          "substring": "姓名及当前军衔",
+          "position": 31,
+          "length": 7,
+          "context": "o**: \n  - 姓名及当前军衔: Edi Suyo"
+        },
+        {
+          "substring": "截至",
+          "position": 68,
+          "length": 2,
+          "context": "it Siswa (截至1998年1月)\n "
+        },
+        {
+          "substring": "年",
+          "position": 74,
+          "length": 1,
+          "context": "wa (截至1998年1月)\n  - 军种"
+        },
+        {
+          "substring": "月",
+          "position": 76,
+          "length": 1,
+          "context": " (截至1998年1月)\n  - 军种或专"
+        },
+        {
+          "substring": "军种或专业领域",
+          "position": 83,
+          "length": 7,
+          "context": "8年1月)\n  - 军种或专业领域: N/A\n- **"
+        },
+        {
+          "substring": "姓名及当前军衔",
+          "position": 133,
+          "length": 7,
+          "context": "i**: \n  - 姓名及当前军衔: Ardi Ard"
+        },
+        {
+          "substring": "中校技术官",
+          "position": 179,
+          "length": 5,
+          "context": "ettu Tek (中校技术官)\n  - 军种或专"
+        },
+        {
+          "substring": "军种或专业领域",
+          "position": 190,
+          "length": 7,
+          "context": "校技术官)\n  - 军种或专业领域: Aeronaut"
+        },
+        {
+          "substring": "航空",
+          "position": 211,
+          "length": 2,
+          "context": "ronautika（航空）\n\n# 正规军事教"
+        },
+        {
+          "substring": "正规军事教育背景",
+          "position": 218,
+          "length": 8,
+          "context": "ka（航空）\n\n# 正规军事教育背景\n- **Edi S"
+        },
+        {
+          "substring": "小学教育",
+          "position": 249,
+          "length": 4,
+          "context": "no**:\n  - 小学教育：Sekolah D"
+        },
+        {
+          "substring": "毕业日期",
+          "position": 285,
+          "length": 4,
+          "context": "Tremes II，毕业日期：15 June 1"
+        },
+        {
+          "substring": "初中教育",
+          "position": 307,
+          "length": 4,
+          "context": " 1989\n  - 初中教育：SMP 2，Won"
+        },
+        {
+          "substring": "毕业日期",
+          "position": 327,
+          "length": 4,
+          "context": "，Wonoqiri，毕业日期：15 Februa"
+        },
+        {
+          "substring": "英语技术学校培训",
+          "position": 353,
+          "length": 8,
+          "context": " 1992\n  - 英语技术学校培训：Komando P"
+        },
+        {
+          "substring": "证书编号",
+          "position": 381,
+          "length": 4,
+          "context": "endidikan，证书编号：76/SBIT/X"
+        },
+        {
+          "substring": "开始日期",
+          "position": 401,
+          "length": 4,
+          "context": "IT/XXV/98，开始日期：January 1"
+        },
+        {
+          "substring": "结束日期",
+          "position": 423,
+          "length": 4,
+          "context": " 19, 1998，结束日期：September"
+        },
+        {
+          "substring": "小学教育",
+          "position": 486,
+          "length": 4,
+          "context": "ti**:\n  - 小学教育：Negeri Li"
+        },
+        {
+          "substring": "毕业日期",
+          "position": 510,
+          "length": 4,
+          "context": "mbangan I，毕业日期：February "
+        },
+        {
+          "substring": "初中教育",
+          "position": 536,
+          "length": 4,
+          "context": " 1996\n  - 初中教育：SMU Tarun"
+        },
+        {
+          "substring": "毕业日期",
+          "position": 562,
+          "length": 4,
+          "context": "Nusantara，毕业日期：June 14, "
+        },
+        {
+          "substring": "高等技术学院培训",
+          "position": 587,
+          "length": 8,
+          "context": "002\n    > 高等技术学院培训：\n    * Ak"
+        },
+        {
+          "substring": "空军学院",
+          "position": 626,
+          "length": 4,
+          "context": "tan Udara（空军学院），证书编号:I/4"
+        },
+        {
+          "substring": "证书编号",
+          "position": 632,
+          "length": 4,
+          "context": "ara（空军学院），证书编号:I/4312 /X"
+        },
+        {
+          "substring": "专业方向",
+          "position": 658,
+          "length": 4,
+          "context": "/2005/AAU，专业方向:Aeronauti"
+        },
+        {
+          "substring": "航空工程",
+          "position": 675,
+          "length": 4,
+          "context": "ronautika（航空工程），开始日期:Aug"
+        },
+        {
+          "substring": "开始日期",
+          "position": 681,
+          "length": 4,
+          "context": "ika（航空工程），开始日期:August Se"
+        },
+        {
+          "substring": "毕业日期",
+          "position": 704,
+          "length": 4,
+          "context": "eptember, 毕业日期:December "
+        },
+        {
+          "substring": "年份为",
+          "position": 728,
+          "length": 3,
+          "context": "December, 年份为2005。\n    "
+        },
+        {
+          "substring": "指挥学院",
+          "position": 762,
+          "length": 4,
+          "context": "endidikan（指挥学院），证书编号:02/"
+        },
+        {
+          "substring": "证书编号",
+          "position": 768,
+          "length": 4,
+          "context": "kan（指挥学院），证书编号:02/SESARC"
+        },
+        {
+          "substring": "专业方向",
+          "position": 806,
+          "length": 4,
+          "context": "BAN/21/06，专业方向:TEKNIK PE"
+        },
+        {
+          "substring": "飞行器与辅助设备工程技术",
+          "position": 853,
+          "length": 12,
+          "context": "A BANTUAN（飞行器与辅助设备工程技术），开始日期:Apr"
+        },
+        {
+          "substring": "开始日期",
+          "position": 867,
+          "length": 4,
+          "context": "辅助设备工程技术），开始日期:April Mar"
+        },
+        {
+          "substring": "至",
+          "position": 884,
+          "length": 1,
+          "context": "ril March 至 October O"
+        },
+        {
+          "substring": "年份为",
+          "position": 903,
+          "length": 3,
+          "context": " October ，年份为2006。\n  \n#"
+        },
+        {
+          "substring": "职务经历",
+          "position": 917,
+          "length": 4,
+          "context": "006。\n  \n# 职务经历\n- **Edi S"
+        },
+        {
+          "substring": "现任职务及时间范围未明确提供",
+          "position": 945,
+          "length": 14,
+          "context": "o**:\n   - 现任职务及时间范围未明确提供。\n\n- **Ard"
+        },
+        {
+          "substring": "暂定",
+          "position": 1042,
+          "length": 2,
+          "context": " Depohar （暂定）至 Ka Dok "
+        },
+        {
+          "substring": "至",
+          "position": 1045,
+          "length": 1,
+          "context": "pohar （暂定）至 Ka Dok B "
+        },
+        {
+          "substring": "现职位",
+          "position": 1076,
+          "length": 3,
+          "context": " Depohar （现职位）。任命新职位的生效"
+        },
+        {
+          "substring": "任命新职位的生效时间为",
+          "position": 1081,
+          "length": 11,
+          "context": "har （现职位）。任命新职位的生效时间为 September"
+        },
+        {
+          "substring": "年份为",
+          "position": 1115,
+          "length": 3,
+          "context": "ptember , 年份为2012。\n\n# 职"
+        },
+        {
+          "substring": "职称晋升历史",
+          "position": 1127,
+          "length": 6,
+          "context": "为2012。\n\n# 职称晋升历史\n- **Edi S"
+        },
+        {
+          "substring": "晋升记录未在提供的信息中找到",
+          "position": 1156,
+          "length": 14,
+          "context": "no**: \n   晋升记录未在提供的信息中找到。\n\n- **Ard"
+        },
+        {
+          "substring": "根据现有信息显示从",
+          "position": 1209,
+          "length": 9,
+          "context": "ti**: \n   根据现有信息显示从 Prajurit "
+        },
+        {
+          "substring": "到",
+          "position": 1228,
+          "length": 1,
+          "context": " Prajurit 到 Lettu Tek"
+        },
+        {
+          "substring": "的晋升",
+          "position": 1240,
+          "length": 3,
+          "context": "Lettu Tek 的晋升。具体有效晋升时间未"
+        },
+        {
+          "substring": "具体有效晋升时间未详细列出",
+          "position": 1244,
+          "length": 13,
+          "context": "u Tek 的晋升。具体有效晋升时间未详细列出。\n\n# 表彰奖励历"
+        },
+        {
+          "substring": "表彰奖励历史",
+          "position": 1262,
+          "length": 6,
+          "context": "未详细列出。\n\n# 表彰奖励历史\n- **Edi S"
+        },
+        {
+          "substring": "表彰记录未在提供的信息中找到",
+          "position": 1291,
+          "length": 14,
+          "context": "no**: \n   表彰记录未在提供的信息中找到。\n\n- **Ard"
+        },
+        {
+          "substring": "卫国勋章于",
+          "position": 1343,
+          "length": 5,
+          "context": "kti**:\n   卫国勋章于 April Aug"
+        },
+        {
+          "substring": "年份为",
+          "position": 1364,
+          "length": 3,
+          "context": " August , 年份为2014获得。\n\n综"
+        },
+        {
+          "substring": "获得",
+          "position": 1371,
+          "length": 2,
+          "context": " , 年份为2014获得。\n\n综上所述，在职"
+        },
+        {
+          "substring": "综上所述",
+          "position": 1376,
+          "length": 4,
+          "context": "为2014获得。\n\n综上所述，在职业背景方面：\n"
+        },
+        {
+          "substring": "在职业背景方面",
+          "position": 1381,
+          "length": 7,
+          "context": "获得。\n\n综上所述，在职业背景方面：\n\n* Edi S"
+        },
+        {
+          "substring": "更专注于基础教育和短期的专业英语培训",
+          "position": 1403,
+          "length": 18,
+          "context": "Edi Suyno 更专注于基础教育和短期的专业英语培训。\n* Ardi A"
+        },
+        {
+          "substring": "在高等教育和技术培训方面有更深入的学习",
+          "position": 1450,
+          "length": 19,
+          "context": "lam Sakti 在高等教育和技术培训方面有更深入的学习，并且拥有更高的军衔"
+        },
+        {
+          "substring": "并且拥有更高的军衔和相关表彰",
+          "position": 1470,
+          "length": 14,
+          "context": "方面有更深入的学习，并且拥有更高的军衔和相关表彰。因此，在其专业的航"
+        },
+        {
+          "substring": "因此",
+          "position": 1485,
+          "length": 2,
+          "context": "高的军衔和相关表彰。因此，在其专业的航空技术"
+        },
+        {
+          "substring": "在其专业的航空技术和军事训练方面具有更多的经验",
+          "position": 1488,
+          "length": 23,
+          "context": "衔和相关表彰。因此，在其专业的航空技术和军事训练方面具有更多的经验。"
+        }
+      ],
+      "average_sentence_length": 4.916666666666667,
+      "token_count": 177,
+      "compression_ratio": 0.16358595194085027,
+      "content_density": 0.9887005649717514,
+      "rouge_scores": {
+        "rouge1": 0.11665182546749778,
+        "rouge2": 0.0623885918003565,
+        "rougeL": 0.06322350845948353
+      },
+      "generation_time": 20.182212352752686,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 9.564102564102564,
+      "translated_token_count": 373,
+      "translated_compression_ratio": 0.34473197781885395,
+      "translated_content_density": 0.8364611260053619,
+      "translated_rouge_scores": {
+        "rouge1": 0.1673469387755102,
+        "rouge2": 0.07107843137254903,
+        "rougeL": 0.08244897959183674
+      },
+      "translation_time": 23.755630493164062
+    }
+  },
+  {
+    "query_id": "leadership_compare",
+    "query": "Dari segi kepemimpinan dan manajemen, siapa yang memiliki track record lebih baik: Amin Rahardjo atau FX Cahyono Wibowo?",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "Informasi ini tidak tersedia dalam basis data.\n\nUntuk memberikan perbandingan yang tepat antara Amin Rahardjo dan FX Cahyono Wibowo, kami membutuhkan detail riwayat jabatan, pengalaman kepemimpinan, dan manajemen dari keduanya. Namun, berdasarkan informasi yang ada pada basis data:\n\n# Nama & Pangkat Saat Ini\n- FX Cahyono Wibowo: Serma\n\n# Korps atau Kejuruan\n- Informasi ini tidak tersedia dalam basis data.\n\n# Riwayat Pendidikan Militer\n- FX Cahyono Wibowo:\n  - Sekolah Bahasa Inggris Teknik (1998)\n  - Sekolah Dasar Kejuruan Pembekalan Materiil (1998-1999)\n  - Kursus Bintara Manajemen Kejuruan Pembekalan (2010)\n\n# Riwayat Jabatan\n- FX Cahyono Wibowo:\n  - Anggota Skatek 043 Lanud Adisutjipto (Serma) sejak April 2012\n\n# Riwayat Kepangkatan\n- FX Cahyono Wibowo:\n  - Prajurit Siswa (Serda) sejak Januari 1998\n  - Serda hingga Serma\n\n# Riwayat Tanda Jasa\n- Satyalancana Kesetiaan 8 tahun diberikan kepada FX Cahyono Wibowo pada tanggal 6 Desember 2015\n\nDari informasi yang terdapat di atas, dapat disimpulkan bahwa FX Cahyono Wibowo memiliki beberapa pencapaian seperti peningkatan pangkat dari Prajurit Siswa ke Serma serta menerima Satyalancana Kesetiaan. Namun untuk menentukan siapa yang memiliki track record lebih baik dalam hal kepemimpinan dan manajemen, kita memerlukan lebih banyak detail tentang pengalamannya di posisi-posisi tertentu maupun prestasinya dalam aspek tersebut.",
+    "translated_text": "",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "chinese_chars_found": "",
+      "chinese_substrings": [],
+      "average_sentence_length": 8.695652173913043,
+      "token_count": 200,
+      "compression_ratio": 0.2347417840375587,
+      "content_density": 0.715,
+      "rouge_scores": {
+        "rouge1": 0.0816542948038176,
+        "rouge2": 0.03821656050955414,
+        "rougeL": 0.05090137857900318
+      },
+      "generation_time": 11.993017673492432
+    }
+  },
+  {
+    "query_id": "technical_skills_compare",
+    "query": "I need to understand the technical expertise difference between Rudito Dwi Wibowo and Ardi Adrian Pualam Sakti. Can you analyze their technical backgrounds?",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# Latar Belakang Teknis Rudito Dwi Wibowo\nRudito Dwi Wibowo memiliki latar belakang pendidikan dan pengalaman yang luas di bidang teknik pesawat terbang. Berikut adalah ringkasan latar belakang teknisnya:\n\n- **Pendidikan Formal:**\n  - **SD:** Sekolah Dasar Negeri Legoso, Jakarta (1986)\n  - **SMA:** SMA Negeri Ciputat, Tangerang (1992)\n  - **Akademi Angkatan Udara:** Akademi TNI Angkatan Udara, Yogyakarta (17 Juli 1995)\n  - **Komando Pendidikan:** Komando Pendidikan, Jakarta (03-04-2006 s/d 03-10-2006)\n  \n- **Pengalaman Jabatan:**\n  - Mendapatkan posisi Letnan Dua pada tanggal 27 Juli 1995.\n  - Menjabat sebagai Dansathar pada Depohar Unit Kediaman No.10.\n  - Diapointkan menjadi Dansatak Teknik Lanud Adi pada tanggal 29 Agustus 2014.\n\n- **Penugasan Internasional:**\n  - Melaksanakan misi MONUC di Congo.\n\n# Latar Belakang Teknis Ardi Ardian Pualam Sakti\nArdi Ardian Pualam Sakti memiliki latar belakang pendidikan dasar namun tidak ada informasi spesifik tentang pendidikan tinggi atau akademik lanjutan dalam bidang teknik pesawat terbang. Berikut adalah ringkasan latar belakang pendidikannya:\n\n- **Pendidikan Formal:**\n  - SD: Sekolah Dasar Negeri Limbangan I, Kendal (1996)\n  - SLTP: SLTP Negeri Boja, Kendal (1999)\n  \n- **Pendidikan Militer Spesifik:**\n    - Akademi Angkatan Udara dengan jurusan Aeronautika dari tahun ajaran berlangsung antara Agustus hingga Desember tahun tersebut.\n\n# Perbandingan Latar Belakang Teknis\n**Informasi ini tidak tersedia dalam basis data** untuk menunjukkan perbedaan secara detail antara Rudito Dwi Wibowo dan Ardi Ardian Pualam Sakti dalam hal pengetahuan dan pengalaman teknis spesifik mereka. Namun, dapat dikatakan bahwa Rudito Dwi Wibowo memiliki latar belakang lebih mendalam dan formal dalam bidang teknik pesawat terbang dibandingkan dengan Ardi Ardian Pualam Sakti yang hanya memiliki informasi tentang pendidikan dasarnya saja.\n\nUntuk mendapatkan analisis yang lebih komprehensif, mungkin diperlukan informasi tambahan seperti riwayat pelatihan khusus atau penghargaan profesional yang berkaitan dengan bidang teknik pesawat terbang.",
+    "translated_text": "",
+    "metrics": {
+      "chinese_char_count": 0,
+      "chinese_char_percentage": 0.0,
+      "chinese_chars_found": "",
+      "chinese_substrings": [],
+      "average_sentence_length": 10.444444444444445,
+      "token_count": 281,
+      "compression_ratio": 0.2855691056910569,
+      "content_density": 0.7580071174377224,
+      "rouge_scores": {
+        "rouge1": 0.11481481481481484,
+        "rouge2": 0.05189990732159407,
+        "rougeL": 0.05277777777777778
+      },
+      "generation_time": 17.77632164955139
+    }
+  },
+  {
+    "query_id": "career_progression_compare",
+    "query": "Tolong analisa dan bandingkan perkembangan karir dari Edi Suyono dan FX Cahyono Wibowo dari awal hingga posisi terakhir mereka",
+    "model": "Qwen/Qwen2.5-7b-Instruct",
+    "response": "# 全名和职级\n- **Edi Suyono**\n  - Nama: Edi Suyono\n  - Pangkat saat ini: Serda\n- **FX Cahyono Wibowo**\n  - Nama: FX. Cahyono Wibowo\n  - Pangkat saat ini: Sertu\n\n# 军事教育背景\n- **Edi Suyono**\n  - Sekolah Dasar (SD): Sekolah Dasar Negeri Tremes II, Sidoharjo, Wonogiri (15 Juni 1989)\n  - Sekolah Menengah Umum Tingkat Pertama (SMP): SMP 2, Sidoharjo, Wonoqiri (15 Februari 1992)\n  - Akademi Pendidikan: Komando Pendidikan, Lanud Sulaiman (76/SBIT/XXV/98), mulai tanggal 19 Januari 1998 hingga berakhir pada tanggal 28 September 1998.\n  \n- **FX Cahyono Wibowo**\n  - Sekolah Dasar (SD): SD Tremes II, Sidoharjo, Wonogiri (15 Juni 1989)\n  \n## 高等教育与培训经历（如有）\n- **Edi Suyono**\n    - Kursus Bahasa Inggris Teknik di Komando Pendidikan Lanud Sulaiman dari tanggal januari sampai september tahun yang sama.\n    \n- **FX Cahyono Wibowo**\n    - Kursus Bintara Manajemen Kejuruan Pembekalan di Komando Komando Pendidikan Jakarta dari tanggal Maret sampai Juni tahun tersebut.\n\n# 职务历史\n- **Edi Suyono**\n    * Informasi ini tidak tersedia dalam basis data.\n\n- **FX Cahyono Wibowo**\n    * Prajurit Siswa / Serda : Anggota Skatek043 Lanud Adisutjipto sejak tanggal registrasi sebagai peserta yaitu pada bulan Januari tahun tersebut.\n    \n# 级别晋升历史\n- **Edi Suyono**\n    * Informasi ini tidak tersedia dalam basis data.\n\n- **FX Cahyono Wibowo**\n    * Prajurit Siswa → Serda → Serma → Sertu\n\n# 奖励记录\n- **Edi Suyono**\n    * Informasi tentang penghargaan tidak tersedia dalam basis data.\n\n- **FX CahyONO Wibowo** \n   * Satyalancana Kesetiaan untuk periode delapan tahun diberikan pada tanggal [tanggal yang belum disediakan].\n\n## 家庭信息（如有）\n* Edi Suyono:\n   * Anak: Baptista Elang Feliciano Wibowo dilahirkan pada tanggal [tanggal lahir anak] di Sleman dengan ayah bernama FX. CAHYONO WIBOWO dan ibunya bernama THERESIA CAHYO ANGGRAENI.\n   \n* FX Cahyono Wibowo:\n   * Data keluarga lainnya tidak tersedia dalam basis data.",
+    "translated_text": "# Nama Lengkap dan Golongan\n- **Edi Suyono**\n  - Nama: Edi Suyono\n  - Golongan saat ini: Serda\n- **FX Cahyono Wibowo**\n  - Nama: FX. Cahyono Wibowo\n  - Golongan saat ini: Sertu\n\n# Pendidikan Militer\n- **Edi Suyono**\n  - Sekolah Dasar (SD): Sekolah Dasar Negeri Tremes II, Sidoharjo, Wonogiri (15 Juni 1989)\n  - Sekolah Menengah Umum Tingkat Pertama (SMP): SMP 2, Sidoharjo, Wonoqiri (15 Februari 1992)\n  - Akademi Pendidikan: Komando Pendidikan, Lanud Sulaiman (76/SBIT/XXV/98), mulai tanggal 19 Januari 1998 hingga berakhir pada tanggal 28 September 1998.\n  \n- **FX Cahyono Wibowo**\n  - Sekolah Dasar (SD): SD Tremes II, Sidoharjo, Wonogiri (15 Juni 1989)\n  \n## Pengalaman Pendidikan Tinggi dan Pelatihan (Jika Ada)\n- **Edi Suyono**\n    - Kursus Bahasa Inggris Teknik di Komando Pendidikan Lanud Sulaiman dari tanggal januari sampai september tahun yang sama.\n    \n- **FX Cahyono Wibowo**\n    - Kursus Bintara Manajemen Kejuruan Pembekalan di Komando Komando Pendidikan Jakarta dari tanggal Maret sampai Juni tahun tersebut.\n\n# Riwayat Jabatan\n- **Edi Suyono**\n    * Informasi ini tidak tersedia dalam basis data.\n\n- **FX Cahyono Wibowo**\n    * Prajurit Siswa / Serda : Anggota Skatek043 Lanud Adisutjipto sejak tanggal registrasi sebagai peserta yaitu pada bulan Januari tahun tersebut.\n    \n# Riwayat Peningkatan Golongan\n- **Edi Suyono**\n    * Informasi ini tidak tersedia dalam basis data.\n\n- **FX Cahyono Wibowo**\n    * Prajurit Siswa → Serda → Serma → Sertu\n\n# Riwayat Penghargaan\n- **Edi Suyono**\n    * Informasi tentang penghargaan tidak tersedia dalam basis data.\n\n- **FX Cahyono Wibowo** \n   * Satyalancana Kesetiaan untuk periode delapan tahun diberikan pada tanggal [tanggal yang belum disediakan].\n\n## Informasi Keluarga (Jika Ada)\n* Edi Suyono:\n   * Anak: Baptista Elang Feliciano Wibowo dilahirkan pada tanggal [tanggal lahir anak] di Sleman dengan ayah bernama FX. CAHYONO WIBOWO dan ibunya bernama THERESIA CAHYO ANGGRAENI.\n   \n* FX Cahyono Wibowo:\n   * Data keluarga lainnya tidak tersedia dalam basis data.",
+    "metrics": {
+      "chinese_char_count": 42,
+      "chinese_char_percentage": 2.2304832713754648,
+      "chinese_chars_found": "全名和职级军事教育背景高等教育与培训经历如有职务历史级别晋升历史奖励记录家庭信息如有",
+      "chinese_substrings": [
+        {
+          "substring": "全名和职级",
+          "position": 2,
+          "length": 5,
+          "context": "# 全名和职级\n- **Edi S"
+        },
+        {
+          "substring": "军事教育背景",
+          "position": 158,
+          "length": 6,
+          "context": " Sertu\n\n# 军事教育背景\n- **Edi S"
+        },
+        {
+          "substring": "高等教育与培训经历",
+          "position": 629,
+          "length": 9,
+          "context": "89)\n  \n## 高等教育与培训经历（如有）\n- **E"
+        },
+        {
+          "substring": "如有",
+          "position": 639,
+          "length": 2,
+          "context": "高等教育与培训经历（如有）\n- **Edi "
+        },
+        {
+          "substring": "职务历史",
+          "position": 955,
+          "length": 4,
+          "context": "sebut.\n\n# 职务历史\n- **Edi S"
+        },
+        {
+          "substring": "级别晋升历史",
+          "position": 1211,
+          "length": 6,
+          "context": "t.\n    \n# 级别晋升历史\n- **Edi S"
+        },
+        {
+          "substring": "奖励记录",
+          "position": 1361,
+          "length": 4,
+          "context": " Sertu\n\n# 奖励记录\n- **Edi S"
+        },
+        {
+          "substring": "家庭信息",
+          "position": 1594,
+          "length": 4,
+          "context": "kan].\n\n## 家庭信息（如有）\n* Edi"
+        },
+        {
+          "substring": "如有",
+          "position": 1599,
+          "length": 2,
+          "context": "\n\n## 家庭信息（如有）\n* Edi Su"
+        }
+      ],
+      "average_sentence_length": 6.878048780487805,
+      "token_count": 282,
+      "compression_ratio": 0.3414043583535109,
+      "content_density": 0.8404255319148937,
+      "rouge_scores": {
+        "rouge1": 0.17410228509249182,
+        "rouge2": 0.08387799564270153,
+        "rougeL": 0.1044613710554951
+      },
+      "generation_time": 17.496942281723022,
+      "translated_chinese_char_count": 0,
+      "translated_chinese_char_percentage": 0.0,
+      "translated_chinese_chars_found": "",
+      "translated_chinese_substrings": [],
+      "translated_average_sentence_length": 7.2926829268292686,
+      "translated_token_count": 299,
+      "translated_compression_ratio": 0.3619854721549637,
+      "translated_content_density": 0.8394648829431438,
+      "translated_rouge_scores": {
+        "rouge1": 0.17722878625134267,
+        "rouge2": 0.08279569892473118,
+        "rougeL": 0.10311493018259936
+      },
+      "translation_time": 16.891623497009277
+    }
+  }
+]

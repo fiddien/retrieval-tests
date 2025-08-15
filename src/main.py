@@ -150,17 +150,28 @@ async def main():
             os.getenv("VLLM_HOST"),
             os.getenv("VLLM_API_KEY"),
         ),
+        "Qwen/Qwen2.5-3B-Instruct": (
+            os.getenv("VLLM_HOST"),
+            os.getenv("VLLM_API_KEY"),
+        ),
+    }
+    translator_hosts = {
+        "Qwen/Qwen2.5-3B-Instruct": (
+            os.getenv("VLLM_HOST"),
+            os.getenv("VLLM_API_KEY"),
+        ),
     }
 
     data_path = os.getenv("DATA_PATH", "raw_data/elasticsearch_chunks.json")
 
     # Initialize RAG application
     target_lang = os.getenv("TARGET_LANG", "English")
-    rag = RAGApplication(model_hosts=model_hosts, data_path=data_path, target_lang=target_lang)
+    rag = RAGApplication(model_hosts=model_hosts, data_path=data_path, target_lang=target_lang, translator_hosts=translator_hosts)
 
     # Models to test (can test all or a subset)
     models = [
         "Qwen/Qwen2.5-7b-Instruct",
+        # "Qwen/Qwen2.5-0.5B-Instruct"
         # "deepseek-chat"
         # "gpt-4o-mini",
         # "GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct",
