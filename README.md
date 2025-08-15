@@ -7,11 +7,8 @@ A repository for benchmarking and testing retrieval systems, primarily using Pyt
 - **benchmark_cli.py**: Main CLI tool to perform benchmarking on retrieval systems.
 - **generate_report.py**: Script to generate evaluation reports from benchmark results.
 - **text_truncation.py**: Utilities for text processing and truncation.
-- **run_embedding_benchmark.sh**: Shell script to automate embedding benchmark runs.
-- **generate_report.sh**: Simple shell script for report generation.
 - **benchmark_results.json**: Example or results file for storing benchmark outputs.
 - **requirements.txt**: Python dependencies required for running scripts.
-- **.gitignore**: Standard gitignore file.
 - **dataset/**: Main dataset directory for retrieval benchmarks.
 - **results/**: Output directory for benchmark results.
 
