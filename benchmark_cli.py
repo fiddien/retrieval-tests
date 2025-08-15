@@ -22,16 +22,6 @@ class EmbeddingModel:
     batch_size: int = 2
     max_length: int = 8192
 
-    def _truncate_text(self, text: str) -> str:
-        """Truncate text using the appropriate tokenizer"""
-        if "BAAI/bge" in self.name:
-            return text[:20000]
-        elif "Qwen" in self.name:
-            return text[:20000]
-        else:
-            # Fallback to simple truncation for unknown models
-            return text[:20000]
-
     def get_embeddings(self, texts: List[str]) -> Tuple[np.ndarray, float]:
         all_embeddings = []
         total_time = 0.0
