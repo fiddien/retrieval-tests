@@ -9,13 +9,9 @@ import jsonlines
 import numpy as np
 import pandas as pd
 import requests
-from dotenv import load_dotenv
 from ranx import Qrels, Run, evaluate
 from sklearn.metrics.pairwise import cosine_similarity
 from tqdm import tqdm
-
-# Load environment variables
-load_dotenv()
 
 
 @dataclass
