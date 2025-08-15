@@ -6,7 +6,6 @@ A repository for benchmarking and testing retrieval systems, primarily using Pyt
 
 - **benchmark_cli.py**: Main CLI tool to perform benchmarking on retrieval systems.
 - **generate_report.py**: Script to generate evaluation reports from benchmark results.
-- **text_truncation.py**: Utilities for text processing and truncation.
 - **benchmark_results.json**: Example or results file for storing benchmark outputs.
 - **requirements.txt**: Python dependencies required for running scripts.
 - **dataset/**: Main dataset directory for retrieval benchmarks.
@@ -21,7 +20,6 @@ A repository for benchmarking and testing retrieval systems, primarily using Pyt
    ```
 
 2. **Set up the environment:**
-   - Copy `.env.template` to `.env` and update as needed.
    - Install Python dependencies:
      ```bash
      pip install -r requirements.txt
