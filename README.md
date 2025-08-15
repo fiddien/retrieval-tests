@@ -11,9 +11,7 @@ A repository for benchmarking and testing retrieval systems, primarily using Pyt
 - **generate_report.sh**: Simple shell script for report generation.
 - **benchmark_results.json**: Example or results file for storing benchmark outputs.
 - **requirements.txt**: Python dependencies required for running scripts.
-- **.env.template**: Environment variable template for configuration.
 - **.gitignore**: Standard gitignore file.
-- **docker_commands.md**: Documentation for using Docker with this repo.
 - **dataset/**: Main dataset directory for retrieval benchmarks.
 - **results/**: Output directory for benchmark results.
 
@@ -33,13 +31,12 @@ A repository for benchmarking and testing retrieval systems, primarily using Pyt
      ```
 
 3. **Datasets:**
-   - Place your datasets in the `dataset/` directory.
+   - Place your datasets in the `dataset/` directory. It should follow the BEIR structure and formatting.
 
 4. **Running Benchmarks:**
    - Use `benchmark_cli.py` for benchmarking.
    - Example:
      ```bash
-     python benchmark_cli.py --help
      python benchmark_cli.py \
         --model-name "$model_name" \
         --endpoint "$endpoint" \
@@ -54,29 +51,7 @@ A repository for benchmarking and testing retrieval systems, primarily using Pyt
    - After running benchmarks, generate reports using:
      ```bash
      python generate_report.py
-     bash generate_report.sh
      ```
-
-## Docker
-
-See [`docker_commands.md`](docker_commands.md) for instructions on running benchmarks with Docker.
-
-## Directory Structure
-
-```
-retrieval-tests/
-├── benchmark_cli.py
-├── generate_report.py
-├── text_truncation.py
-├── generate_report.sh
-├── benchmark_results.json
-├── requirements.txt
-├── .env.template
-├── .gitignore
-├── docker_commands.md
-├── dataset/
-└── results/
-```
 
 ## License
 
